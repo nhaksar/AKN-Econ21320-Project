@@ -1,7 +1,8 @@
 ## <cleaning.R>
 ## file for loading and cleaning the data
 
-mls <- read.xlsx("cntyic.xlsx", startRow=5, colNames=FALSE)
+#mls <- read.xlsx("cntyic.xlsx", startRow=5, colNames=FALSE)
+mls <- read.csv("cntyic.csv")
 
 ## past County name, all variables are for number of initial unemployment claimants
 names(mls) <- c("Year", "State FIPS", "County FIPS", "State_county FIPS",
