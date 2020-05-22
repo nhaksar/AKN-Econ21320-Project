@@ -12,4 +12,4 @@ We are studying "deaths of despair".
 - cntyic.xlsc - BLS mass layoffs data, in Excel file
 - merge.R - R script for merging data
 - mls.csv - BLS mass layoffs data, in CSV file
-- testing.R - testing?
+- testing.R - Code to test how to best match the county codes between the two datasources
