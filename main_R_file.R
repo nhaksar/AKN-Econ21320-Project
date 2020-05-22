@@ -7,6 +7,7 @@ library("tidyverse")
 ##### produces IPUMS_df for merge #####
 #loading the data
 if (!require("ipumsr")) stop("Reading IPUMS data into R requires the ipumsr package. It can be installed using the following command: install.packages('ipumsr')")
+
 # ddi <- read_ipums_ddi("usa_00004.xml")
 # ipums_data <- read_ipums_micro(ddi)
 
@@ -52,15 +53,15 @@ state_abbs <- tibble("State" = states,
                       "Abbreviation" = abbreviations)
 state_abbs <- rbind(state_abbs, c("Washington D.C.", "DC")) %>% 
                   rbind(c("Canada", "Canada")) %>%
-               
-  colnames(mls_df)[col] <- paste(m   rbind(c("Unknown", "Unknown"))
+                  rbind(c("Unknown", "Unknown"))
 
 ##### Produces mls_df for merge #####
 #loading data
 mls_df <- read_excel("cntyic.xlsx", skip = 1)
 #cleaning data
 ncol(mls_df)
-for (col in c(6:ncol(mls_df))) {ls_df[1,col],"layoff",sep = "_")
+for (col in c(6:ncol(mls_df))) {
+  colnames(mls_df)[col] <- paste(mls_df[1,col],"layoff",sep = "_")
 }
 mls_df <- mls_df[3:nrow(mls_df),]
 #preparing for merge based on a county-year id
