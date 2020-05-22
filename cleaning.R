@@ -1,6 +1,12 @@
 ## <cleaning.R>
 ## file for loading and cleaning the data
 
+## handle IPUMS data
+if (!require("ipumsr")) stop("Reading IPUMS data into R requires the ipumsr package. It can be installed using the following command: install.packages('ipumsr')")
+
+# ddi <- read_ipums_ddi("usa_00004.xml")
+# ipums_data <- read_ipums_micro(ddi)
+
 #mls <- read.xlsx("cntyic.xlsx", startRow=5, colNames=FALSE)
 mls <- read.csv("mls.csv")
 
