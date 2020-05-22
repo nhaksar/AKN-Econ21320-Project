@@ -75,3 +75,11 @@ mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS,
 #it would probably be good to have a function for creating our death columns
 #given that we can only download so much health data at once
 
+#misc
+alc_drug_df <- read.csv("alc_drugs.csv")
+
+
+##### [section] #####
+
+
+##### [section] #####
