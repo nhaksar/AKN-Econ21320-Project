@@ -47,6 +47,9 @@ abbreviations <- c("AL", "AK", "AS",
                    "WI", "WY")
 state_abbs <- tibble("State" = states,
                       "Abbreviation" = abbreviations)
+state_abbs <- rbind(state_abbs, c("Washington D.C.", "DC")) %>% 
+                  rbind(c("Canada", "Canada")) %>%
+                  rbind(c("Unknown", "Unknown"))
 
 ##### Produces mls_df for merge #####
 #loading data
@@ -57,5 +60,18 @@ for (col in c(6:ncol(mls_df))) {
   colnames(mls_df)[col] <- paste(mls_df[1,col],"layoff",sep = "_")
 }
 mls_df <- mls_df[3:nrow(mls_df),]
-#preparing for merge based on
+#preparing for merge based on a county-year id
+colnames(mls_df) <- gsub(" ", "_", colnames(mls_df))
+mls_df$State_county_FIPS <- as.integer(mls_df$State_county_FIPS)
+mls_df$State <- sapply(strsplit(mls_df$County_name, ", "), "[", 2)
+mls_df$State_Abb <- state_abbs$Abbreviation[match(mls_df$State, 
+                                                  state_abbs$State)]
+mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS, 
+                   mls_df$State_Abb, sep = "_")
+#^I'm not entirely sure that we need the state abbreviation there, but it might 
+#be useful later, even if it actually ends up being irrelevant for the merge ID
+
+##### Preparing health_df(S)? for merge #####
+#it would probably be good to have a function for creating our death columns
+#given that we can only download so much health data at once
 

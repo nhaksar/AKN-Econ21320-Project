@@ -8,8 +8,9 @@ We are studying "deaths of despair".
 - AKN-Econ21320-Project.Rproj - RProject file
 - README.md - this readme
 - alc_drugs.csv - CDC annual, county-level data on deaths by drug/alcohol abuse
-- cleaning.R - R script for cleaning this data
-- cntyic.xlsc - BLS mass layoffs data, in Excel file
-- merge.R - R script for merging data
-- mls.csv - BLS mass layoffs data, in CSV file
-- testing.R - Code to test how to best match the county codes between the two datasources
+- cleaning.R - R script for cleaning this data (ignore)
+- cntyic.xlsc - BLS mass layoffs data, in Excel file 
+- merge.R - R script for merging data (ignore)
+- mls.csv - BLS mass layoffs data, in CSV file (irrelevant)
+- testing.R - Code to test/find out important information about the data
+- main_R_file - main R file 
