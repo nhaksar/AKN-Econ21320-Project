@@ -13,3 +13,9 @@ We are studying "deaths of despair".
 - mls.csv - BLS mass layoffs data, in CSV file (irrelevant)
 - testing.R - Code to test/find out important information about the data
 - main - main R file 
+
+## Todo list
+- make lagged variables
+- run first regressions
+- make fancy tables for Hortacsu
+- start working on presentation
