@@ -11,6 +11,11 @@ library("tidyverse")
 
 #preparing the data for a merge
 
+##############
+
+
+
+
 
 #####State Abbreviations#####
 states <- c("Alabama", "Alaska", "American Samoa", 
@@ -50,6 +55,11 @@ state_abbs <- tibble("State" = states,
 state_abbs <- rbind(state_abbs, c("Washington D.C.", "DC")) %>% 
                   rbind(c("Canada", "Canada")) %>%
                   rbind(c("Unknown", "Unknown"))
+##############
+
+
+
+
 
 ##### Produces mls_df for merge #####
 #loading data
@@ -70,7 +80,7 @@ mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS,
                    mls_df$State_Abb, sep = "_")
 #^I'm not entirely sure that we need the state abbreviation there, but it might 
 #be useful later, even if it actually ends up being irrelevant for the merge ID
-
+##############
 
 
 
@@ -83,8 +93,29 @@ mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS,
 #misc
 alc_drug_df <- read.csv("alc_drugs.csv")
 
+##############
+
+
+
+
 
 ##### [section] #####
 
 
+
+
+##############
+
+
+
+
+
 ##### [section] #####
+
+
+
+##############
+
+
+
+
