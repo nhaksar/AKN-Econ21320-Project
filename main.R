@@ -7,6 +7,10 @@ library("plm")
 
 ##### produces IPUMS_df for merge #####
 #loading the data
+if (!require("ipumsr")) stop("Reading IPUMS data into R requires the ipumsr package. It can be installed using the following command: install.packages('ipumsr')")
+
+# ddi <- read_ipums_ddi("usa_00004.xml")
+# ipums_data <- read_ipums_micro(ddi)
 
 #cleaning the data
 
