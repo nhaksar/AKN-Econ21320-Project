@@ -95,9 +95,13 @@ mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS,
 #given that we can only download so much health data at once
 
 #misc
-alc_drug_df <- read.csv("alc_drugs.csv")
-alc_drug_df <- subset(alc_drug_df, select = -ï..Notes)
-alc_drug_df$Crude.Rate <- as.numeric(levels(alc_drug_df$Crude.Rate))[alc_drug_df$Crude.Rate]
+raw_drug_df <- read.csv("alc_drugs.csv")
+get_cleaned_alcdrugs = function(raw_alcdrug_df){
+  raw_alcdrug_df <- subset(raw_alcdrug_df, select = -ï..Notes)
+  raw_alcdrug_df$Crude.Rate <- as.numeric(levels(raw_alcdrug_df$Crude.Rate))[raw_alcdrug_df$Crude.Rate]
+  
+}
+
 
 ##### [section] #####
 
