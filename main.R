@@ -3,9 +3,14 @@
 
 library("readxl")
 library("tidyverse")
+library("plm")
 
 ##### produces IPUMS_df for merge #####
 #loading the data
+if (!require("ipumsr")) stop("Reading IPUMS data into R requires the ipumsr package. It can be installed using the following command: install.packages('ipumsr')")
+
+# ddi <- read_ipums_ddi("usa_00004.xml")
+# ipums_data <- read_ipums_micro(ddi)
 
 #cleaning the data
 
@@ -92,9 +97,13 @@ mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS, sep = "_")
 #given that we can only download so much health data at once
 
 #misc
-alc_drug_df <- read.csv("alc_drugs.csv")
-alc_drug_df <- subset(alc_drug_df, select = -ï..Notes)
-alc_drug_df$Crude.Rate <- as.numeric(levels(alc_drug_df$Crude.Rate))[alc_drug_df$Crude.Rate]
+raw_drug_df <- read.csv("alc_drugs.csv")
+get_cleaned_alcdrugs = function(raw_alcdrug_df){
+  raw_alcdrug_df <- subset(raw_alcdrug_df, select = -ï..Notes)
+  raw_alcdrug_df$Crude.Rate <- as.numeric(levels(raw_alcdrug_df$Crude.Rate))[raw_alcdrug_df$Crude.Rate]
+  
+}
+
 
 ##############
 
