@@ -103,8 +103,8 @@ get_cleaned_alcdrugs = function(raw_alcdrug_df){
   #raw_alcdrug_df <- subset(raw_alcdrug_df, select = -ï..Notes)
   #raw_alcdrug_df$Crude.Rate <- as.numeric(levels(raw_alcdrug_df$Crude.Rate))[raw_alcdrug_df$Crude.Rate]
   relevant = raw_alcdrug_df[raw_alcdrug_df$Drug.Alcohol.Induced.Code != "O", ]
-  relevant$ID = paste(relevant$County.Code, relevant$Year, sep="_")
-  wide_df = dcast(relevant, ID + Population ~Drug.Alcohol.Induced, value.var="Deaths")
+  relevant$ID = paste(relevant$Year, relevant$County.Code, sep="_")
+  wide_df = dcast(relevant, ID + Population ~Drug.Alcohol.Induced.Code, value.var="Deaths")
   return(wide_df)
 }
 
@@ -149,3 +149,31 @@ main_df <- merge(all_county_years, mls_df, all.x = TRUE)
 
 
 ##### [Section] #####
+
+
+##### First Jank Regression!!! #####
+
+first_regression = function(all_country_years, alcdrugs_df){
+  
+  mls_df = read.csv("mls.csv", header = TRUE)
+  mls_df <- mls_df[3:nrow(mls_df),]
+  mls_df$ID <- paste(mls_df$Year, mls_df$State_county.FIPS, sep = "_")
+  
+  complete_mls = merge(x = all_county_years, y= mls_df, by = "ID", all.x = TRUE)
+  #complete_mls
+  
+  analysis_df = merge(x = complete_mls, y = cleaned_alcdrugs, by = "ID", all.x = TRUE)
+  analysis_df$total_deaths = analysis_df$A + analysis_df$D
+  deaths_only = analysis_df[!is.na(analysis_df$total_deaths), ]
+  #deaths_only
+  
+  
+  result = lm(data=deaths_only, formula = total_deaths ~ Total)
+  return (result)
+}
+
+
+
+
+##############
+
