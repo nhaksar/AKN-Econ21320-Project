@@ -94,15 +94,19 @@ mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS,
 #it would probably be good to have a function for creating our death columns
 #given that we can only download so much health data at once
 
-#misc
-raw_drug_df <- read.csv("alc_drugs.csv")
+
+
 get_cleaned_alcdrugs = function(raw_alcdrug_df){
-  raw_alcdrug_df <- subset(raw_alcdrug_df, select = -ï..Notes)
-  raw_alcdrug_df$Crude.Rate <- as.numeric(levels(raw_alcdrug_df$Crude.Rate))[raw_alcdrug_df$Crude.Rate]
+  #raw_alcdrug_df <- subset(raw_alcdrug_df, select = -ï..Notes)
+  #raw_alcdrug_df$Crude.Rate <- as.numeric(levels(raw_alcdrug_df$Crude.Rate))[raw_alcdrug_df$Crude.Rate]
   relevant = raw_alcdrug_df[raw_alcdrug_df$Drug.Alcohol.Induced.Code != "O", ]
-  wide_df = spread(relevant, Drug.Alcohol.Induced.Code, Deaths)
+  relevant$ID = paste(relevant$County.Code, relevant$Year, sep="_")
+  wide_df = dcast(relevant, ID + Population ~Drug.Alcohol.Induced, value.var="Deaths")
+  return(wide_df)
 }
 
+raw_drug_df <- read.csv("alc_drugs.csv")
+cleaned_drug_df = get_cleaned_alcdrugs(raw_drug_df)
 
 ##### [section] #####
 
