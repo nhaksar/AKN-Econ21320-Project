@@ -76,10 +76,8 @@ mls_df$State_county_FIPS <- as.integer(mls_df$State_county_FIPS)
 mls_df$State <- sapply(strsplit(mls_df$County_name, ", "), "[", 2)
 mls_df$State_Abb <- state_abbs$Abbreviation[match(mls_df$State, 
                                                   state_abbs$State)]
-mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS, 
-                   mls_df$State_Abb, sep = "_")
-#^I'm not entirely sure that we need the state abbreviation there, but it might 
-#be useful later, even if it actually ends up being irrelevant for the merge ID
+mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS, sep = "_")
+
 ##############
 
 
@@ -98,7 +96,24 @@ alc_drug_df <- read.csv("alc_drugs.csv")
 alc_drug_df <- subset(alc_drug_df, select = -ï..Notes)
 alc_drug_df$Crude.Rate <- as.numeric(levels(alc_drug_df$Crude.Rate))[alc_drug_df$Crude.Rate]
 
-##### [section] #####
+##############
+
+
+
+
+
+##### Making a column of IDs to merge stuff onto #####
+county_ids <- unique(mls_df$State_county_FIPS)
+years <- c(1999:2013)
+all_county_years <- expand.grid(county_ids, years)
+colnames(all_county_years) <- c("County_code", "Year")
+all_county_years$ID <- paste(all_county_years$Year, 
+                             all_county_years$County_code, sep = "_")
+
+##############
+
+
+
 
 
 ##### [section] #####
