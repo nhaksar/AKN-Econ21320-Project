@@ -3,6 +3,7 @@
 
 library("readxl")
 library("tidyverse")
+library("plm")
 
 ##### produces IPUMS_df for merge #####
 #loading the data
