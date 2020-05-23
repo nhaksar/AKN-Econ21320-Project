@@ -7,6 +7,10 @@ library("plm")
 
 ##### produces IPUMS_df for merge #####
 #loading the data
+if (!require("ipumsr")) stop("Reading IPUMS data into R requires the ipumsr package. It can be installed using the following command: install.packages('ipumsr')")
+
+# ddi <- read_ipums_ddi("usa_00004.xml")
+# ipums_data <- read_ipums_micro(ddi)
 
 #cleaning the data
 
@@ -77,10 +81,8 @@ mls_df$State_county_FIPS <- as.integer(mls_df$State_county_FIPS)
 mls_df$State <- sapply(strsplit(mls_df$County_name, ", "), "[", 2)
 mls_df$State_Abb <- state_abbs$Abbreviation[match(mls_df$State, 
                                                   state_abbs$State)]
-mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS, 
-                   mls_df$State_Abb, sep = "_")
-#^I'm not entirely sure that we need the state abbreviation there, but it might 
-#be useful later, even if it actually ends up being irrelevant for the merge ID
+mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS, sep = "_")
+
 ##############
 
 
@@ -94,8 +96,7 @@ mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS,
 #it would probably be good to have a function for creating our death columns
 #given that we can only download so much health data at once
 
-
-
+#misc
 get_cleaned_alcdrugs = function(raw_alcdrug_df){
   #raw_alcdrug_df <- subset(raw_alcdrug_df, select = -ï..Notes)
   #raw_alcdrug_df$Crude.Rate <- as.numeric(levels(raw_alcdrug_df$Crude.Rate))[raw_alcdrug_df$Crude.Rate]
@@ -108,9 +109,28 @@ get_cleaned_alcdrugs = function(raw_alcdrug_df){
 raw_drug_df <- read.csv("alc_drugs.csv")
 cleaned_drug_df = get_cleaned_alcdrugs(raw_drug_df)
 
+
+##############
+
+
+
+
+
+##### Making a column of IDs to merge stuff onto #####
+county_ids <- unique(mls_df$State_county_FIPS)
+years <- c(1999:2013)
+all_county_years <- expand.grid(county_ids, years)
+colnames(all_county_years) <- c("County_code", "Year")
+all_county_years$ID <- paste(all_county_years$Year, 
+                             all_county_years$County_code, sep = "_")
+
+##############
+
+
+
+
+
 ##### [section] #####
 
 
-##### [section] #####
-
-
+>>>>>>> 4f9013e7c399245770a237852b32ebaf6037b6f2
