@@ -99,7 +99,8 @@ raw_drug_df <- read.csv("alc_drugs.csv")
 get_cleaned_alcdrugs = function(raw_alcdrug_df){
   raw_alcdrug_df <- subset(raw_alcdrug_df, select = -ï..Notes)
   raw_alcdrug_df$Crude.Rate <- as.numeric(levels(raw_alcdrug_df$Crude.Rate))[raw_alcdrug_df$Crude.Rate]
-  
+  relevant = raw_alcdrug_df[raw_alcdrug_df$Drug.Alcohol.Induced.Code != "O", ]
+  wide_df = spread(relevant, Drug.Alcohol.Induced.Code, Deaths)
 }
 
 
