@@ -82,7 +82,8 @@ mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS,
 
 #misc
 alc_drug_df <- read.csv("alc_drugs.csv")
-
+alc_drug_df <- subset(alc_drug_df, select = -ï..Notes)
+alc_drug_df$Crude.Rate <- as.numeric(levels(alc_drug_df$Crude.Rate))[alc_drug_df$Crude.Rate]
 
 ##### [section] #####
 
