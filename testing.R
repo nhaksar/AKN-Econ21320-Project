@@ -25,3 +25,11 @@ typeof(MLS_codes_counties$State_County_FIPS)
 
 MLS_codes_counties$int_State_County_FIPS <- as.integer(MLS_codes_counties$State_County_FIPS)
 county_codes_comparison <- cbind(MLS_codes_counties, CDC_codes_counties)
+
+##### Double-checking to make sure that no rows from mls_df were dropped #####
+mls_ids <- unique(mls_df$ID)
+main_ids <- unique(main_df$ID)
+test <- mls_ids[! (mls_ids %in% main_ids)]
+match(test[1], main_ids)
+match(test[1], mls_ids)
+mls_ids[1]

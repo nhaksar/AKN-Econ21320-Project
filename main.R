@@ -119,8 +119,10 @@ cleaned_drug_df = get_cleaned_alcdrugs(raw_drug_df)
 
 
 ##### Making a column of IDs to merge stuff onto #####
-county_ids <- unique(mls_df$State_county_FIPS)
+df_for_ids <- read.delim("For_County_IDs.txt", sep = "\t")
+county_ids <- df_for_ids$County.Code
 years <- c(1999:2013)
+#I realized I needed to get a complete set of county_ids
 all_county_years <- expand.grid(county_ids, years)
 colnames(all_county_years) <- c("County_code", "Year")
 all_county_years$ID <- paste(all_county_years$Year, 
@@ -132,7 +134,18 @@ all_county_years$ID <- paste(all_county_years$Year,
 
 
 
-##### [section] #####
+##### Preparing to Create Lagged Variables #####
+main_df <- merge(all_county_years, mls_df, all.x = TRUE)
+#note there are some rows from mls_df that didn't come over b/c they were from
+#before 1999
 
 
->>>>>>> 4f9013e7c399245770a237852b32ebaf6037b6f2
+
+
+
+##############
+
+
+
+
+##### [Section] #####
