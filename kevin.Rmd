@@ -27,6 +27,7 @@ library(nloptr)
 library(rootSolve)
 library(openxlsx)
 library(tidyr)
+library(Hmisc)
 # Set numerical output display parameters
 options(width=70, digits=4, scipen=8)
 # Set R output size a bit smaller than default
@@ -39,35 +40,35 @@ opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
 ```
 
 
-
-
+Read all the data. Remember to comment out the file path when doing it yourself 
 ```{r}
 setwd("~/Downloads/2020 Spring Files/Econ /Datasets/HortasuProject")
 alcdrugs = read.csv("alcdrugs.csv", header = TRUE)
 count_ids <- read.delim("For_County_IDs.txt", sep = "\t")
 mls_df = read.csv("mls.csv", header = TRUE)
+
+
 ```
 
 ## OLS Estimation
 
 
 This block below cleans up the data and sets up the three key dataframes
-
 ```{r}
 #cleans alcdrug dataframe
 get_cleaned_alcdrugs = function(raw_alcdrug_df){
   relevant = raw_alcdrug_df[raw_alcdrug_df$Drug.Alcohol.Induced.Code != "O", ]
-  relevant$ID = paste(relevant$Year, relevant$County.Code, sep="_")
+  relevant$ID = paste(relevant$County.Code, relevant$Year, sep="_")
   wide_df = dcast(relevant, ID + Population ~Drug.Alcohol.Induced.Code, value.var="Deaths")
   return(wide_df)
 }
 
 
-#meals mls_df dataframe
+#prepares mls_df dataframe
 process_mls = function(mls_df)
 {
   mls_df
-  mls_df$ID <- paste(mls_df$Year, mls_df$State_county.FIPS, sep = "_")
+  mls_df$ID <- paste(mls_df$State_county.FIPS, mls_df$Year, sep = "_")
   return(mls_df)
 }
 
@@ -76,12 +77,12 @@ process_mls = function(mls_df)
 get_shell = function(count_ids)
 {
   county_ids <- count_ids$County.Code
-  years <- c(1999:2013)
+  years <- c(1999:2012)
   #I realized I needed to get a complete set of county_ids
   all_county_years <- expand.grid(years, county_ids)
   colnames(all_county_years) <- c("Year", "County_code")
-  all_county_years$ID <- paste(all_county_years$Year, 
-                               all_county_years$County_code, sep = "_")
+  all_county_years$ID <- paste(all_county_years$County_code, 
+                               all_county_years$Year, sep = "_")
   
   all_county_years
 }
@@ -97,7 +98,6 @@ all_county_years = get_shell(count_ids)
 This block merges the three dataframes and runs the basic analysis:
 
 ```{r}
-
 #merges three files together and adds some minor changes
 create_analysis_dataframe = function(all_county_years, mls_df, cleaned_alcdrugs)
 {
@@ -112,11 +112,70 @@ create_analysis_dataframe = function(all_county_years, mls_df, cleaned_alcdrugs)
 }
 
 analysis_df = create_analysis_dataframe(all_county_years, mls_df, cleaned_alcdrugs)
+analysis_df
+```
 
 
+Here, you can try to run all your regressions on the most basic type (no lag variables)
+
+```{r}
 first_regression = lm(data=analysis_df, formula = total_deaths ~ Total + factor(Year.x) + factor(County_code))
 summary(first_regression)
 ```
 
 
+Next, we're going to consider regressions with lag variables. The functin below helps you create a mls dataframe with lag variables
 
+```{r}
+#merges three files together and adds a lag variable of one year, 
+#abandoned: even for one year this is impractically slow
+slow_merge_with_lag = function(all_county_years, mls_df, cleaned_alcdrugs, lag_years = 1)
+{
+  complete_mls = merge(x = all_county_years, y= mls_df, by = "ID", all.x = TRUE)
+  complete_mls$Total[is.na(complete_mls$Total)] <- 0 #fills in 0 layoffs for missing data in BLS
+  
+  lag_dataset = data.frame()
+  #IMPORTANT: This function assumes the dataframe is already sorted by time
+  for (county_id in unique(complete_mls$County_code)){
+    county_df = complete_mls[complete_mls$County_code == county_id, ]
+    county_df = county_df[!is.na(county_df$ID), ]
+    county_df$lag1 <- Lag(county_df$Total, +1)
+    county_df = county_df[2:nrow(county_df), ]
+    
+    lag_dataset = rbind(lag_dataset, county_df)
+  }
+  
+  return(lag_dataset)
+}
+```
+
+
+```{r}
+
+# Improved Version of Merged with Lag that isn't stupid Slow
+#
+# This only works if you're sorting by County ID then Year
+# My ID's differ from the main.r file for this reason
+# Do not put lag >= 11
+merge_with_lag = function(all_county_years, mls_df, cleaned_alcdrugs, lag_years = 1)
+{
+  relevant_years = c(1999, 2000, 2001, 2002, 2003, 2004, 2005, 
+                     2006, 2007, 2008, 2009, 2010, 2011, 2012)
+  
+  complete_mls = merge(x = all_county_years, y= mls_df, by = "ID", all.x = TRUE)
+  complete_mls$Total[is.na(complete_mls$Total)] <- 0 #fills in 0 layoffs for missing data in BLS
+  
+  for (lag_year in 1:lag_years)
+  {
+    name = paste("lag", lag_year, sep="_")
+    complete_mls[ , name]= Lag(complete_mls$Total, +lag_years)
+    relevant_years = relevant_years[2: length(relevant_years)]
+  }
+  
+  complete_mls = complete_mls[complete_mls$Year.x %in% relevant_years,  ]
+  return(complete_mls)
+}
+
+test = merge_with_lag(all_county_years, mls_df, cleaned_alcdrugs, lag_years = 3)
+test
+```
