@@ -1,0 +1,161 @@
+---
+title: "Econ PSET 1"
+author: "Kevin Li"
+date: "1/11/2020"
+output:
+  pdf_document: 
+    keep_tex: yes
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+# Load some commonly used packages.
+# If you get a "package not found" error, 
+# then follow the instructions for installing packages at 
+# http://statistics.uchicago.edu/~collins/Rinstall/
+library(MASS)
+library(gridExtra)
+library(tidyverse)
+library(mosaic)
+library(broom)
+library(dplyr)
+library(prob)
+library(reshape2)
+library(R.utils)
+library(plyr)
+library(nloptr)
+library(rootSolve)
+library(openxlsx)
+library(tidyr)
+# Set numerical output display parameters
+options(width=70, digits=4, scipen=8)
+# Set R output size a bit smaller than default
+knitr::opts_chunk$set(size='small', prompt=FALSE, comment="")
+# set plot theme to black and white
+ggplot2::theme_set(ggplot2::theme_bw())
+ggplot2::theme_update(panel.grid.major = ggplot2::element_line(colour = "grey75"))
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
+```
+
+
+
+
+```{r}
+#setwd("~/Downloads/2020 Spring Files/Econ /Datasets/HortasuProject")
+alcdrugs = read.csv("alcdrugs.csv", header = TRUE)
+mls = read.csv("mls.csv", header = TRUE)
+head(alcdrugs)
+head(mls)
+```
+
+## OLS Estimation
+
+
+```{r}
+
+get_cleaned_alcdrugs = function(raw_alcdrug_df){
+  #raw_alcdrug_df <- subset(raw_alcdrug_df, select = -ï..Notes)
+  #raw_alcdrug_df$Crude.Rate <- as.numeric(levels(raw_alcdrug_df$Crude.Rate))[raw_alcdrug_df$Crude.Rate]
+  relevant = raw_alcdrug_df[raw_alcdrug_df$Drug.Alcohol.Induced.Code != "O", ]
+  relevant$ID = paste(relevant$Year, relevant$County.Code, sep="_")
+  wide_df = dcast(relevant, ID + Population ~Drug.Alcohol.Induced.Code, value.var="Deaths")
+  return(wide_df)
+}
+cleaned_alcdrugs = get_cleaned_alcdrugs(alcdrugs)
+cleaned_alcdrugs
+
+mls$ID = paste(mls$State_county.FIPS, mls$Year, sep="_")
+```
+
+```{r}
+cleaned_alcdrugs[!is.na(cleaned_alcdrugs$A) & !is.na(cleaned_alcdrugs$D), ]
+```
+
+
+
+
+```{r}
+##### Produces mls_df for merge #####
+#loading data
+#setwd("~/Downloads/2020 Spring Files/Econ /Datasets/HortasuProject")
+mls_df = read.csv("mls.csv", header = TRUE)
+#cleaning data
+#ncol(mls_df)
+#for (col in c(6:ncol(mls_df))) {
+#  colnames(mls_df)[col] <- paste(mls_df[1,col],"layoff",sep = "_")
+#}
+mls_df <- mls_df[3:nrow(mls_df),]
+#preparing for merge based on a county-year id
+mls_df$ID <- paste(mls_df$Year, mls_df$State_county.FIPS, sep = "_")
+
+
+mls_df
+df_for_ids <- read.delim("For_County_IDs.txt", sep = "\t")
+##############
+```
+
+
+
+
+
+```{r}
+#df_for_ids <- read.delim("For_County_IDs.txt", sep = "\t") read above
+county_ids <- df_for_ids$County.Code
+years <- c(1999:2013)
+#I realized I needed to get a complete set of county_ids
+all_county_years <- expand.grid(years, county_ids)
+colnames(all_county_years) <- c("Year", "County_code")
+all_county_years$ID <- paste(all_county_years$Year, 
+                             all_county_years$County_code, sep = "_")
+
+all_county_years
+```
+
+
+```{r}
+complete_mls = merge(x = all_county_years, y= mls_df, by = "ID", all.x = TRUE)
+complete_mls$Total = fillna(complete_mls$Total )
+#complete_mls
+
+analysis_df = merge(x = complete_mls, y = cleaned_alcdrugs, by = "ID", all.x = TRUE)
+analysis_df$total_deaths = analysis_df$A + analysis_df$D
+deaths_only = analysis_df[!is.na(analysis_df$total_deaths), ]
+deaths_only$layoff_proportion = deaths_only$Total / deaths_only$Population 
+deaths_only
+
+
+#result = lm(data=deaths_only, formula = total_deaths ~ White)
+#summary(result)
+```
+
+
+
+```{r}
+first_regression = function(all_country_years, cleaned_alcdrugs){
+  
+  setwd("~/Downloads/2020 Spring Files/Econ /Datasets/HortasuProject")
+  mls_df = read.csv("mls.csv", header = TRUE)
+  mls_df <- mls_df[3:nrow(mls_df),]
+  mls_df$ID <- paste(mls_df$Year, mls_df$State_county.FIPS, sep = "_")
+  
+  complete_mls = merge(x = all_county_years, y= mls_df, by = "ID", all.x = TRUE)
+  #complete_mls
+  
+  analysis_df = merge(x = complete_mls, y = cleaned_alcdrugs, by = "ID", all.x = TRUE)
+  analysis_df$total_deaths = analysis_df$A + analysis_df$D
+  deaths_only = analysis_df[!is.na(analysis_df$total_deaths), ]
+  deaths_only$layoff_proportion = deaths_only$Total / deaths_only$Population 
+  deaths_only$death_proportion = deaths_only$total_deaths / deaths_only$Population 
+  #deaths_only
+  
+  
+  result = lm(data=deaths_only, formula = total_deaths ~ Total + factor(Year.x) + factor(County_code))
+  return (result)
+}
+
+
+test = first_regression(all_country_years, cleaned_alcdrugs)
+summary(test)
+
+```
