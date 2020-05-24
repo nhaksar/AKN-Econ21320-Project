@@ -165,11 +165,11 @@ merge_with_lag = function(all_county_years, mls_df, cleaned_alcdrugs, lag_years 
   complete_mls = merge(x = all_county_years, y= mls_df, by = "ID", all.x = TRUE)
   complete_mls$Total[is.na(complete_mls$Total)] <- 0 #fills in 0 layoffs for missing data in BLS
   
-  #adds lag variables
-  for (lag_year in 1:lag_years)
+  #add lag variables
+  for (x in 1:lag_years)
   {
-    name = paste("lag", lag_year, sep="_")
-    complete_mls[ , name]= Lag(complete_mls$Total, +lag_years)
+    name = paste("lag", x, sep="_")
+    complete_mls[ , name]= Lag(complete_mls$Total, +x)
     relevant_years = relevant_years[2: length(relevant_years)]
   }
   complete_mls = complete_mls[complete_mls$Year.x %in% relevant_years,  ] #drops lagged years
@@ -182,7 +182,15 @@ merge_with_lag = function(all_county_years, mls_df, cleaned_alcdrugs, lag_years 
   
   return(analysis_df)
 }
+```
 
-test = merge_with_lag(all_county_years, mls_df, cleaned_alcdrugs, lag_years = 3)
-test
+
+
+
+A place for you to run lag regressions easily. Remember to change number of lags in both lines below!!!!
+
+```{r}
+analysis_df = merge_with_lag(all_county_years, mls_df, cleaned_alcdrugs, lag_years = 2)
+regression = lm(data = analysis_df, formula = total_deaths ~ Total + lag_1 + lag_2 + factor(Year.x) + factor(County_code))
+summary(regression)
 ```
