@@ -165,15 +165,22 @@ merge_with_lag = function(all_county_years, mls_df, cleaned_alcdrugs, lag_years 
   complete_mls = merge(x = all_county_years, y= mls_df, by = "ID", all.x = TRUE)
   complete_mls$Total[is.na(complete_mls$Total)] <- 0 #fills in 0 layoffs for missing data in BLS
   
+  #adds lag variables
   for (lag_year in 1:lag_years)
   {
     name = paste("lag", lag_year, sep="_")
     complete_mls[ , name]= Lag(complete_mls$Total, +lag_years)
     relevant_years = relevant_years[2: length(relevant_years)]
   }
+  complete_mls = complete_mls[complete_mls$Year.x %in% relevant_years,  ] #drops lagged years
   
-  complete_mls = complete_mls[complete_mls$Year.x %in% relevant_years,  ]
-  return(complete_mls)
+  #now merges with the alcdeaths dataframe
+  analysis_df = merge(x = complete_mls, y = cleaned_alcdrugs, by = "ID", all.x = TRUE)
+  analysis_df$total_deaths = analysis_df$A + analysis_df$D
+  analysis_df$Total[is.na(analysis_df$Total)] <- 0 #fills in 0 layoffs for missing data in BLS
+  analysis_df$layoff_perc = analysis_df$Total / analysis_df$Population #adds a proportion
+  
+  return(analysis_df)
 }
 
 test = merge_with_lag(all_county_years, mls_df, cleaned_alcdrugs, lag_years = 3)
