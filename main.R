@@ -204,7 +204,10 @@ stargazer(mod_nolag, mod_1lag, mod_2lag, mod_3lag, mod_4lag, mod_5lag,
                                "Total layoffs 2 years ago",
                                "Total layoffs 3 years ago",
                                "Total layoffs 4 years ago",
-                               "Total layoffs 5 years ago"))
+                               "Total layoffs 5 years ago"),
+          title="Total alcohol and drug deaths regressed on total layoffs with year and county fixed effects",
+          digits=6,
+          column.sep.width = "-4pt")
 
 
 ##############
