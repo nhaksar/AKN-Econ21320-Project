@@ -3,6 +3,8 @@
 
 library("readxl")
 library("tidyverse")
+library("reshape2")
+if (!require("plm")) install.packages("plm")
 library("plm")
 
 ##### produces IPUMS_df for merge #####
@@ -71,17 +73,22 @@ state_abbs <- rbind(state_abbs, c("Washington D.C.", "DC")) %>%
 mls_df <- read_excel("cntyic.xlsx", skip = 1)
 #cleaning data
 ncol(mls_df)
+
+## add "_layoff" to name of layoff variables
 for (col in c(6:ncol(mls_df))) {
   colnames(mls_df)[col] <- paste(mls_df[1,col],"layoff",sep = "_")
 }
-mls_df <- mls_df[3:nrow(mls_df),]
+
+## drop first two rows
+mls_df <- mls_df[3:nrow(mls_df),] 
+
 #preparing for merge based on a county-year id
-colnames(mls_df) <- gsub(" ", "_", colnames(mls_df))
-mls_df$State_county_FIPS <- as.integer(mls_df$State_county_FIPS)
-mls_df$State <- sapply(strsplit(mls_df$County_name, ", "), "[", 2)
+colnames(mls_df) <- gsub(" ", "_", colnames(mls_df)) # replaces name " " with "_"
+mls_df$State_county_FIPS <- as.integer(mls_df$State_county_FIPS) # conver chr to num
+mls_df$State <- sapply(strsplit(mls_df$County_name, ", "), "[", 2) # adds state to row
 mls_df$State_Abb <- state_abbs$Abbreviation[match(mls_df$State, 
                                                   state_abbs$State)]
-mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS, sep = "_")
+mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS, sep = "_") # assigns ID
 
 ##############
 
@@ -124,6 +131,10 @@ county_ids <- df_for_ids$County.Code
 years <- c(1999:2013)
 #I realized I needed to get a complete set of county_ids
 all_county_years <- expand.grid(county_ids, years)
+
+## for some reason, expand.grid returns list not data.frame. 
+## causes errors. below line converts to data.frame, fixes
+all_county_years <- data.frame(all_county_years)
 colnames(all_county_years) <- c("County_code", "Year")
 all_county_years$ID <- paste(all_county_years$Year, 
                              all_county_years$County_code, sep = "_")
