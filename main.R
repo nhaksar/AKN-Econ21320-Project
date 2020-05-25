@@ -163,6 +163,18 @@ main_df$total_deaths <- main_df$A + main_df$D
 
 panel_df <- pdata.frame(main_df, index=c("County_code", "Year"))
 
+##### SUMMARY STATISTICS #####
+## min/max year in cleaned data
+min(main_df[,"Year"])
+max(main_df[,"Year"])
+
+## total layoffs 1999-2013
+sum(main_df[!is.na(main_df$Total_layoff), "Total_layoff"])
+
+## per-year average
+sum(main_df[!is.na(main_df$Total_layoff), "Total_layoff"]) / 14
+
+
 ##### REGRESSIONS #####
 # regressions stored as objects. use summary in console to view
 
