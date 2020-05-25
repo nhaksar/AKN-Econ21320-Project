@@ -169,12 +169,26 @@ min(main_df[,"Year"])
 max(main_df[,"Year"])
 
 ## total layoffs 1999-2013
-sum(main_df[!is.na(main_df$Total_layoff), "Total_layoff"])
-sum(main_df[!is.na(main_df$White_layoff), "White_layoff"])
+tot.sum <- sum(main_df[!is.na(main_df$Total_layoff), "Total_layoff"])
+wh.sum <- sum(main_df[!is.na(main_df$White_layoff), "White_layoff"])
+bl.sum <- sum(main_df[!is.na(main_df$Black_layoff), "Black_layoff"])
+hisp.sum <- sum(main_df[!is.na(main_df$Hispanic_orgin_layoff), "Hispanic_orgin_layoff"])
+asia.sum <-sum(main_df[!is.na(main_df$Asian_or_Pacific_islander_layoff),
+            "Asian_or_Pacific_islander_layoff"])
+amin.sum <- sum(main_df[!is.na(main_df$American_indian_or_Alaskan_native_layoff),
+            "American_indian_or_Alaskan_native_layoff"])
+labeled.sums <- cbind(c("Total", "White", "Black","Hispanic",
+                        "Asian/Pacific Islander",
+                        "American Indian/Alaskan Native"),
+                      c(tot.sum,wh.sum,bl.sum,hisp.sum,asia.sum,amin.sum))
 
 ## per-year average
 sum(main_df[!is.na(main_df$Total_layoff), "Total_layoff"]) / 14
 
+## make table for sums
+stargazer(labeled.sums,
+          title="Total layoffs 1999-2013 by ethnicity",
+          align=TRUE, label="tb:layoff-sum")
 
 ##### REGRESSIONS ON TOTAL LAYOFFS #####
 # regressions stored as objects. use summary in console to view
@@ -220,7 +234,8 @@ stargazer(mod_nolag, mod_1lag, mod_2lag, mod_3lag, mod_4lag, mod_5lag,
                                "Total layoffs 5 years ago"),
           title="Total alcohol and drug deaths regressed on total layoffs with year and county fixed effects",
           digits=6,
-          column.sep.width = "-4pt")
+          column.sep.width = "-4pt",
+          label="tb:total-fe")
 
 
 ##### REGRESSIONS ON WHITE LAYOFFS #####
@@ -265,7 +280,8 @@ stargazer(mod_white_nolag, mod_white_1lag, mod_white_2lag, mod_white_3lag,
                                "White layoffs 5 years ago"),
           title="Total alcohol and drug deaths regressed on white layoffs with year and county fixed effects",
           digits=6,
-          column.sep.width = "-4pt")
+          column.sep.width = "-6pt",
+          label="tb:white-fe")
 
 
 
