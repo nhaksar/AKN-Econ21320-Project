@@ -161,7 +161,7 @@ main_df$Year <- main_df$Year.x
 main_df <- subset(main_df, select = - c(Year.x,Year.y))
 main_df$total_deaths <- main_df$A + main_df$D
 
-panel_df <- pdata.frame(main_df, index=c("County_code", "Year"))
+panel_df <- pdata.frame(main_df, index=c("State_county_FIPS", "Year"))
 
 ##### REGRESSIONS #####
 # regressions stored as objects. use summary in console to view
@@ -193,6 +193,10 @@ mod_5lag <- plm(formula=total_deaths ~ Total_layoff + lag(Total_layoff, 1)
                 + lag(Total_layoff, 2) + lag(Total_layoff, 3)
                 + lag(Total_layoff, 4) + lag(Total_layoff, 5),
                 model="within", data=panel_df)
+
+## generate LaTeX table
+stargazer(mod_nolag, mod_1lag, mod_2lag, mod_3lag, mod_4lag, mod_5lag, 
+          align=TRUE, no.space=TRUE, omit.stat="f")
 
 
 ##############
