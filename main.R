@@ -161,7 +161,7 @@ main_df$Year <- main_df$Year.x
 main_df <- subset(main_df, select = - c(Year.x,Year.y))
 main_df$total_deaths <- main_df$A + main_df$D
 
-panel_df <- pdata.frame(main_df, index=c("State_county_FIPS", "Year"))
+panel_df <- pdata.frame(main_df, index=c("County_code", "Year"))
 
 ##### REGRESSIONS #####
 # regressions stored as objects. use summary in console to view
