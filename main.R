@@ -170,12 +170,13 @@ max(main_df[,"Year"])
 
 ## total layoffs 1999-2013
 sum(main_df[!is.na(main_df$Total_layoff), "Total_layoff"])
+sum(main_df[!is.na(main_df$White_layoff), "White_layoff"])
 
 ## per-year average
 sum(main_df[!is.na(main_df$Total_layoff), "Total_layoff"]) / 14
 
 
-##### REGRESSIONS #####
+##### REGRESSIONS ON TOTAL LAYOFFS #####
 # regressions stored as objects. use summary in console to view
 
 ## total deaths on total layoffs, no lag. within gives FE model
@@ -222,8 +223,49 @@ stargazer(mod_nolag, mod_1lag, mod_2lag, mod_3lag, mod_4lag, mod_5lag,
           column.sep.width = "-4pt")
 
 
-##############
+##### REGRESSIONS ON WHITE LAYOFFS #####
+mod_white_nolag <- plm(formula = total_deaths ~ White_layoff, 
+                 model="within", data = panel_df)
 
+## total deaths on white layoffs + 1 year lag. FE model
+mod_white_1lag <- plm(formula = total_deaths ~ White_layoff + lag(White_layoff, 1),
+                      model="within", effect="twoways", data = panel_df)
+
+## total deaths on white layoff + 1,2 year lag. FE model
+mod_white_2lag <- plm(formula=total_deaths ~ White_layoff + lag(White_layoff, 1) 
+                      + lag(White_layoff, 2), model="within", effect="twoways",
+                      data=panel_df)
+
+## total deaths on white layoff + 1,2,3 year lag. FE model
+mod_white_3lag <- plm(formula=total_deaths ~ White_layoff + lag(White_layoff, 1)
+                      + lag(White_layoff, 2) + lag(White_layoff, 3),
+                      model="within", effect="twoways",data=panel_df)
+
+## total deaths on white layoff + 1,2,3,4 year lag. FE model
+mod_white_4lag <- plm(formula=total_deaths ~ White_layoff + lag(White_layoff, 1)
+                      + lag(White_layoff, 2) + lag(White_layoff, 3)
+                      + lag(White_layoff, 4),
+                      model="within", effect="twoways", data=panel_df)
+## total deaths on white layoff + 1,2,3,4,5 year lag. FE model
+mod_white_5lag <- plm(formula=total_deaths ~ White_layoff + lag(White_layoff, 1)
+                      + lag(White_layoff, 2) + lag(White_layoff, 3)
+                      + lag(White_layoff, 4) + lag(White_layoff, 5),
+                      model="within", effect="twoways", data=panel_df)
+
+## stargazer table
+stargazer(mod_white_nolag, mod_white_1lag, mod_white_2lag, mod_white_3lag, 
+          mod_white_4lag, mod_white_5lag, 
+          align=TRUE, no.space=TRUE, omit.stat="f",
+          dep.var.labels = c("Total alcohol and drug deaths"),
+          covariate.labels = c("White layoffs this year",
+                               "White layoffs 1 year ago",
+                               "White layoffs 2 years ago",
+                               "White layoffs 3 years ago",
+                               "White layoffs 4 years ago",
+                               "White layoffs 5 years ago"),
+          title="Total alcohol and drug deaths regressed on white layoffs with year and county fixed effects",
+          digits=6,
+          column.sep.width = "-4pt")
 
 
 
