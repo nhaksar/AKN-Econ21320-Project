@@ -4,6 +4,7 @@
 library("readxl")
 library("tidyverse")
 library("reshape2")
+library("stargazer")
 if (!require("plm")) install.packages("plm")
 library("plm")
 
@@ -163,22 +164,35 @@ main_df$total_deaths <- main_df$A + main_df$D
 panel_df <- pdata.frame(main_df, index=c("County_code", "Year"))
 
 ##### REGRESSIONS #####
-## total deaths on total layoffs, no lag. within gives FE model
-mod1 <- plm(formula = total_deaths ~ Total_layoff, model="within", data = panel_df)
+# regressions stored as objects. use summary in console to view
 
-## total deaths on total layoffs + 1 year lag
-mod2 <- plm(formula = total_deaths ~ Total_layoff + lag(Total_layoff, 1),
+## total deaths on total layoffs, no lag. within gives FE model
+mod_nolag <- plm(formula = total_deaths ~ Total_layoff, 
+                 model="within", data = panel_df)
+
+## total deaths on total layoffs + 1 year lag. FE model
+mod_1lag <- plm(formula = total_deaths ~ Total_layoff + lag(Total_layoff, 1),
             model="within", data = panel_df)
 
-## total deaths on total layoff + 1,2 year lag
-mod3 <- plm(formula=total_deaths ~ Total_layoff + lag(Total_layoff, 1) 
+## total deaths on total layoff + 1,2 year lag. FE model
+mod_2lag <- plm(formula=total_deaths ~ Total_layoff + lag(Total_layoff, 1) 
             + lag(Total_layoff, 2), model="within", data=panel_df)
 
-## total deaths on total layoff + 1,2,3 year lag
-mod4 <- plm(formula=total_deaths ~ Total_layoff + lag(Total_layoff, 1)
+## total deaths on total layoff + 1,2,3 year lag. FE model
+mod_3lag <- plm(formula=total_deaths ~ Total_layoff + lag(Total_layoff, 1)
             + lag(Total_layoff, 2) + lag(Total_layoff, 3),
             model="within", data=panel_df)
 
+## total deaths on total layoff + 1,2,3,4 year lag. FE model
+mod_4lag <- plm(formula=total_deaths ~ Total_layoff + lag(Total_layoff, 1)
+                + lag(Total_layoff, 2) + lag(Total_layoff, 3)
+                + lag(Total_layoff, 4),
+                model="within", data=panel_df)
+## total deaths on total layoff + 1,2,3,4,5 year lag. FE model
+mod_5lag <- plm(formula=total_deaths ~ Total_layoff + lag(Total_layoff, 1)
+                + lag(Total_layoff, 2) + lag(Total_layoff, 3)
+                + lag(Total_layoff, 4) + lag(Total_layoff, 5),
+                model="within", data=panel_df)
 
 
 ##############
