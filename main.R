@@ -85,10 +85,15 @@ mls_df <- mls_df[3:nrow(mls_df),]
 #preparing for merge based on a county-year id
 colnames(mls_df) <- gsub(" ", "_", colnames(mls_df)) # replaces name " " with "_"
 mls_df$State_county_FIPS <- as.integer(mls_df$State_county_FIPS) # conver chr to num
+mls_df$State_FIPS <- as.integer(mls_df$State_FIPS)
+mls_df$County_FIPS <- as.integer(mls_df$County_FIPS)
 mls_df$State <- sapply(strsplit(mls_df$County_name, ", "), "[", 2) # adds state to row
 mls_df$State_Abb <- state_abbs$Abbreviation[match(mls_df$State, 
                                                   state_abbs$State)]
 mls_df$ID <- paste(mls_df$Year, mls_df$State_county_FIPS, sep = "_") # assigns ID
+
+# convert layoff numbers to numeric
+mls_df[,6:20] <- sapply(mls_df[,6:20],as.integer)
 
 ##############
 
@@ -145,12 +150,34 @@ all_county_years$ID <- paste(all_county_years$Year,
 
 
 
-##### Preparing to Create Lagged Variables #####
-main_df <- merge(all_county_years, mls_df, all.x = TRUE)
+##### Merge all DataFrames #####
+main_df <- merge(all_county_years, mls_df, all.x = TRUE, by="ID") ## merges on ID
 #note there are some rows from mls_df that didn't come over b/c they were from
 #before 1999
 
+main_df <- merge(main_df, cleaned_drug_df, all.x = TRUE, by="ID")
+main_df$Year <- main_df$Year.x
+main_df <- subset(main_df, select = - c(Year.x,Year.y))
+main_df$total_deaths <- main_df$A + main_df$D
 
+panel_df <- pdata.frame(main_df, index=c("County_code", "Year"))
+
+##### REGRESSIONS #####
+## total deaths on total layoffs, no lag. within gives FE model
+mod1 <- plm(formula = total_deaths ~ Total_layoff, model="within", data = panel_df)
+
+## total deaths on total layoffs + 1 year lag
+mod2 <- plm(formula = total_deaths ~ Total_layoff + lag(Total_layoff, 1),
+            model="within", data = panel_df)
+
+## total deaths on total layoff + 1,2 year lag
+mod3 <- plm(formula=total_deaths ~ Total_layoff + lag(Total_layoff, 1) 
+            + lag(Total_layoff, 2), model="within", data=panel_df)
+
+## total deaths on total layoff + 1,2,3 year lag
+mod4 <- plm(formula=total_deaths ~ Total_layoff + lag(Total_layoff, 1)
+            + lag(Total_layoff, 2) + lag(Total_layoff, 3),
+            model="within", data=panel_df)
 
 
 
