@@ -342,6 +342,3 @@ stargazer(mod_white_nolag, mod_white_1lag, mod_white_2lag, mod_white_3lag,
           digits=6,
           column.sep.width = "-6pt",
           label="tb:white-fe")
-
-##############
-
