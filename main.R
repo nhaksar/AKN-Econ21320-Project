@@ -343,34 +343,5 @@ stargazer(mod_white_nolag, mod_white_1lag, mod_white_2lag, mod_white_3lag,
           column.sep.width = "-6pt",
           label="tb:white-fe")
 
-
-
-##### [Section] #####
-
-
-##### First Jank Regression!!! #####
-
-first_regression = function(all_country_years, alcdrugs_df){
-  
-  mls_df = read.csv("mls.csv", header = TRUE)
-  mls_df <- mls_df[3:nrow(mls_df),]
-  mls_df$ID <- paste(mls_df$Year, mls_df$State_county.FIPS, sep = "_")
-  
-  complete_mls = merge(x = all_county_years, y= mls_df, by = "ID", all.x = TRUE)
-  #complete_mls
-  
-  analysis_df = merge(x = complete_mls, y = cleaned_alcdrugs, by = "ID", all.x = TRUE)
-  analysis_df$total_deaths = analysis_df$A + analysis_df$D
-  deaths_only = analysis_df[!is.na(analysis_df$total_deaths), ]
-  #deaths_only
-  
-  
-  result = lm(data=deaths_only, formula = total_deaths ~ Total)
-  return (result)
-}
-
-
-
-
 ##############
 
