@@ -174,16 +174,26 @@ main_df$Year <- as.factor(main_df$Year)
 ## set up panel DF
 panel_df <- pdata.frame(main_df, index=c("County_code", "Year"))
 
-##### GROUP LASSO REGRESSION STUFF #####
-library(gglasso)
-lasso_df <- main_df
-layoffs <- panel_df$Total_layoff
-# lags <- cbind(as.matrix(lag(panel_df$Total_layoff, 1)),
-#               as.matrix(lag(panel_df$Total_layoff, 2)),
-#               as.matrix(lag(panel_df$Total_layoff, 3)),
-#               as.matrix(lag(panel_df$Total_layoff, 4)),
-#               as.matrix(lag(panel_df$Total_layoff, 5)))
-y <- lasso_df$total_deaths
+##### LASSO REGRESSION STUFF #####
+library(glmnet)
+lasso_df <- panel_df
+
+## grab lags
+lasso_df$lag1 <- lag(panel_df$Total_layoff, 1)
+lasso_df$lag2 <- lag(panel_df$Total_layoff, 2)
+lasso_df$lag3 <- lag(panel_df$Total_layoff, 3)
+lasso_df$lag4 <- lag(panel_df$Total_layoff, 4)
+lasso_df$lag5 <- lag(panel_df$Total_layoff, 5)
+
+## coerce to standard data.frame
+lasso_df <- data.frame(as.list(lasso_df))
+y <- lasso_df$Total_layoff
+formula = total_deaths ~ Total_layoff + lag1 + lag2 +
+  lag3 + lag4 + lag5
+x <- model.matrix(formula, lasso_df)
+
+## raises error as is - need to look into model.matrix
+lasso.mod <- cv.glmnet(x, y, alpha=1)
 
 ##### SUMMARY STATISTICS #####
 ## min/max year in cleaned data
