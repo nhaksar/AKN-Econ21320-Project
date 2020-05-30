@@ -174,10 +174,26 @@ for (i in 9:23){
   main_df[is.na(main_df[i]),i] = 0
 }
 
+## make some things into factors
+## call names(main_df) to see
+for (i in 1:8){
+  main_df[,i] <- as.factor(main_df[,i])
+}
+main_df$Year <- as.factor(main_df$Year)
+
+## set up panel DF
 panel_df <- pdata.frame(main_df, index=c("County_code", "Year"))
 
-##### LASSO REGRESSION STUFF #####
+##### GROUP LASSO REGRESSION STUFF #####
 library(gglasso)
+lasso_df <- main_df
+layoffs <- panel_df$Total_layoff
+# lags <- cbind(as.matrix(lag(panel_df$Total_layoff, 1)),
+#               as.matrix(lag(panel_df$Total_layoff, 2)),
+#               as.matrix(lag(panel_df$Total_layoff, 3)),
+#               as.matrix(lag(panel_df$Total_layoff, 4)),
+#               as.matrix(lag(panel_df$Total_layoff, 5)))
+y <- lasso_df$total_deaths
 
 ##### SUMMARY STATISTICS #####
 ## min/max year in cleaned data
