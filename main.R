@@ -189,7 +189,7 @@ lasso_df$lag5 <- lag(panel_df$Total_layoff, 5)
 lasso_df <- data.frame(as.list(lasso_df))
 y <- lasso_df$Total_layoff
 formula = total_deaths ~ Total_layoff + lag1 + lag2 +
-  lag3 + lag4 + lag5
+  lag3 + lag4 + lag5 + factor(State_county_FIPS) + factor(Year)
 x <- model.matrix(formula, lasso_df)
 
 ## raises error as is - need to look into model.matrix
