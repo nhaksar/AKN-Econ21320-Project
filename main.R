@@ -176,6 +176,9 @@ for (i in 9:23){
 
 panel_df <- pdata.frame(main_df, index=c("County_code", "Year"))
 
+##### LASSO REGRESSION STUFF #####
+library(gglasso)
+
 ##### SUMMARY STATISTICS #####
 ## min/max year in cleaned data
 min(main_df[,"Year"])
@@ -203,7 +206,28 @@ stargazer(labeled.sums,
           title="Total layoffs 1999-2013 by ethnicity",
           align=TRUE, label="tb:layoff-sum")
 
-##### REGRESSIONS ON TOTAL LAYOFFS #####
+##### OLS REGRESSIONS ON TOTAL LAYOFFS #####
+mod_nofe_nolag <- plm(formula = total_deaths ~ Total_layoff, data=panel_df)
+mod_nofe_1lag <- plm(formula = total_deaths ~ Total_layoff + lag(Total_layoff, 1),
+                    data=panel_df)
+mod_nofe_2lag <- plm(formula = total_deaths ~ Total_layoff + lag(Total_layoff, 1)
+                    + lag(Total_layoff, 2), data=panel_df)
+mod_nofe_3lag <- plm(formula = total_deaths ~ Total_layoff + lag(Total_layoff, 1)
+                    + lag(Total_layoff, 2) + lag(Total_layoff, 3), data=panel_df)
+
+stargazer(mod_nofe_nolag, mod_nofe_1lag, mod_nofe_2lag, mod_nofe_3lag, 
+          align=TRUE, no.space=TRUE, #omit.stat="f",
+          dep.var.labels = c("Total alcohol and drug deaths"),
+          covariate.labels = c("Total layoffs this year",
+                               "Total layoffs 1 year ago",
+                               "Total layoffs 2 years ago",
+                               "Total layoffs 3 years ago"),
+          title="Total alcohol and drug deaths regressed on total layoffs",
+          digits=6,
+          column.sep.width = "-4pt",
+          label="tb:total-nofe")
+
+##### FE REGRESSIONS ON TOTAL LAYOFFS #####
 # regressions stored as objects. use summary in console to view
 
 ## total deaths on total layoffs, no lag. within gives FE model
@@ -236,8 +260,9 @@ mod_5lag <- plm(formula=total_deaths ~ Total_layoff + lag(Total_layoff, 1)
                 model="within", effect="twoways", data=panel_df)
 
 ## generate LaTeX table
-stargazer(mod_nolag, mod_1lag, mod_2lag, mod_3lag, mod_4lag, mod_5lag, 
+stargazer(mod_nofe_nolag,mod_nolag, mod_1lag, mod_2lag, mod_3lag, mod_4lag, mod_5lag, 
           align=TRUE, no.space=TRUE, #omit.stat="f",
+          omit="Constant",
           dep.var.labels = c("Total alcohol and drug deaths"),
           covariate.labels = c("Total layoffs this year",
                                "Total layoffs 1 year ago",
