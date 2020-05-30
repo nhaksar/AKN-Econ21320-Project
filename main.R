@@ -1,19 +1,9 @@
-##I don't understand why we have so many different files, it would be better to 
-##have one file that we divide into sections -Alena
-
 library("readxl")
 library("tidyverse")
 library("reshape2")
 library("stargazer")
 if (!require("plm")) install.packages("plm")
 library("plm")
-
-##### produces IPUMS_df for merge #####
-#loading the data
-if (!require("ipumsr")) stop("Reading IPUMS data into R requires the ipumsr package. It can be installed using the following command: install.packages('ipumsr')")
-
-# ddi <- read_ipums_ddi("usa_00004.xml")
-# ipums_data <- read_ipums_micro(ddi)
 
 #cleaning the data
 
