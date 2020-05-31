@@ -175,7 +175,9 @@ main_df$Year <- as.factor(main_df$Year)
 panel_df <- pdata.frame(main_df, index=c("County_code", "Year"))
 
 ##### LASSO REGRESSION STUFF #####
+## holdout-validation approach
 library(glmnet)
+library(caret)
 lasso_df <- panel_df
 
 ## grab lags
@@ -187,13 +189,51 @@ lasso_df$lag5 <- lag(panel_df$Total_layoff, 5)
 
 ## coerce to standard data.frame
 lasso_df <- data.frame(as.list(lasso_df))
-y <- lasso_df$Total_layoff
-formula = total_deaths ~ Total_layoff + lag1 + lag2 +
-  lag3 + lag4 + lag5 + factor(State_county_FIPS) + factor(Year)
-x <- model.matrix(formula, lasso_df)
 
-## raises error as is - need to look into model.matrix
-lasso.mod <- cv.glmnet(x, y, alpha=1)
+## separate train/test samples
+ind <- sample(1:nrow(lasso_df), 0.7*nrow(lasso_df))
+train <- lasso_df[ind,]
+test <- lasso_df[-ind,]
+
+train <- na.omit(train, cols="total_deaths")
+test <- na.omit(test, cols="total_deaths")
+
+## columns of interest
+regressors <- c("Total_layoff", "lag1", "lag2", 
+                "lag3", "lag4", "lag5", 
+                "State_county_FIPS", "Year")
+outcome <- "total_deaths"
+all_vars <- c("Total_layoff", "lag1", "lag2", 
+              "lag3", "lag4", "lag5", 
+              "State_county_FIPS", "Year",
+              "total_deaths")
+
+## regularize samples
+preproc <- preProcess(train[,all_vars],
+                      method=c("center","scale"))
+train[,all_vars] <- predict(preproc, train[,all_vars])
+test[,all_vars] <- predict(preproc, test[,all_vars])
+
+all_effects <- dummyVars(total_deaths ~ ., data = lasso_df[,all_vars])
+train_effects <- predict(all_effects, train[,all_vars])
+test_effects <- predict(all_effects, test[,all_vars])
+
+## make data matrices
+train_effects <- as.matrix(train_effects)
+test_effects <- as.matrix(test_effects)
+
+train_outcome <- train$total_deaths
+test_outcome <- test$total_deaths
+
+## use cross-validation to find optimal lambda
+potent.lambdas <- 10^seq(-3,2, by=0.01)
+lasso_mod <- cv.glmnet(train_effects, train_outcome,
+                       alpha=1, lambda=potent.lambdas,
+                       standardize=TRUE)
+opt.lambda <- lasso_mod$lambda.min
+
+plot(lasso_mod)
+
 
 ##### SUMMARY STATISTICS #####
 ## min/max year in cleaned data
