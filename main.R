@@ -230,9 +230,13 @@ potent.lambdas <- 10^seq(-3,2, by=0.01)
 lasso_mod <- cv.glmnet(train_effects, train_outcome,
                        alpha=1, lambda=potent.lambdas,
                        standardize=TRUE)
-opt.lambda <- lasso_mod$lambda.min
 
 plot(lasso_mod)
+
+lasso_mod_2 <- glmnet(train_effects, train_outcome,
+                      alpha = 1,
+                      standardize = TRUE)
+head(coef(lasso_mod_2, lasso_mod$lambda.min), 7)
 
 
 ##### SUMMARY STATISTICS #####
