@@ -331,8 +331,8 @@ mod_5lag <- plm(formula=total_deaths ~ Total_layoff + lag(Total_layoff, 1)
                 model="within", effect="twoways", data=panel_df)
 
 ## generate LaTeX table
-stargazer(mod_nofe_nolag,mod_nolag, mod_1lag, mod_2lag, mod_3lag, mod_4lag, mod_5lag, 
-          align=TRUE, no.space=TRUE, #omit.stat="f",
+stargazer(mod_nolag, mod_1lag, mod_2lag, mod_3lag, mod_4lag, mod_5lag, 
+          align=TRUE, no.space=TRUE, omit.stat=c("rsq","adj.rsq"),
           omit="Constant",
           dep.var.labels = c("Total alcohol and drug deaths"),
           covariate.labels = c("Total layoffs this year",
@@ -380,7 +380,7 @@ mod_5lag_ysfe <- plm(formula=total_deaths ~ Total_layoff + lag(Total_layoff, 1)
 
 ## generate LaTeX table
 stargazer(mod_nolag_ysfe, mod_1lag_ysfe, mod_2lag_ysfe, mod_3lag_ysfe, mod_4lag_ysfe, 
-          mod_5lag_ysfe, align=TRUE, no.space=TRUE, # omit.stat="f",
+          mod_5lag_ysfe, align=TRUE, no.space=TRUE, omit.stat=c("rsq","adj.rsq"),
           omit="([0-9]{1,2}_[0-9]{4})+",
           dep.var.labels = c("Total alcohol and drug deaths"),
           covariate.labels = c("Total layoffs this year",
