@@ -126,7 +126,7 @@ cleaned_drug_df$D[is.na(cleaned_drug_df$D)] <- 0
 df_for_ids <- read.delim("For_County_IDs.txt", sep = "\t")
 df_for_ids <- df_for_ids[-which(is.na(df_for_ids$County.Code)),]
 county_ids <- df_for_ids$County.Code
-years <- c(1999:2013)
+years <- c(1997:2013)
 #I realized I needed to get a complete set of county_ids
 all_county_years <- expand.grid(county_ids, years)
 
