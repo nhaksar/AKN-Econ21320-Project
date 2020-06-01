@@ -113,8 +113,9 @@ get_cleaned_alcdrugs = function(raw_alcdrug_df){
 
 raw_drug_df <- read.csv("alc_drugs.csv")
 cleaned_drug_df = get_cleaned_alcdrugs(raw_drug_df)
-
-
+#to fix the na's in the total_deaths
+cleaned_drug_df$A[is.na(cleaned_drug_df$A)] <- 0
+cleaned_drug_df$D[is.na(cleaned_drug_df$D)] <- 0
 ##############
 
 
