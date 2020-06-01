@@ -236,16 +236,17 @@ all_outcome <- lasso_df$total_deaths
 
 
 ## use cross-validation to find optimal lambda
-potent.lambdas <- 10^seq(-3,2, by=0.01)
+potent.lambdas <- 10^seq(-2,2, by=0.1)
 lasso_mod <- cv.glmnet(all_effects, all_outcome,
                        alpha=1, lambda=potent.lambdas,
                        standardize=TRUE)
 
-plot(lasso_mod)
+plot(lasso_mod, type="l")
 
 lasso_mod_2 <- glmnet(all_effects, all_outcome,
                       alpha = 1,
-                      standardize = TRUE)
+                      standardize = TRUE,
+                      lambda=potent.lambdas)
 head(coef(lasso_mod_2, lasso_mod$lambda.min), 7)
 
 
