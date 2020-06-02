@@ -12,7 +12,7 @@ We are studying "deaths of despair".
 - mls.csv - BLS mass layoffs data, in CSV file (irrelevant)
 - testing.R - Code to test/find out important information about the data
 - main - main R file 
-
+- the CAINC stuff is data for income by county from https://apps.bea.gov/regional/downloadzip.cfm
 ## Todo list
 - start working on presentation
 - LASSO regression to identify useful lags
