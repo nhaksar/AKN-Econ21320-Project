@@ -33,3 +33,9 @@ test <- mls_ids[! (mls_ids %in% main_ids)]
 match(test[1], main_ids)
 match(test[1], mls_ids)
 mls_ids[1]
+
+
+##### Path to read IPUMS Data to check vars #####
+library(readr)
+ipums_df <- read_csv("C:/Users/ahkan/Desktop/usa_00001.csv")
+#seems like the file is still too large; worry about later
