@@ -248,6 +248,7 @@ lasso_mod_2 <- glmnet(all_effects, all_outcome,
                       standardize = TRUE,
                       lambda=potent.lambdas)
 head(coef(lasso_mod_2, lasso_mod$lambda.min), 7)
+stargazer(coef(lasso_mod_2), omit=c("State_county", "Year"))
 
 
 ##### SUMMARY STATISTICS #####
