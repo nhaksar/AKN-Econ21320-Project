@@ -39,3 +39,9 @@ mls_ids[1]
 library(readr)
 ipums_df <- read_csv("C:/Users/ahkan/Desktop/usa_00001.csv")
 #seems like the file is still too large; worry about later
+
+
+##### Checking the data Paco sent #####
+read_lines("C:/Users/ahkan/Downloads/mort2000us/Mort00us.dat", n_max = 15)
+test_df <- read.delim("C:/Users/ahkan/Downloads/mort2000us/Mort00us.dat")
+#The file might be too large for this, so I'm trying to open it elsewhere and just see what happens
