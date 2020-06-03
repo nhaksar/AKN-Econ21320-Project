@@ -243,6 +243,7 @@ lasso_mod <- cv.glmnet(all_effects, all_outcome,
 
 plot(lasso_mod, type="l")
 
+## now that CV done, calculate coefficients and output
 lasso_mod_2 <- glmnet(all_effects, all_outcome,
                       alpha = 1,
                       standardize = TRUE,
