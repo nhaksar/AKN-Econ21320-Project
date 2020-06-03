@@ -236,7 +236,7 @@ all_outcome <- lasso_df$total_deaths
 
 
 ## use cross-validation to find optimal lambda
-potent.lambdas <- 10^seq(-2,2, by=0.1)
+potent.lambdas <- 10^seq(-0.3,2, by=0.1)
 lasso_mod <- cv.glmnet(all_effects, all_outcome,
                        alpha=1, lambda=potent.lambdas,
                        standardize=TRUE)
@@ -347,6 +347,27 @@ stargazer(mod_nolag, mod_1lag, mod_2lag, mod_3lag, mod_4lag, mod_5lag,
           digits=6,
           column.sep.width = "-4pt",
           label="tb:total-fe")
+
+##### REGRESSIONS ON TOTAL LAYOFFS WITH FE, NO CURRENT #####
+mod_nocurr_5lag <- plm(formula=total_deaths ~ lag(Total_layoff, 1)
+                       + lag(Total_layoff, 2) + lag(Total_layoff, 3)
+                       + lag(Total_layoff, 4) + lag(Total_layoff, 5),
+                       model="within", effect="twoways", data=panel_df)
+
+stargazer(mod_5lag, mod_nocurr_5lag, 
+          align=TRUE, no.space=TRUE, omit.stat=c("rsq","adj.rsq"),
+          omit="Constant",
+          dep.var.labels = c("Total alcohol and drug deaths"),
+          covariate.labels = c("Total layoffs this year",
+                               "Total layoffs 1 year ago",
+                               "Total layoffs 2 years ago",
+                               "Total layoffs 3 years ago",
+                               "Total layoffs 4 years ago",
+                               "Total layoffs 5 years ago"),
+          title="Total alcohol and drug deaths regressed on total layoffs with year and county fixed effects",
+          digits=6,
+          column.sep.width = "-4pt",
+          label="tb:update-fe")
 
 ##### REGRESSIONS ON TOTAL LAYOFFS WITH YEAR-STATE FE #####
 ## total deaths on total layoffs, no lag. within gives FE model
