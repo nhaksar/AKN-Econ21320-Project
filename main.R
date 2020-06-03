@@ -395,6 +395,17 @@ stargazer(mod_nolag_ysfe, mod_1lag_ysfe, mod_2lag_ysfe, mod_3lag_ysfe, mod_4lag_
           column.sep.width = "-4pt",
           label="tb:total-ysfe")
 
+########Computing #s for Data Description Table########
+cleaned_drug_df$Total <- cleaned_drug_df$A + cleaned_drug_df$D
+mean(cleaned_drug_df$Total)
+mean(cleaned_drug_df$A[cleaned_drug_df$A != 0])
+mean(cleaned_drug_df$D[cleaned_drug_df$D != 0])
+quantile(cleaned_drug_df$Total)
+quantile(cleaned_drug_df$A[cleaned_drug_df$A != 0])
+quantile(cleaned_drug_df$D[cleaned_drug_df$D != 0])
+length(cleaned_drug_df$A[cleaned_drug_df$A != 0])
+length(cleaned_drug_df$D[cleaned_drug_df$D != 0])
+
 ##### REGRESSIONS ON WHITE LAYOFFS #####
 mod_white_nolag <- plm(formula = total_deaths ~ White_layoff, 
                  model="within", data = panel_df)
