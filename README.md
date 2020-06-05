@@ -14,6 +14,11 @@ We are studying "deaths of despair".
 - main - main R file 
 - the CAINC stuff is data for income by county from https://apps.bea.gov/regional/downloadzip.cfm
 ## Todo list
-- start working on presentation
 - LASSO regression to identify useful lags
 - write up literature review / results
+- clean up suicide data
+- regressions to run: everything w/ 1 set of FEs at a time; 
+                      everything w/ income as a control
+                      alcohol separately from drugs
+                      with total layoffs next year as placebo (concern about 
+                        anticipation)
