@@ -184,11 +184,11 @@ for (row in c(1:nrow(main_df))) {
   main_df$income_pc[row] <- pcincs_only_df[match(rel_code, 
                                                  pcincs_only_df$GeoFIPS), 
                                            match(rel_yr, 
-                                                 colnames(pcincs_only_df))]
+                                                 colnames(pcincs_only_df))] %>% as.character() %>% as.integer()
 }
 
-#it appears that 969 county-years have no per capita income data & have NAs; 
-#96 of those 969 rows have alcohol/drug deaths
+#it appears that 1048 county-years have no per capita income data & have NAs; 
+#96 of those 1048 rows have alcohol/drug deaths
 
 
 ##### set up panel DF ######
