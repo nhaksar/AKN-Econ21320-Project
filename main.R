@@ -2,7 +2,7 @@ library("readxl")
 library("tidyverse")
 library("reshape2")
 library("stargazer")
-if (!require("plm")) install.packages("plm")
+#if (!require("plm")) install.packages("plm")
 library("plm")
 
 #cleaning the data
@@ -172,7 +172,26 @@ for (i in 1:8){
 }
 main_df$Year <- as.factor(main_df$Year)
 
-## set up panel DF
+###### Adding Income #######
+income_df <- read.csv("CAINC1__ALL_AREAS_1969_2018.csv")
+income_df$Description_Code <- as.integer(income_df$Description)
+pcincs_only_df <- income_df[(income_df$Description_Code==2),]
+pcincs_only_df$GeoFIPS <- as.integer(as.character(pcincs_only_df$GeoFIPS))
+main_df$income_pc <- NA
+for (row in c(1:nrow(main_df))) {
+  rel_code <- main_df$County_code[row]
+  rel_yr <- paste("X", main_df$Year[row], sep = "")
+  main_df$income_pc[row] <- pcincs_only_df[match(rel_code, 
+                                                 pcincs_only_df$GeoFIPS), 
+                                           match(rel_yr, 
+                                                 colnames(pcincs_only_df))]
+}
+
+#it appears that 969 county-years have no per capita income data & have NAs; 
+#96 of those 969 rows have alcohol/drug deaths
+
+
+##### set up panel DF ######
 panel_df <- pdata.frame(main_df, index=c("County_code", "Year"))
 
 ##### LASSO REGRESSION STUFF #####
@@ -472,3 +491,5 @@ stargazer(mod_white_nolag, mod_white_1lag, mod_white_2lag, mod_white_3lag,
           digits=6,
           column.sep.width = "-6pt",
           label="tb:white-fe")
+
+
