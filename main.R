@@ -172,24 +172,6 @@ for (i in 1:8){
 }
 main_df$Year <- as.factor(main_df$Year)
 
-###### Adding Income #######
-income_df <- read.csv("CAINC1__ALL_AREAS_1969_2018.csv")
-income_df$Description_Code <- as.integer(income_df$Description)
-pcincs_only_df <- income_df[(income_df$Description_Code==2),]
-pcincs_only_df$GeoFIPS <- as.integer(as.character(pcincs_only_df$GeoFIPS))
-main_df$income_pc <- NA
-for (row in c(1:nrow(main_df))) {
-  rel_code <- main_df$County_code[row]
-  rel_yr <- paste("X", main_df$Year[row], sep = "")
-  main_df$income_pc[row] <- pcincs_only_df[match(rel_code, 
-                                                 pcincs_only_df$GeoFIPS), 
-                                           match(rel_yr, 
-                                                 colnames(pcincs_only_df))] %>% as.character() %>% as.integer()
-}
-
-#it appears that 1048 county-years have no per capita income data & have NAs; 
-#96 of those 1048 rows have alcohol/drug deaths
-
 
 ##### set up panel DF ######
 panel_df <- pdata.frame(main_df, index=c("County_code", "Year"))
