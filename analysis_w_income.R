@@ -10,3 +10,9 @@ inc_df <- inc_df[-which(is.na(inc_df$GeoFIPS)), -c(3, 4, 5, 6, 7, 8, 59)]
 #variables; they will be dropped"); maybe from changing counties --> na values?
 inc_df <- inc_df[,-c(3:19)]       #this removes 1969-1985
 income_df <- melt(inc_df, id = c("GeoFIPS", "GeoName"))
+income_df$Year_i <- substr(as.character(income_df$variable), 2, 
+                           nchar(as.character(income_df$variable)))
+income_df <- income_df[,-c(3)]
+colnames(income_df)[3] <- "income_pc"
+income_df$GeoFIPS <- as.integer(as.character(income_df$GeoFIPS))
+income_df$ID <- paste(income_df$Year_i, income_df$GeoFIPS, sep = "_")
