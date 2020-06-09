@@ -13,6 +13,8 @@ We are studying "deaths of despair".
 - testing.R - Code to test/find out important information about the data
 - main - main R file 
 - the CAINC stuff is data for income by county from https://apps.bea.gov/regional/downloadzip.cfm
+- suicide_analysis.R - code for running stuff with suicide data
+- selfharm_assault_indeterminateintent txt files = suicide data
 ## Todo list
 - LASSO regression to identify useful lags
 - write up literature review / results
