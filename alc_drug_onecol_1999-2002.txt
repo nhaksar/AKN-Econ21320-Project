@@ -1,0 +1,2791 @@
+"Notes"	"County"	"County Code"	"Year"	"Year Code"	Deaths	Population	Crude Rate
+	"Baldwin County, AL"	"01003"	"1999"	"1999"	23	137555	16.7
+	"Baldwin County, AL"	"01003"	"2000"	"2000"	20	140415	14.2
+	"Baldwin County, AL"	"01003"	"2001"	"2001"	20	144875	13.8
+	"Baldwin County, AL"	"01003"	"2002"	"2002"	32	147957	21.6
+	"Calhoun County, AL"	"01015"	"1999"	"1999"	14	114910	Unreliable
+	"Calhoun County, AL"	"01015"	"2000"	"2000"	11	112249	Unreliable
+	"Calhoun County, AL"	"01015"	"2001"	"2001"	13	111266	Unreliable
+	"Escambia County, AL"	"01053"	"2002"	"2002"	10	38035	Unreliable
+	"Etowah County, AL"	"01055"	"1999"	"1999"	13	104002	Unreliable
+	"Etowah County, AL"	"01055"	"2000"	"2000"	17	103459	Unreliable
+	"Etowah County, AL"	"01055"	"2001"	"2001"	12	102976	Unreliable
+	"Houston County, AL"	"01069"	"2000"	"2000"	11	88787	Unreliable
+	"Jefferson County, AL"	"01073"	"1999"	"1999"	110	662845	16.6
+	"Jefferson County, AL"	"01073"	"2000"	"2000"	102	662047	15.4
+	"Jefferson County, AL"	"01073"	"2001"	"2001"	114	660197	17.3
+	"Jefferson County, AL"	"01073"	"2002"	"2002"	115	657518	17.5
+	"Lauderdale County, AL"	"01077"	"1999"	"1999"	11	87590	Unreliable
+	"Lauderdale County, AL"	"01077"	"2000"	"2000"	12	87966	Unreliable
+	"Lauderdale County, AL"	"01077"	"2001"	"2001"	10	87791	Unreliable
+	"Lauderdale County, AL"	"01077"	"2002"	"2002"	12	87627	Unreliable
+	"Lee County, AL"	"01081"	"2000"	"2000"	13	115092	Unreliable
+	"Lee County, AL"	"01081"	"2001"	"2001"	12	116819	Unreliable
+	"Madison County, AL"	"01089"	"1999"	"1999"	20	274692	7.3
+	"Madison County, AL"	"01089"	"2000"	"2000"	17	276700	Unreliable
+	"Madison County, AL"	"01089"	"2001"	"2001"	24	281517	8.5
+	"Madison County, AL"	"01089"	"2002"	"2002"	15	286439	Unreliable
+	"Marshall County, AL"	"01095"	"2000"	"2000"	12	82231	Unreliable
+	"Mobile County, AL"	"01097"	"1999"	"1999"	51	399323	12.8
+	"Mobile County, AL"	"01097"	"2000"	"2000"	54	399843	13.5
+	"Mobile County, AL"	"01097"	"2001"	"2001"	52	400129	13.0
+	"Mobile County, AL"	"01097"	"2002"	"2002"	53	398549	13.3
+	"Montgomery County, AL"	"01101"	"1999"	"1999"	23	223548	10.3
+	"Montgomery County, AL"	"01101"	"2000"	"2000"	25	223510	11.2
+	"Montgomery County, AL"	"01101"	"2001"	"2001"	14	223048	Unreliable
+	"Montgomery County, AL"	"01101"	"2002"	"2002"	21	223185	9.4
+	"Russell County, AL"	"01113"	"2002"	"2002"	10	49489	Unreliable
+	"St. Clair County, AL"	"01115"	"2001"	"2001"	10	66093	Unreliable
+	"Shelby County, AL"	"01117"	"2001"	"2001"	15	149358	Unreliable
+	"Shelby County, AL"	"01117"	"2002"	"2002"	13	153976	Unreliable
+	"Talladega County, AL"	"01121"	"2001"	"2001"	12	80939	Unreliable
+	"Tuscaloosa County, AL"	"01125"	"1999"	"1999"	16	164411	Unreliable
+	"Tuscaloosa County, AL"	"01125"	"2000"	"2000"	22	164875	13.3
+	"Tuscaloosa County, AL"	"01125"	"2001"	"2001"	12	166951	Unreliable
+	"Tuscaloosa County, AL"	"01125"	"2002"	"2002"	16	168154	Unreliable
+	"Walker County, AL"	"01127"	"2000"	"2000"	14	70713	Unreliable
+	"Walker County, AL"	"01127"	"2002"	"2002"	10	69765	Unreliable
+	"Anchorage Borough, AK"	"02020"	"1999"	"1999"	59	259348	22.7
+	"Anchorage Borough, AK"	"02020"	"2000"	"2000"	60	260283	23.1
+	"Anchorage Borough, AK"	"02020"	"2001"	"2001"	80	264274	30.3
+	"Anchorage Borough, AK"	"02020"	"2002"	"2002"	89	268229	33.2
+	"Fairbanks North Star Borough, AK"	"02090"	"1999"	"1999"	20	83390	24.0
+	"Fairbanks North Star Borough, AK"	"02090"	"2000"	"2000"	19	82840	Unreliable
+	"Fairbanks North Star Borough, AK"	"02090"	"2001"	"2001"	23	84814	27.1
+	"Fairbanks North Star Borough, AK"	"02090"	"2002"	"2002"	25	86095	29.0
+	"Kenai Peninsula Borough, AK"	"02122"	"2000"	"2000"	19	49691	Unreliable
+	"Kenai Peninsula Borough, AK"	"02122"	"2001"	"2001"	20	49986	40.0
+	"Kenai Peninsula Borough, AK"	"02122"	"2002"	"2002"	16	50804	Unreliable
+	"Matanuska-Susitna Borough, AK"	"02170"	"2000"	"2000"	11	59322	Unreliable
+	"Matanuska-Susitna Borough, AK"	"02170"	"2001"	"2001"	17	61807	Unreliable
+	"Matanuska-Susitna Borough, AK"	"02170"	"2002"	"2002"	23	64353	35.7
+	"Apache County, AZ"	"04001"	"1999"	"1999"	20	69801	28.7
+	"Apache County, AZ"	"04001"	"2000"	"2000"	35	69423	50.4
+	"Apache County, AZ"	"04001"	"2001"	"2001"	29	67863	42.7
+	"Apache County, AZ"	"04001"	"2002"	"2002"	23	67319	34.2
+	"Cochise County, AZ"	"04003"	"1999"	"1999"	16	116530	Unreliable
+	"Cochise County, AZ"	"04003"	"2000"	"2000"	20	117755	17.0
+	"Cochise County, AZ"	"04003"	"2001"	"2001"	24	118798	20.2
+	"Cochise County, AZ"	"04003"	"2002"	"2002"	19	119847	Unreliable
+	"Coconino County, AZ"	"04005"	"1999"	"1999"	22	115307	19.1
+	"Coconino County, AZ"	"04005"	"2000"	"2000"	23	116320	19.8
+	"Coconino County, AZ"	"04005"	"2001"	"2001"	15	118283	Unreliable
+	"Coconino County, AZ"	"04005"	"2002"	"2002"	32	121308	26.4
+	"Gila County, AZ"	"04007"	"1999"	"1999"	18	50990	Unreliable
+	"Gila County, AZ"	"04007"	"2000"	"2000"	25	51335	48.7
+	"Gila County, AZ"	"04007"	"2001"	"2001"	18	51274	Unreliable
+	"Gila County, AZ"	"04007"	"2002"	"2002"	21	51478	40.8
+	"Graham County, AZ"	"04009"	"1999"	"1999"	12	33279	Unreliable
+	"La Paz County, AZ"	"04012"	"1999"	"1999"	12	19355	Unreliable
+	"La Paz County, AZ"	"04012"	"2000"	"2000"	11	19715	Unreliable
+	"Maricopa County, AZ"	"04013"	"1999"	"1999"	545	3004985	18.1
+	"Maricopa County, AZ"	"04013"	"2000"	"2000"	498	3072149	16.2
+	"Maricopa County, AZ"	"04013"	"2001"	"2001"	562	3175989	17.7
+	"Maricopa County, AZ"	"04013"	"2002"	"2002"	635	3255388	19.5
+	"Mohave County, AZ"	"04015"	"1999"	"1999"	35	150351	23.3
+	"Mohave County, AZ"	"04015"	"2000"	"2000"	43	155032	27.7
+	"Mohave County, AZ"	"04015"	"2001"	"2001"	44	160312	27.4
+	"Mohave County, AZ"	"04015"	"2002"	"2002"	45	166155	27.1
+	"Navajo County, AZ"	"04017"	"1999"	"1999"	32	96100	33.3
+	"Navajo County, AZ"	"04017"	"2000"	"2000"	23	97470	23.6
+	"Navajo County, AZ"	"04017"	"2001"	"2001"	32	97849	32.7
+	"Navajo County, AZ"	"04017"	"2002"	"2002"	37	100123	37.0
+	"Pima County, AZ"	"04019"	"1999"	"1999"	225	828905	27.1
+	"Pima County, AZ"	"04019"	"2000"	"2000"	257	843746	30.5
+	"Pima County, AZ"	"04019"	"2001"	"2001"	216	859280	25.1
+	"Pima County, AZ"	"04019"	"2002"	"2002"	243	874267	27.8
+	"Pinal County, AZ"	"04021"	"1999"	"1999"	28	173364	16.2
+	"Pinal County, AZ"	"04021"	"2000"	"2000"	37	179727	20.6
+	"Pinal County, AZ"	"04021"	"2001"	"2001"	31	187747	16.5
+	"Pinal County, AZ"	"04021"	"2002"	"2002"	50	197082	25.4
+	"Yavapai County, AZ"	"04025"	"1999"	"1999"	31	162943	19.0
+	"Yavapai County, AZ"	"04025"	"2000"	"2000"	28	167517	16.7
+	"Yavapai County, AZ"	"04025"	"2001"	"2001"	45	172636	26.1
+	"Yavapai County, AZ"	"04025"	"2002"	"2002"	48	177362	27.1
+	"Yuma County, AZ"	"04027"	"1999"	"1999"	25	155665	16.1
+	"Yuma County, AZ"	"04027"	"2000"	"2000"	18	160026	Unreliable
+	"Yuma County, AZ"	"04027"	"2001"	"2001"	22	162873	13.5
+	"Yuma County, AZ"	"04027"	"2002"	"2002"	15	165398	Unreliable
+	"Benton County, AR"	"05007"	"2001"	"2001"	11	159258	Unreliable
+	"Benton County, AR"	"05007"	"2002"	"2002"	19	164926	Unreliable
+	"Crittenden County, AR"	"05035"	"2002"	"2002"	11	50622	Unreliable
+	"Garland County, AR"	"05051"	"2001"	"2001"	29	89032	32.6
+	"Garland County, AR"	"05051"	"2002"	"2002"	17	89630	Unreliable
+	"Jefferson County, AR"	"05069"	"2000"	"2000"	12	84278	Unreliable
+	"Mississippi County, AR"	"05093"	"1999"	"1999"	10	52034	Unreliable
+	"Pulaski County, AR"	"05119"	"1999"	"1999"	48	360312	13.3
+	"Pulaski County, AR"	"05119"	"2000"	"2000"	39	361474	10.8
+	"Pulaski County, AR"	"05119"	"2001"	"2001"	38	362866	10.5
+	"Pulaski County, AR"	"05119"	"2002"	"2002"	53	364327	14.5
+	"Saline County, AR"	"05125"	"2001"	"2001"	10	85473	Unreliable
+	"Sebastian County, AR"	"05131"	"1999"	"1999"	13	113302	Unreliable
+	"Sebastian County, AR"	"05131"	"2000"	"2000"	19	115071	Unreliable
+	"Sebastian County, AR"	"05131"	"2001"	"2001"	23	116488	19.7
+	"Sebastian County, AR"	"05131"	"2002"	"2002"	22	117200	18.8
+	"Union County, AR"	"05139"	"2000"	"2000"	11	45629	Unreliable
+	"Washington County, AR"	"05143"	"1999"	"1999"	10	154627	Unreliable
+	"Washington County, AR"	"05143"	"2000"	"2000"	12	157715	Unreliable
+	"Washington County, AR"	"05143"	"2001"	"2001"	22	163151	13.5
+	"Washington County, AR"	"05143"	"2002"	"2002"	18	166859	Unreliable
+	"Alameda County, CA"	"06001"	"1999"	"1999"	227	1427114	15.9
+	"Alameda County, CA"	"06001"	"2000"	"2000"	242	1443741	16.8
+	"Alameda County, CA"	"06001"	"2001"	"2001"	117	1469484	8.0
+	"Alameda County, CA"	"06001"	"2002"	"2002"	249	1462106	17.0
+	"Butte County, CA"	"06007"	"1999"	"1999"	32	201282	15.9
+	"Butte County, CA"	"06007"	"2000"	"2000"	30	203171	14.8
+	"Butte County, CA"	"06007"	"2001"	"2001"	27	206193	13.1
+	"Butte County, CA"	"06007"	"2002"	"2002"	71	209120	34.0
+	"Calaveras County, CA"	"06009"	"2001"	"2001"	10	41304	Unreliable
+	"Calaveras County, CA"	"06009"	"2002"	"2002"	11	42380	Unreliable
+	"Contra Costa County, CA"	"06013"	"1999"	"1999"	170	936983	18.1
+	"Contra Costa County, CA"	"06013"	"2000"	"2000"	122	948816	12.9
+	"Contra Costa County, CA"	"06013"	"2001"	"2001"	117	970952	12.1
+	"Contra Costa County, CA"	"06013"	"2002"	"2002"	180	979862	18.4
+	"Del Norte County, CA"	"06015"	"2000"	"2000"	10	27507	Unreliable
+	"Del Norte County, CA"	"06015"	"2002"	"2002"	14	27397	Unreliable
+	"El Dorado County, CA"	"06017"	"1999"	"1999"	39	154381	25.3
+	"El Dorado County, CA"	"06017"	"2000"	"2000"	26	156299	16.6
+	"El Dorado County, CA"	"06017"	"2001"	"2001"	20	161101	12.4
+	"El Dorado County, CA"	"06017"	"2002"	"2002"	42	165195	25.4
+	"Fresno County, CA"	"06019"	"1999"	"1999"	156	789405	19.8
+	"Fresno County, CA"	"06019"	"2000"	"2000"	130	799407	16.3
+	"Fresno County, CA"	"06019"	"2001"	"2001"	151	813021	18.6
+	"Fresno County, CA"	"06019"	"2002"	"2002"	194	829762	23.4
+	"Humboldt County, CA"	"06023"	"1999"	"1999"	42	126676	33.2
+	"Humboldt County, CA"	"06023"	"2000"	"2000"	44	126518	34.8
+	"Humboldt County, CA"	"06023"	"2001"	"2001"	43	127520	33.7
+	"Humboldt County, CA"	"06023"	"2002"	"2002"	63	128780	48.9
+	"Imperial County, CA"	"06025"	"1999"	"1999"	35	141056	24.8
+	"Imperial County, CA"	"06025"	"2000"	"2000"	28	142361	19.7
+	"Imperial County, CA"	"06025"	"2001"	"2001"	25	143707	17.4
+	"Imperial County, CA"	"06025"	"2002"	"2002"	24	145640	16.5
+	"Kern County, CA"	"06029"	"1999"	"1999"	167	655428	25.5
+	"Kern County, CA"	"06029"	"2000"	"2000"	161	661645	24.3
+	"Kern County, CA"	"06029"	"2001"	"2001"	176	676574	26.0
+	"Kern County, CA"	"06029"	"2002"	"2002"	200	694059	28.8
+	"Kings County, CA"	"06031"	"1999"	"1999"	24	126402	19.0
+	"Kings County, CA"	"06031"	"2000"	"2000"	14	129461	Unreliable
+	"Kings County, CA"	"06031"	"2001"	"2001"	14	132881	Unreliable
+	"Kings County, CA"	"06031"	"2002"	"2002"	25	135369	18.5
+	"Lake County, CA"	"06033"	"1999"	"1999"	27	57214	47.2
+	"Lake County, CA"	"06033"	"2000"	"2000"	27	58309	46.3
+	"Lake County, CA"	"06033"	"2001"	"2001"	16	60219	Unreliable
+	"Lake County, CA"	"06033"	"2002"	"2002"	32	61513	52.0
+	"Los Angeles County, CA"	"06037"	"1999"	"1999"	1736	9437290	18.4
+	"Los Angeles County, CA"	"06037"	"2000"	"2000"	1603	9519338	16.8
+	"Los Angeles County, CA"	"06037"	"2001"	"2001"	1477	9626034	15.3
+	"Los Angeles County, CA"	"06037"	"2002"	"2002"	1778	9705913	18.3
+	"Madera County, CA"	"06039"	"1999"	"1999"	20	121883	16.4
+	"Madera County, CA"	"06039"	"2000"	"2000"	26	123109	21.1
+	"Madera County, CA"	"06039"	"2001"	"2001"	25	125581	19.9
+	"Madera County, CA"	"06039"	"2002"	"2002"	32	128369	24.9
+	"Marin County, CA"	"06041"	"1999"	"1999"	43	246269	17.5
+	"Marin County, CA"	"06041"	"2000"	"2000"	38	247289	15.4
+	"Marin County, CA"	"06041"	"2001"	"2001"	22	247866	8.9
+	"Marin County, CA"	"06041"	"2002"	"2002"	46	246225	18.7
+	"Mendocino County, CA"	"06045"	"1999"	"1999"	30	85665	35.0
+	"Mendocino County, CA"	"06045"	"2000"	"2000"	19	86265	Unreliable
+	"Mendocino County, CA"	"06045"	"2001"	"2001"	16	86841	Unreliable
+	"Mendocino County, CA"	"06045"	"2002"	"2002"	30	87364	34.3
+	"Merced County, CA"	"06047"	"1999"	"1999"	46	206734	22.3
+	"Merced County, CA"	"06047"	"2000"	"2000"	28	210554	13.3
+	"Merced County, CA"	"06047"	"2001"	"2001"	25	218816	11.4
+	"Merced County, CA"	"06047"	"2002"	"2002"	40	225351	17.8
+	"Monterey County, CA"	"06053"	"1999"	"1999"	66	396267	16.7
+	"Monterey County, CA"	"06053"	"2000"	"2000"	58	401762	14.4
+	"Monterey County, CA"	"06053"	"2001"	"2001"	58	407082	14.2
+	"Monterey County, CA"	"06053"	"2002"	"2002"	68	408977	16.6
+	"Napa County, CA"	"06055"	"1999"	"1999"	28	123026	22.8
+	"Napa County, CA"	"06055"	"2000"	"2000"	16	124279	Unreliable
+	"Napa County, CA"	"06055"	"2001"	"2001"	19	126818	Unreliable
+	"Napa County, CA"	"06055"	"2002"	"2002"	32	128744	24.9
+	"Nevada County, CA"	"06057"	"1999"	"1999"	18	90899	Unreliable
+	"Nevada County, CA"	"06057"	"2000"	"2000"	15	92033	Unreliable
+	"Nevada County, CA"	"06057"	"2001"	"2001"	21	93715	22.4
+	"Nevada County, CA"	"06057"	"2002"	"2002"	38	94647	40.1
+	"Orange County, CA"	"06059"	"1999"	"1999"	434	2815933	15.4
+	"Orange County, CA"	"06059"	"2000"	"2000"	300	2846289	10.5
+	"Orange County, CA"	"06059"	"2001"	"2001"	210	2885457	7.3
+	"Orange County, CA"	"06059"	"2002"	"2002"	438	2908245	15.1
+	"Placer County, CA"	"06061"	"1999"	"1999"	30	240928	12.5
+	"Placer County, CA"	"06061"	"2000"	"2000"	38	248399	15.3
+	"Placer County, CA"	"06061"	"2001"	"2001"	32	263615	12.1
+	"Placer County, CA"	"06061"	"2002"	"2002"	39	276907	14.1
+	"Riverside County, CA"	"06065"	"1999"	"1999"	350	1507912	23.2
+	"Riverside County, CA"	"06065"	"2000"	"2000"	289	1545387	18.7
+	"Riverside County, CA"	"06065"	"2001"	"2001"	270	1616634	16.7
+	"Riverside County, CA"	"06065"	"2002"	"2002"	323	1687147	19.1
+	"Sacramento County, CA"	"06067"	"1999"	"1999"	247	1206659	20.5
+	"Sacramento County, CA"	"06067"	"2000"	"2000"	187	1223499	15.3
+	"Sacramento County, CA"	"06067"	"2001"	"2001"	132	1266257	10.4
+	"Sacramento County, CA"	"06067"	"2002"	"2002"	324	1301079	24.9
+	"San Benito County, CA"	"06069"	"2000"	"2000"	10	53234	Unreliable
+	"San Bernardino County, CA"	"06071"	"1999"	"1999"	363	1681601	21.6
+	"San Bernardino County, CA"	"06071"	"2000"	"2000"	387	1709434	22.6
+	"San Bernardino County, CA"	"06071"	"2001"	"2001"	292	1760731	16.6
+	"San Bernardino County, CA"	"06071"	"2002"	"2002"	393	1799791	21.8
+	"San Diego County, CA"	"06073"	"1999"	"1999"	527	2789593	18.9
+	"San Diego County, CA"	"06073"	"2000"	"2000"	491	2813833	17.4
+	"San Diego County, CA"	"06073"	"2001"	"2001"	332	2869672	11.6
+	"San Diego County, CA"	"06073"	"2002"	"2002"	622	2900355	21.4
+	"San Francisco County, CA"	"06075"	"1999"	"1999"	281	774716	36.3
+	"San Francisco County, CA"	"06075"	"2000"	"2000"	258	776733	33.2
+	"San Francisco County, CA"	"06075"	"2001"	"2001"	293	780865	37.5
+	"San Francisco County, CA"	"06075"	"2002"	"2002"	271	772723	35.1
+	"San Joaquin County, CA"	"06077"	"1999"	"1999"	115	552424	20.8
+	"San Joaquin County, CA"	"06077"	"2000"	"2000"	93	563598	16.5
+	"San Joaquin County, CA"	"06077"	"2001"	"2001"	91	591207	15.4
+	"San Joaquin County, CA"	"06077"	"2002"	"2002"	141	609041	23.2
+	"San Luis Obispo County, CA"	"06079"	"1999"	"1999"	52	243480	21.4
+	"San Luis Obispo County, CA"	"06079"	"2000"	"2000"	46	246681	18.6
+	"San Luis Obispo County, CA"	"06079"	"2001"	"2001"	37	251462	14.7
+	"San Luis Obispo County, CA"	"06079"	"2002"	"2002"	62	253083	24.5
+	"San Mateo County, CA"	"06081"	"1999"	"1999"	99	704538	14.1
+	"San Mateo County, CA"	"06081"	"2000"	"2000"	73	707161	10.3
+	"San Mateo County, CA"	"06081"	"2001"	"2001"	66	705621	9.4
+	"San Mateo County, CA"	"06081"	"2002"	"2002"	100	697628	14.3
+	"Santa Barbara County, CA"	"06083"	"1999"	"1999"	86	396906	21.7
+	"Santa Barbara County, CA"	"06083"	"2000"	"2000"	79	399347	19.8
+	"Santa Barbara County, CA"	"06083"	"2001"	"2001"	76	403164	18.9
+	"Santa Barbara County, CA"	"06083"	"2002"	"2002"	84	405178	20.7
+	"Santa Clara County, CA"	"06085"	"1999"	"1999"	206	1671498	12.3
+	"Santa Clara County, CA"	"06085"	"2000"	"2000"	190	1682585	11.3
+	"Santa Clara County, CA"	"06085"	"2001"	"2001"	164	1688082	9.7
+	"Santa Clara County, CA"	"06085"	"2002"	"2002"	209	1669348	12.5
+	"Santa Cruz County, CA"	"06087"	"1999"	"1999"	51	253667	20.1
+	"Santa Cruz County, CA"	"06087"	"2000"	"2000"	53	255602	20.7
+	"Santa Cruz County, CA"	"06087"	"2001"	"2001"	48	256045	18.7
+	"Santa Cruz County, CA"	"06087"	"2002"	"2002"	65	254531	25.5
+	"Shasta County, CA"	"06089"	"1999"	"1999"	60	161987	37.0
+	"Shasta County, CA"	"06089"	"2000"	"2000"	47	163256	28.8
+	"Shasta County, CA"	"06089"	"2001"	"2001"	33	166408	19.8
+	"Shasta County, CA"	"06089"	"2002"	"2002"	62	170198	36.4
+	"Siskiyou County, CA"	"06093"	"2002"	"2002"	15	43965	Unreliable
+	"Solano County, CA"	"06095"	"1999"	"1999"	57	387657	14.7
+	"Solano County, CA"	"06095"	"2000"	"2000"	50	394542	12.7
+	"Solano County, CA"	"06095"	"2001"	"2001"	44	404209	10.9
+	"Solano County, CA"	"06095"	"2002"	"2002"	65	408226	15.9
+	"Sonoma County, CA"	"06097"	"1999"	"1999"	86	453421	19.0
+	"Sonoma County, CA"	"06097"	"2000"	"2000"	83	458614	18.1
+	"Sonoma County, CA"	"06097"	"2001"	"2001"	51	465293	11.0
+	"Sonoma County, CA"	"06097"	"2002"	"2002"	109	465298	23.4
+	"Stanislaus County, CA"	"06099"	"1999"	"1999"	99	438609	22.6
+	"Stanislaus County, CA"	"06099"	"2000"	"2000"	107	446997	23.9
+	"Stanislaus County, CA"	"06099"	"2001"	"2001"	108	463761	23.3
+	"Stanislaus County, CA"	"06099"	"2002"	"2002"	135	477469	28.3
+	"Sutter County, CA"	"06101"	"2000"	"2000"	14	78930	Unreliable
+	"Sutter County, CA"	"06101"	"2002"	"2002"	14	82162	Unreliable
+	"Tehama County, CA"	"06103"	"1999"	"1999"	15	55517	Unreliable
+	"Tehama County, CA"	"06103"	"2001"	"2001"	10	56685	Unreliable
+	"Tehama County, CA"	"06103"	"2002"	"2002"	15	57380	Unreliable
+	"Tulare County, CA"	"06107"	"1999"	"1999"	62	364708	17.0
+	"Tulare County, CA"	"06107"	"2000"	"2000"	52	368021	14.1
+	"Tulare County, CA"	"06107"	"2001"	"2001"	40	373171	10.7
+	"Tulare County, CA"	"06107"	"2002"	"2002"	60	379568	15.8
+	"Tuolumne County, CA"	"06109"	"2002"	"2002"	17	55850	Unreliable
+	"Ventura County, CA"	"06111"	"1999"	"1999"	120	743357	16.1
+	"Ventura County, CA"	"06111"	"2000"	"2000"	121	753197	16.1
+	"Ventura County, CA"	"06111"	"2001"	"2001"	96	766689	12.5
+	"Ventura County, CA"	"06111"	"2002"	"2002"	127	779489	16.3
+	"Yolo County, CA"	"06113"	"1999"	"1999"	30	165269	18.2
+	"Yolo County, CA"	"06113"	"2000"	"2000"	31	168660	18.4
+	"Yolo County, CA"	"06113"	"2001"	"2001"	24	175337	13.7
+	"Yolo County, CA"	"06113"	"2002"	"2002"	32	180327	17.7
+	"Yuba County, CA"	"06115"	"1999"	"1999"	23	59881	38.4
+	"Yuba County, CA"	"06115"	"2000"	"2000"	10	60219	Unreliable
+	"Adams County, CO"	"08001"	"1999"	"1999"	63	354146	17.8
+	"Adams County, CO"	"08001"	"2000"	"2000"	69	363857	19.0
+	"Adams County, CO"	"08001"	"2001"	"2001"	81	376115	21.5
+	"Adams County, CO"	"08001"	"2002"	"2002"	100	387339	25.8
+	"Arapahoe County, CO"	"08005"	"1999"	"1999"	72	482262	14.9
+	"Arapahoe County, CO"	"08005"	"2000"	"2000"	80	487967	16.4
+	"Arapahoe County, CO"	"08005"	"2001"	"2001"	101	502393	20.1
+	"Arapahoe County, CO"	"08005"	"2002"	"2002"	100	508936	19.6
+	"Boulder County, CO"	"08013"	"1999"	"1999"	45	285901	15.7
+	"Boulder County, CO"	"08013"	"2000"	"2000"	38	291288	13.0
+	"Boulder County, CO"	"08013"	"2001"	"2001"	53	300727	17.6
+	"Boulder County, CO"	"08013"	"2002"	"2002"	49	303035	16.2
+	"Denver County, CO"	"08031"	"1999"	"1999"	219	548848	39.9
+	"Denver County, CO"	"08031"	"2000"	"2000"	200	554636	36.1
+	"Denver County, CO"	"08031"	"2001"	"2001"	212	561976	37.7
+	"Denver County, CO"	"08031"	"2002"	"2002"	229	556790	41.1
+	"Douglas County, CO"	"08035"	"2000"	"2000"	10	175766	Unreliable
+	"Douglas County, CO"	"08035"	"2001"	"2001"	15	196783	Unreliable
+	"Douglas County, CO"	"08035"	"2002"	"2002"	10	208911	Unreliable
+	"El Paso County, CO"	"08041"	"1999"	"1999"	128	509044	25.1
+	"El Paso County, CO"	"08041"	"2000"	"2000"	111	516929	21.5
+	"El Paso County, CO"	"08041"	"2001"	"2001"	134	535864	25.0
+	"El Paso County, CO"	"08041"	"2002"	"2002"	142	544145	26.1
+	"Fremont County, CO"	"08043"	"2000"	"2000"	11	46145	Unreliable
+	"Fremont County, CO"	"08043"	"2001"	"2001"	17	46633	Unreliable
+	"Fremont County, CO"	"08043"	"2002"	"2002"	12	47019	Unreliable
+	"Jefferson County, CO"	"08059"	"1999"	"1999"	87	523325	16.6
+	"Jefferson County, CO"	"08059"	"2000"	"2000"	97	527056	18.4
+	"Jefferson County, CO"	"08059"	"2001"	"2001"	97	530452	18.3
+	"Jefferson County, CO"	"08059"	"2002"	"2002"	96	529486	18.1
+	"La Plata County, CO"	"08067"	"2001"	"2001"	12	45044	Unreliable
+	"Larimer County, CO"	"08069"	"1999"	"1999"	33	246884	13.4
+	"Larimer County, CO"	"08069"	"2000"	"2000"	35	251494	13.9
+	"Larimer County, CO"	"08069"	"2001"	"2001"	36	260541	13.8
+	"Larimer County, CO"	"08069"	"2002"	"2002"	32	265372	12.1
+	"Mesa County, CO"	"08077"	"1999"	"1999"	19	114827	Unreliable
+	"Mesa County, CO"	"08077"	"2000"	"2000"	23	116255	19.8
+	"Mesa County, CO"	"08077"	"2001"	"2001"	26	119496	21.8
+	"Mesa County, CO"	"08077"	"2002"	"2002"	25	122440	20.4
+	"Montezuma County, CO"	"08083"	"1999"	"1999"	10	23601	Unreliable
+	"Pueblo County, CO"	"08101"	"1999"	"1999"	32	140184	22.8
+	"Pueblo County, CO"	"08101"	"2000"	"2000"	42	141472	29.7
+	"Pueblo County, CO"	"08101"	"2001"	"2001"	35	144014	24.3
+	"Pueblo County, CO"	"08101"	"2002"	"2002"	33	146537	22.5
+	"Weld County, CO"	"08123"	"1999"	"1999"	27	174342	15.5
+	"Weld County, CO"	"08123"	"2000"	"2000"	19	180936	Unreliable
+	"Weld County, CO"	"08123"	"2001"	"2001"	30	192297	15.6
+	"Weld County, CO"	"08123"	"2002"	"2002"	30	202246	14.8
+	"Fairfield County, CT"	"09001"	"1999"	"1999"	108	877043	12.3
+	"Fairfield County, CT"	"09001"	"2000"	"2000"	116	882567	13.1
+	"Fairfield County, CT"	"09001"	"2001"	"2001"	102	889063	11.5
+	"Fairfield County, CT"	"09001"	"2002"	"2002"	132	892900	14.8
+	"Hartford County, CT"	"09003"	"1999"	"1999"	141	853039	16.5
+	"Hartford County, CT"	"09003"	"2000"	"2000"	157	857183	18.3
+	"Hartford County, CT"	"09003"	"2001"	"2001"	136	862573	15.8
+	"Hartford County, CT"	"09003"	"2002"	"2002"	158	867451	18.2
+	"Litchfield County, CT"	"09005"	"1999"	"1999"	30	181328	16.5
+	"Litchfield County, CT"	"09005"	"2000"	"2000"	24	182193	13.2
+	"Litchfield County, CT"	"09005"	"2001"	"2001"	26	184118	14.1
+	"Litchfield County, CT"	"09005"	"2002"	"2002"	23	185974	12.4
+	"Middlesex County, CT"	"09007"	"1999"	"1999"	17	153340	Unreliable
+	"Middlesex County, CT"	"09007"	"2000"	"2000"	25	155071	16.1
+	"Middlesex County, CT"	"09007"	"2001"	"2001"	18	157006	Unreliable
+	"Middlesex County, CT"	"09007"	"2002"	"2002"	21	159187	13.2
+	"New Haven County, CT"	"09009"	"1999"	"1999"	138	820396	16.8
+	"New Haven County, CT"	"09009"	"2000"	"2000"	130	824008	15.8
+	"New Haven County, CT"	"09009"	"2001"	"2001"	127	829875	15.3
+	"New Haven County, CT"	"09009"	"2002"	"2002"	166	835099	19.9
+	"New London County, CT"	"09011"	"1999"	"1999"	34	257568	13.2
+	"New London County, CT"	"09011"	"2000"	"2000"	45	259088	17.4
+	"New London County, CT"	"09011"	"2001"	"2001"	38	261396	14.5
+	"New London County, CT"	"09011"	"2002"	"2002"	43	264698	16.2
+	"Tolland County, CT"	"09013"	"1999"	"1999"	17	134939	Unreliable
+	"Tolland County, CT"	"09013"	"2000"	"2000"	17	136364	Unreliable
+	"Tolland County, CT"	"09013"	"2001"	"2001"	15	138934	Unreliable
+	"Tolland County, CT"	"09013"	"2002"	"2002"	13	142362	Unreliable
+	"Windham County, CT"	"09015"	"1999"	"1999"	20	108748	18.4
+	"Windham County, CT"	"09015"	"2000"	"2000"	17	109091	Unreliable
+	"Windham County, CT"	"09015"	"2001"	"2001"	24	109870	21.8
+	"Windham County, CT"	"09015"	"2002"	"2002"	19	111078	Unreliable
+	"Kent County, DE"	"10001"	"1999"	"1999"	14	125611	Unreliable
+	"Kent County, DE"	"10001"	"2000"	"2000"	15	126697	Unreliable
+	"Kent County, DE"	"10001"	"2001"	"2001"	21	129228	16.3
+	"Kent County, DE"	"10001"	"2002"	"2002"	24	131824	18.2
+	"New Castle County, DE"	"10003"	"1999"	"1999"	87	496079	17.5
+	"New Castle County, DE"	"10003"	"2000"	"2000"	76	500265	15.2
+	"New Castle County, DE"	"10003"	"2001"	"2001"	92	506026	18.2
+	"New Castle County, DE"	"10003"	"2002"	"2002"	112	510158	22.0
+	"Sussex County, DE"	"10005"	"1999"	"1999"	15	153300	Unreliable
+	"Sussex County, DE"	"10005"	"2000"	"2000"	20	156638	12.8
+	"Sussex County, DE"	"10005"	"2001"	"2001"	26	160445	16.2
+	"Sussex County, DE"	"10005"	"2002"	"2002"	25	164187	15.2
+	"District of Columbia, DC"	"11001"	"1999"	"1999"	132	570213	23.1
+	"District of Columbia, DC"	"11001"	"2000"	"2000"	197	572059	34.4
+	"District of Columbia, DC"	"11001"	"2001"	"2001"	224	574504	39.0
+	"District of Columbia, DC"	"11001"	"2002"	"2002"	187	573158	32.6
+	"Alachua County, FL"	"12001"	"1999"	"1999"	23	215847	10.7
+	"Alachua County, FL"	"12001"	"2000"	"2000"	35	217955	16.1
+	"Alachua County, FL"	"12001"	"2001"	"2001"	32	221718	14.4
+	"Alachua County, FL"	"12001"	"2002"	"2002"	38	224614	16.9
+	"Bay County, FL"	"12005"	"1999"	"1999"	27	148149	18.2
+	"Bay County, FL"	"12005"	"2000"	"2000"	32	148217	21.6
+	"Bay County, FL"	"12005"	"2001"	"2001"	41	150207	27.3
+	"Bay County, FL"	"12005"	"2002"	"2002"	52	152741	34.0
+	"Brevard County, FL"	"12009"	"1999"	"1999"	92	472138	19.5
+	"Brevard County, FL"	"12009"	"2000"	"2000"	92	476230	19.3
+	"Brevard County, FL"	"12009"	"2001"	"2001"	124	486429	25.5
+	"Brevard County, FL"	"12009"	"2002"	"2002"	161	495425	32.5
+	"Broward County, FL"	"12011"	"1999"	"1999"	191	1594130	12.0
+	"Broward County, FL"	"12011"	"2000"	"2000"	245	1623018	15.1
+	"Broward County, FL"	"12011"	"2001"	"2001"	330	1662848	19.8
+	"Broward County, FL"	"12011"	"2002"	"2002"	395	1690118	23.4
+	"Charlotte County, FL"	"12015"	"1999"	"1999"	26	140240	18.5
+	"Charlotte County, FL"	"12015"	"2000"	"2000"	18	141627	Unreliable
+	"Charlotte County, FL"	"12015"	"2001"	"2001"	16	146311	Unreliable
+	"Charlotte County, FL"	"12015"	"2002"	"2002"	24	150123	16.0
+	"Citrus County, FL"	"12017"	"1999"	"1999"	18	116634	Unreliable
+	"Citrus County, FL"	"12017"	"2000"	"2000"	19	118085	Unreliable
+	"Citrus County, FL"	"12017"	"2001"	"2001"	32	121197	26.4
+	"Citrus County, FL"	"12017"	"2002"	"2002"	25	123491	20.2
+	"Clay County, FL"	"12019"	"1999"	"1999"	20	138704	14.4
+	"Clay County, FL"	"12019"	"2000"	"2000"	18	140814	Unreliable
+	"Clay County, FL"	"12019"	"2001"	"2001"	37	145685	25.4
+	"Clay County, FL"	"12019"	"2002"	"2002"	37	150947	24.5
+	"Collier County, FL"	"12021"	"1999"	"1999"	28	245094	11.4
+	"Collier County, FL"	"12021"	"2000"	"2000"	39	251377	15.5
+	"Collier County, FL"	"12021"	"2001"	"2001"	55	264240	20.8
+	"Collier County, FL"	"12021"	"2002"	"2002"	53	275490	19.2
+	"Columbia County, FL"	"12023"	"2000"	"2000"	17	56513	Unreliable
+	"Columbia County, FL"	"12023"	"2001"	"2001"	10	57040	Unreliable
+	"Columbia County, FL"	"12023"	"2002"	"2002"	11	57930	Unreliable
+	"Duval County, FL"	"12031"	"1999"	"1999"	130	773150	16.8
+	"Duval County, FL"	"12031"	"2000"	"2000"	139	778879	17.8
+	"Duval County, FL"	"12031"	"2001"	"2001"	167	790681	21.1
+	"Duval County, FL"	"12031"	"2002"	"2002"	175	800532	21.9
+	"Escambia County, FL"	"12033"	"1999"	"1999"	62	293956	21.1
+	"Escambia County, FL"	"12033"	"2000"	"2000"	63	294410	21.4
+	"Escambia County, FL"	"12033"	"2001"	"2001"	67	297776	22.5
+	"Escambia County, FL"	"12033"	"2002"	"2002"	67	297568	22.5
+	"Flagler County, FL"	"12035"	"2002"	"2002"	10	57905	Unreliable
+	"Hernando County, FL"	"12053"	"1999"	"1999"	13	129263	Unreliable
+	"Hernando County, FL"	"12053"	"2000"	"2000"	18	130802	Unreliable
+	"Hernando County, FL"	"12053"	"2001"	"2001"	34	134127	25.3
+	"Hernando County, FL"	"12053"	"2002"	"2002"	37	137818	26.8
+	"Highlands County, FL"	"12055"	"1999"	"1999"	14	86604	Unreliable
+	"Highlands County, FL"	"12055"	"2000"	"2000"	13	87366	Unreliable
+	"Highlands County, FL"	"12055"	"2001"	"2001"	11	88510	Unreliable
+	"Highlands County, FL"	"12055"	"2002"	"2002"	15	89939	Unreliable
+	"Hillsborough County, FL"	"12057"	"1999"	"1999"	171	984930	17.4
+	"Hillsborough County, FL"	"12057"	"2000"	"2000"	194	998948	19.4
+	"Hillsborough County, FL"	"12057"	"2001"	"2001"	221	1028385	21.5
+	"Hillsborough County, FL"	"12057"	"2002"	"2002"	254	1054860	24.1
+	"Indian River County, FL"	"12061"	"1999"	"1999"	18	111294	Unreliable
+	"Indian River County, FL"	"12061"	"2000"	"2000"	19	112947	Unreliable
+	"Indian River County, FL"	"12061"	"2001"	"2001"	35	115456	30.3
+	"Indian River County, FL"	"12061"	"2002"	"2002"	33	118144	27.9
+	"Jackson County, FL"	"12063"	"2001"	"2001"	10	46242	Unreliable
+	"Jackson County, FL"	"12063"	"2002"	"2002"	10	46139	Unreliable
+	"Lake County, FL"	"12069"	"1999"	"1999"	23	205123	11.2
+	"Lake County, FL"	"12069"	"2000"	"2000"	33	210528	15.7
+	"Lake County, FL"	"12069"	"2001"	"2001"	44	222297	19.8
+	"Lake County, FL"	"12069"	"2002"	"2002"	41	231519	17.7
+	"Lee County, FL"	"12071"	"1999"	"1999"	90	431981	20.8
+	"Lee County, FL"	"12071"	"2000"	"2000"	99	440888	22.5
+	"Lee County, FL"	"12071"	"2001"	"2001"	110	461037	23.9
+	"Lee County, FL"	"12071"	"2002"	"2002"	127	478889	26.5
+	"Leon County, FL"	"12073"	"1999"	"1999"	36	235871	15.3
+	"Leon County, FL"	"12073"	"2000"	"2000"	25	239452	10.4
+	"Leon County, FL"	"12073"	"2001"	"2001"	38	242583	15.7
+	"Leon County, FL"	"12073"	"2002"	"2002"	23	245404	9.4
+	"Levy County, FL"	"12075"	"1999"	"1999"	10	33893	Unreliable
+	"Levy County, FL"	"12075"	"2000"	"2000"	11	34450	Unreliable
+	"Levy County, FL"	"12075"	"2001"	"2001"	13	35118	Unreliable
+	"Manatee County, FL"	"12081"	"1999"	"1999"	45	259053	17.4
+	"Manatee County, FL"	"12081"	"2000"	"2000"	50	264002	18.9
+	"Manatee County, FL"	"12081"	"2001"	"2001"	55	272281	20.2
+	"Manatee County, FL"	"12081"	"2002"	"2002"	62	279950	22.1
+	"Marion County, FL"	"12083"	"1999"	"1999"	31	254964	12.2
+	"Marion County, FL"	"12083"	"2000"	"2000"	36	258916	13.9
+	"Marion County, FL"	"12083"	"2001"	"2001"	48	264553	18.1
+	"Marion County, FL"	"12083"	"2002"	"2002"	53	271716	19.5
+	"Martin County, FL"	"12085"	"1999"	"1999"	15	125974	Unreliable
+	"Martin County, FL"	"12085"	"2000"	"2000"	19	126731	Unreliable
+	"Martin County, FL"	"12085"	"2001"	"2001"	43	129856	33.1
+	"Martin County, FL"	"12085"	"2002"	"2002"	25	132945	18.8
+	"Miami-Dade County, FL"	"12086"	"1999"	"1999"	236	2220961	10.6
+	"Miami-Dade County, FL"	"12086"	"2000"	"2000"	262	2253362	11.6
+	"Miami-Dade County, FL"	"12086"	"2001"	"2001"	280	2287458	12.2
+	"Miami-Dade County, FL"	"12086"	"2002"	"2002"	252	2315747	10.9
+	"Monroe County, FL"	"12087"	"1999"	"1999"	43	79973	53.8
+	"Monroe County, FL"	"12087"	"2000"	"2000"	29	79589	36.4
+	"Monroe County, FL"	"12087"	"2001"	"2001"	33	79038	41.8
+	"Monroe County, FL"	"12087"	"2002"	"2002"	41	78755	52.1
+	"Nassau County, FL"	"12089"	"2000"	"2000"	10	57663	Unreliable
+	"Okaloosa County, FL"	"12091"	"1999"	"1999"	25	169054	14.8
+	"Okaloosa County, FL"	"12091"	"2000"	"2000"	23	170498	13.5
+	"Okaloosa County, FL"	"12091"	"2001"	"2001"	38	172564	22.0
+	"Okaloosa County, FL"	"12091"	"2002"	"2002"	39	176257	22.1
+	"Okeechobee County, FL"	"12093"	"2000"	"2000"	10	35910	Unreliable
+	"Okeechobee County, FL"	"12093"	"2002"	"2002"	10	36776	Unreliable
+	"Orange County, FL"	"12095"	"1999"	"1999"	111	875681	12.7
+	"Orange County, FL"	"12095"	"2000"	"2000"	107	896344	11.9
+	"Orange County, FL"	"12095"	"2001"	"2001"	151	931775	16.2
+	"Orange County, FL"	"12095"	"2002"	"2002"	142	955136	14.9
+	"Osceola County, FL"	"12097"	"1999"	"1999"	18	167021	Unreliable
+	"Osceola County, FL"	"12097"	"2000"	"2000"	21	172493	12.2
+	"Osceola County, FL"	"12097"	"2001"	"2001"	26	181694	14.3
+	"Osceola County, FL"	"12097"	"2002"	"2002"	19	190844	Unreliable
+	"Palm Beach County, FL"	"12099"	"1999"	"1999"	157	1116913	14.1
+	"Palm Beach County, FL"	"12099"	"2000"	"2000"	187	1131184	16.5
+	"Palm Beach County, FL"	"12099"	"2001"	"2001"	241	1160474	20.8
+	"Palm Beach County, FL"	"12099"	"2002"	"2002"	290	1191340	24.3
+	"Pasco County, FL"	"12101"	"1999"	"1999"	56	337533	16.6
+	"Pasco County, FL"	"12101"	"2000"	"2000"	71	344765	20.6
+	"Pasco County, FL"	"12101"	"2001"	"2001"	97	357653	27.1
+	"Pasco County, FL"	"12101"	"2002"	"2002"	93	369665	25.2
+	"Pinellas County, FL"	"12103"	"1999"	"1999"	207	917379	22.6
+	"Pinellas County, FL"	"12103"	"2000"	"2000"	198	921482	21.5
+	"Pinellas County, FL"	"12103"	"2001"	"2001"	283	923850	30.6
+	"Pinellas County, FL"	"12103"	"2002"	"2002"	263	925102	28.4
+	"Polk County, FL"	"12105"	"1999"	"1999"	60	478047	12.6
+	"Polk County, FL"	"12105"	"2000"	"2000"	72	483924	14.9
+	"Polk County, FL"	"12105"	"2001"	"2001"	73	492917	14.8
+	"Polk County, FL"	"12105"	"2002"	"2002"	97	501469	19.3
+	"Putnam County, FL"	"12107"	"1999"	"1999"	10	70499	Unreliable
+	"Putnam County, FL"	"12107"	"2001"	"2001"	17	70585	Unreliable
+	"St. Johns County, FL"	"12109"	"1999"	"1999"	10	119646	Unreliable
+	"St. Johns County, FL"	"12109"	"2000"	"2000"	15	123135	Unreliable
+	"St. Johns County, FL"	"12109"	"2001"	"2001"	10	129805	Unreliable
+	"St. Johns County, FL"	"12109"	"2002"	"2002"	24	135770	17.7
+	"St. Lucie County, FL"	"12111"	"1999"	"1999"	37	190349	19.4
+	"St. Lucie County, FL"	"12111"	"2000"	"2000"	33	192695	17.1
+	"St. Lucie County, FL"	"12111"	"2001"	"2001"	50	198459	25.2
+	"St. Lucie County, FL"	"12111"	"2002"	"2002"	39	205796	19.0
+	"Santa Rosa County, FL"	"12113"	"1999"	"1999"	19	116070	Unreliable
+	"Santa Rosa County, FL"	"12113"	"2000"	"2000"	21	117743	17.8
+	"Santa Rosa County, FL"	"12113"	"2001"	"2001"	27	121261	22.3
+	"Santa Rosa County, FL"	"12113"	"2002"	"2002"	25	127438	19.6
+	"Sarasota County, FL"	"12115"	"1999"	"1999"	59	322839	18.3
+	"Sarasota County, FL"	"12115"	"2000"	"2000"	69	325957	21.2
+	"Sarasota County, FL"	"12115"	"2001"	"2001"	102	333707	30.6
+	"Sarasota County, FL"	"12115"	"2002"	"2002"	91	340590	26.7
+	"Seminole County, FL"	"12117"	"1999"	"1999"	29	360168	8.1
+	"Seminole County, FL"	"12117"	"2000"	"2000"	44	365196	12.0
+	"Seminole County, FL"	"12117"	"2001"	"2001"	53	374593	14.1
+	"Seminole County, FL"	"12117"	"2002"	"2002"	64	382846	16.7
+	"Sumter County, FL"	"12119"	"2002"	"2002"	16	59539	Unreliable
+	"Suwannee County, FL"	"12121"	"2002"	"2002"	10	36186	Unreliable
+	"Volusia County, FL"	"12127"	"1999"	"1999"	80	438368	18.2
+	"Volusia County, FL"	"12127"	"2000"	"2000"	73	443343	16.5
+	"Volusia County, FL"	"12127"	"2001"	"2001"	86	451103	19.1
+	"Volusia County, FL"	"12127"	"2002"	"2002"	115	458248	25.1
+	"Walton County, FL"	"12131"	"2000"	"2000"	10	40601	Unreliable
+	"Walton County, FL"	"12131"	"2001"	"2001"	14	42391	Unreliable
+	"Walton County, FL"	"12131"	"2002"	"2002"	16	43935	Unreliable
+	"Bartow County, GA"	"13015"	"2000"	"2000"	13	76019	Unreliable
+	"Bartow County, GA"	"13015"	"2001"	"2001"	16	79984	Unreliable
+	"Bartow County, GA"	"13015"	"2002"	"2002"	16	83106	Unreliable
+	"Bibb County, GA"	"13021"	"1999"	"1999"	28	154254	18.2
+	"Bibb County, GA"	"13021"	"2000"	"2000"	22	153887	14.3
+	"Bibb County, GA"	"13021"	"2001"	"2001"	27	153548	17.6
+	"Bibb County, GA"	"13021"	"2002"	"2002"	34	153929	22.1
+	"Carroll County, GA"	"13045"	"2000"	"2000"	10	87268	Unreliable
+	"Carroll County, GA"	"13045"	"2001"	"2001"	17	91132	Unreliable
+	"Carroll County, GA"	"13045"	"2002"	"2002"	19	94087	Unreliable
+	"Chatham County, GA"	"13051"	"1999"	"1999"	31	231630	13.4
+	"Chatham County, GA"	"13051"	"2000"	"2000"	16	232048	Unreliable
+	"Chatham County, GA"	"13051"	"2001"	"2001"	35	234150	14.9
+	"Chatham County, GA"	"13051"	"2002"	"2002"	24	236510	10.1
+	"Cherokee County, GA"	"13057"	"1999"	"1999"	13	137416	Unreliable
+	"Cherokee County, GA"	"13057"	"2000"	"2000"	14	141903	Unreliable
+	"Cherokee County, GA"	"13057"	"2001"	"2001"	10	151189	Unreliable
+	"Cherokee County, GA"	"13057"	"2002"	"2002"	15	158682	Unreliable
+	"Clarke County, GA"	"13059"	"1999"	"1999"	11	100173	Unreliable
+	"Clarke County, GA"	"13059"	"2001"	"2001"	12	103890	Unreliable
+	"Clarke County, GA"	"13059"	"2002"	"2002"	13	104673	Unreliable
+	"Clayton County, GA"	"13063"	"1999"	"1999"	14	229966	Unreliable
+	"Clayton County, GA"	"13063"	"2000"	"2000"	28	236517	11.8
+	"Clayton County, GA"	"13063"	"2001"	"2001"	28	245327	11.4
+	"Clayton County, GA"	"13063"	"2002"	"2002"	42	248954	16.9
+	"Cobb County, GA"	"13067"	"1999"	"1999"	53	588871	9.0
+	"Cobb County, GA"	"13067"	"2000"	"2000"	56	607751	9.2
+	"Cobb County, GA"	"13067"	"2001"	"2001"	57	623006	9.1
+	"Cobb County, GA"	"13067"	"2002"	"2002"	54	631018	8.6
+	"Columbia County, GA"	"13073"	"2001"	"2001"	11	92537	Unreliable
+	"Coweta County, GA"	"13077"	"2000"	"2000"	13	89215	Unreliable
+	"Coweta County, GA"	"13077"	"2002"	"2002"	10	97191	Unreliable
+	"DeKalb County, GA"	"13089"	"1999"	"1999"	62	656625	9.4
+	"DeKalb County, GA"	"13089"	"2000"	"2000"	61	665865	9.2
+	"DeKalb County, GA"	"13089"	"2001"	"2001"	84	670900	12.5
+	"DeKalb County, GA"	"13089"	"2002"	"2002"	92	669789	13.7
+	"Dougherty County, GA"	"13095"	"1999"	"1999"	16	96199	Unreliable
+	"Dougherty County, GA"	"13095"	"2000"	"2000"	16	96065	Unreliable
+	"Dougherty County, GA"	"13095"	"2001"	"2001"	18	95944	Unreliable
+	"Dougherty County, GA"	"13095"	"2002"	"2002"	20	95429	21.0
+	"Douglas County, GA"	"13097"	"2000"	"2000"	13	92174	Unreliable
+	"Douglas County, GA"	"13097"	"2002"	"2002"	14	98582	Unreliable
+	"Floyd County, GA"	"13115"	"1999"	"1999"	11	89659	Unreliable
+	"Floyd County, GA"	"13115"	"2000"	"2000"	21	90565	23.2
+	"Floyd County, GA"	"13115"	"2001"	"2001"	23	91181	25.2
+	"Floyd County, GA"	"13115"	"2002"	"2002"	17	92597	Unreliable
+	"Forsyth County, GA"	"13117"	"2001"	"2001"	14	108491	Unreliable
+	"Forsyth County, GA"	"13117"	"2002"	"2002"	12	115797	Unreliable
+	"Fulton County, GA"	"13121"	"1999"	"1999"	144	807365	17.8
+	"Fulton County, GA"	"13121"	"2000"	"2000"	153	816006	18.7
+	"Fulton County, GA"	"13121"	"2001"	"2001"	170	820213	20.7
+	"Fulton County, GA"	"13121"	"2002"	"2002"	137	815224	16.8
+	"Glynn County, GA"	"13127"	"1999"	"1999"	11	67426	Unreliable
+	"Gwinnett County, GA"	"13135"	"1999"	"1999"	31	567569	5.5
+	"Gwinnett County, GA"	"13135"	"2000"	"2000"	47	588448	8.0
+	"Gwinnett County, GA"	"13135"	"2001"	"2001"	51	620025	8.2
+	"Gwinnett County, GA"	"13135"	"2002"	"2002"	49	641986	7.6
+	"Hall County, GA"	"13139"	"1999"	"1999"	11	134781	Unreliable
+	"Hall County, GA"	"13139"	"2000"	"2000"	17	139277	Unreliable
+	"Hall County, GA"	"13139"	"2001"	"2001"	23	146148	15.7
+	"Hall County, GA"	"13139"	"2002"	"2002"	27	150229	18.0
+	"Haralson County, GA"	"13143"	"2002"	"2002"	11	26676	Unreliable
+	"Hart County, GA"	"13147"	"2001"	"2001"	10	23049	Unreliable
+	"Henry County, GA"	"13151"	"2000"	"2000"	13	119341	Unreliable
+	"Henry County, GA"	"13151"	"2001"	"2001"	14	131000	Unreliable
+	"Henry County, GA"	"13151"	"2002"	"2002"	15	140747	Unreliable
+	"Houston County, GA"	"13153"	"2000"	"2000"	16	110765	Unreliable
+	"Houston County, GA"	"13153"	"2001"	"2001"	22	113432	19.4
+	"Houston County, GA"	"13153"	"2002"	"2002"	18	116411	Unreliable
+	"Jackson County, GA"	"13157"	"2002"	"2002"	11	44940	Unreliable
+	"Lowndes County, GA"	"13185"	"2001"	"2001"	12	92402	Unreliable
+	"Lowndes County, GA"	"13185"	"2002"	"2002"	13	93903	Unreliable
+	"Muscogee County, GA"	"13215"	"1999"	"1999"	20	185734	10.8
+	"Muscogee County, GA"	"13215"	"2000"	"2000"	22	186291	11.8
+	"Muscogee County, GA"	"13215"	"2001"	"2001"	24	186375	12.9
+	"Muscogee County, GA"	"13215"	"2002"	"2002"	29	185139	15.7
+	"Paulding County, GA"	"13223"	"2002"	"2002"	10	94561	Unreliable
+	"Richmond County, GA"	"13245"	"1999"	"1999"	22	199395	11.0
+	"Richmond County, GA"	"13245"	"2000"	"2000"	14	199775	Unreliable
+	"Richmond County, GA"	"13245"	"2001"	"2001"	18	199443	Unreliable
+	"Richmond County, GA"	"13245"	"2002"	"2002"	36	198670	18.1
+	"Rockdale County, GA"	"13247"	"2000"	"2000"	10	70111	Unreliable
+	"Rockdale County, GA"	"13247"	"2002"	"2002"	15	73158	Unreliable
+	"Spalding County, GA"	"13255"	"2001"	"2001"	12	58927	Unreliable
+	"Thomas County, GA"	"13275"	"2001"	"2001"	11	42674	Unreliable
+	"Troup County, GA"	"13285"	"2000"	"2000"	13	58779	Unreliable
+	"Walton County, GA"	"13297"	"2001"	"2001"	12	63847	Unreliable
+	"Walton County, GA"	"13297"	"2002"	"2002"	10	66103	Unreliable
+	"Whitfield County, GA"	"13313"	"1999"	"1999"	11	82505	Unreliable
+	"Whitfield County, GA"	"13313"	"2001"	"2001"	10	86332	Unreliable
+	"Whitfield County, GA"	"13313"	"2002"	"2002"	10	88041	Unreliable
+	"Hawaii County, HI"	"15001"	"1999"	"1999"	30	146970	20.4
+	"Hawaii County, HI"	"15001"	"2000"	"2000"	18	148677	Unreliable
+	"Hawaii County, HI"	"15001"	"2001"	"2001"	21	151690	13.8
+	"Hawaii County, HI"	"15001"	"2002"	"2002"	21	154576	13.6
+	"Honolulu County, HI"	"15003"	"1999"	"1999"	70	878906	8.0
+	"Honolulu County, HI"	"15003"	"2000"	"2000"	67	876156	7.6
+	"Honolulu County, HI"	"15003"	"2001"	"2001"	83	882755	9.4
+	"Honolulu County, HI"	"15003"	"2002"	"2002"	95	890473	10.7
+	"Maui County, HI"	"15009"	"1999"	"1999"	15	126002	Unreliable
+	"Maui County, HI"	"15009"	"2000"	"2000"	11	128094	Unreliable
+	"Maui County, HI"	"15009"	"2002"	"2002"	10	134450	Unreliable
+	"Ada County, ID"	"16001"	"1999"	"1999"	39	294292	13.3
+	"Ada County, ID"	"16001"	"2000"	"2000"	37	300904	12.3
+	"Ada County, ID"	"16001"	"2001"	"2001"	57	313896	18.2
+	"Ada County, ID"	"16001"	"2002"	"2002"	55	321616	17.1
+	"Bannock County, ID"	"16005"	"1999"	"1999"	10	75527	Unreliable
+	"Bannock County, ID"	"16005"	"2000"	"2000"	18	75565	Unreliable
+	"Bannock County, ID"	"16005"	"2001"	"2001"	15	76296	Unreliable
+	"Bannock County, ID"	"16005"	"2002"	"2002"	20	76487	26.1
+	"Bonner County, ID"	"16017"	"1999"	"1999"	10	36262	Unreliable
+	"Bonneville County, ID"	"16019"	"1999"	"1999"	11	81576	Unreliable
+	"Bonneville County, ID"	"16019"	"2001"	"2001"	15	83907	Unreliable
+	"Bonneville County, ID"	"16019"	"2002"	"2002"	28	85060	32.9
+	"Canyon County, ID"	"16027"	"1999"	"1999"	14	126720	Unreliable
+	"Canyon County, ID"	"16027"	"2001"	"2001"	16	139179	Unreliable
+	"Canyon County, ID"	"16027"	"2002"	"2002"	19	145160	Unreliable
+	"Kootenai County, ID"	"16055"	"1999"	"1999"	11	106346	Unreliable
+	"Kootenai County, ID"	"16055"	"2000"	"2000"	19	108685	Unreliable
+	"Kootenai County, ID"	"16055"	"2001"	"2001"	20	111542	17.9
+	"Kootenai County, ID"	"16055"	"2002"	"2002"	23	113667	20.2
+	"Nez Perce County, ID"	"16069"	"2000"	"2000"	10	37410	Unreliable
+	"Nez Perce County, ID"	"16069"	"2002"	"2002"	11	37111	Unreliable
+	"Shoshone County, ID"	"16079"	"2002"	"2002"	10	13044	Unreliable
+	"Twin Falls County, ID"	"16083"	"2001"	"2001"	16	64556	Unreliable
+	"Twin Falls County, ID"	"16083"	"2002"	"2002"	11	65473	Unreliable
+	"Champaign County, IL"	"17019"	"1999"	"1999"	17	178652	Unreliable
+	"Champaign County, IL"	"17019"	"2001"	"2001"	20	181956	11.0
+	"Champaign County, IL"	"17019"	"2002"	"2002"	18	184198	Unreliable
+	"Cook County, IL"	"17031"	"1999"	"1999"	907	5365344	16.9
+	"Cook County, IL"	"17031"	"2000"	"2000"	870	5376741	16.2
+	"Cook County, IL"	"17031"	"2001"	"2001"	833	5360562	15.5
+	"Cook County, IL"	"17031"	"2002"	"2002"	819	5328775	15.4
+	"DeKalb County, IL"	"17037"	"2002"	"2002"	10	91951	Unreliable
+	"DuPage County, IL"	"17043"	"1999"	"1999"	61	898083	6.8
+	"DuPage County, IL"	"17043"	"2000"	"2000"	75	904161	8.3
+	"DuPage County, IL"	"17043"	"2001"	"2001"	87	911474	9.5
+	"DuPage County, IL"	"17043"	"2002"	"2002"	103	913880	11.3
+	"Kane County, IL"	"17089"	"1999"	"1999"	40	396371	10.1
+	"Kane County, IL"	"17089"	"2000"	"2000"	42	404119	10.4
+	"Kane County, IL"	"17089"	"2001"	"2001"	55	423975	13.0
+	"Kane County, IL"	"17089"	"2002"	"2002"	55	440437	12.5
+	"Kankakee County, IL"	"17091"	"1999"	"1999"	18	103675	Unreliable
+	"Kankakee County, IL"	"17091"	"2001"	"2001"	15	104490	Unreliable
+	"Kankakee County, IL"	"17091"	"2002"	"2002"	15	104932	Unreliable
+	"Lake County, IL"	"17097"	"1999"	"1999"	52	633094	8.2
+	"Lake County, IL"	"17097"	"2000"	"2000"	63	644356	9.8
+	"Lake County, IL"	"17097"	"2001"	"2001"	83	658986	12.6
+	"Lake County, IL"	"17097"	"2002"	"2002"	74	668022	11.1
+	"LaSalle County, IL"	"17099"	"1999"	"1999"	12	111600	Unreliable
+	"LaSalle County, IL"	"17099"	"2000"	"2000"	10	111509	Unreliable
+	"LaSalle County, IL"	"17099"	"2001"	"2001"	17	112212	Unreliable
+	"LaSalle County, IL"	"17099"	"2002"	"2002"	11	111904	Unreliable
+	"McHenry County, IL"	"17111"	"1999"	"1999"	25	255448	9.8
+	"McHenry County, IL"	"17111"	"2000"	"2000"	25	260077	9.6
+	"McHenry County, IL"	"17111"	"2001"	"2001"	21	267632	7.8
+	"McHenry County, IL"	"17111"	"2002"	"2002"	28	274441	10.2
+	"McLean County, IL"	"17113"	"2000"	"2000"	10	150433	Unreliable
+	"McLean County, IL"	"17113"	"2001"	"2001"	16	152713	Unreliable
+	"McLean County, IL"	"17113"	"2002"	"2002"	16	155882	Unreliable
+	"Macon County, IL"	"17115"	"1999"	"1999"	15	115142	Unreliable
+	"Macon County, IL"	"17115"	"2001"	"2001"	14	113604	Unreliable
+	"Macon County, IL"	"17115"	"2002"	"2002"	10	112564	Unreliable
+	"Madison County, IL"	"17119"	"1999"	"1999"	26	258739	10.0
+	"Madison County, IL"	"17119"	"2000"	"2000"	24	258941	9.3
+	"Madison County, IL"	"17119"	"2001"	"2001"	33	260343	12.7
+	"Madison County, IL"	"17119"	"2002"	"2002"	33	261130	12.6
+	"Peoria County, IL"	"17143"	"1999"	"1999"	23	184042	12.5
+	"Peoria County, IL"	"17143"	"2000"	"2000"	20	183433	10.9
+	"Peoria County, IL"	"17143"	"2001"	"2001"	26	182348	14.3
+	"Peoria County, IL"	"17143"	"2002"	"2002"	18	182685	Unreliable
+	"Rock Island County, IL"	"17161"	"1999"	"1999"	16	149961	Unreliable
+	"Rock Island County, IL"	"17161"	"2000"	"2000"	12	149374	Unreliable
+	"Rock Island County, IL"	"17161"	"2002"	"2002"	12	148286	Unreliable
+	"St. Clair County, IL"	"17163"	"1999"	"1999"	28	256201	10.9
+	"St. Clair County, IL"	"17163"	"2000"	"2000"	34	256082	13.3
+	"St. Clair County, IL"	"17163"	"2001"	"2001"	27	256540	10.5
+	"St. Clair County, IL"	"17163"	"2002"	"2002"	32	257952	12.4
+	"Sangamon County, IL"	"17167"	"1999"	"1999"	18	188957	Unreliable
+	"Sangamon County, IL"	"17167"	"2000"	"2000"	15	188951	Unreliable
+	"Sangamon County, IL"	"17167"	"2001"	"2001"	15	189924	Unreliable
+	"Sangamon County, IL"	"17167"	"2002"	"2002"	19	190756	Unreliable
+	"Tazewell County, IL"	"17179"	"1999"	"1999"	12	128540	Unreliable
+	"Tazewell County, IL"	"17179"	"2000"	"2000"	11	128485	Unreliable
+	"Tazewell County, IL"	"17179"	"2001"	"2001"	12	128468	Unreliable
+	"Tazewell County, IL"	"17179"	"2002"	"2002"	14	128722	Unreliable
+	"Vermilion County, IL"	"17183"	"1999"	"1999"	11	84276	Unreliable
+	"Vermilion County, IL"	"17183"	"2001"	"2001"	11	83646	Unreliable
+	"Will County, IL"	"17197"	"1999"	"1999"	46	486207	9.5
+	"Will County, IL"	"17197"	"2000"	"2000"	32	502266	6.4
+	"Will County, IL"	"17197"	"2001"	"2001"	56	530086	10.6
+	"Will County, IL"	"17197"	"2002"	"2002"	63	553714	11.4
+	"Winnebago County, IL"	"17201"	"1999"	"1999"	55	276752	19.9
+	"Winnebago County, IL"	"17201"	"2000"	"2000"	44	278418	15.8
+	"Winnebago County, IL"	"17201"	"2001"	"2001"	57	280009	20.4
+	"Winnebago County, IL"	"17201"	"2002"	"2002"	53	281162	18.9
+	"Allen County, IN"	"18003"	"1999"	"1999"	34	328699	10.3
+	"Allen County, IN"	"18003"	"2000"	"2000"	23	331849	6.9
+	"Allen County, IN"	"18003"	"2001"	"2001"	29	334956	8.7
+	"Allen County, IN"	"18003"	"2002"	"2002"	17	337124	Unreliable
+	"Bartholomew County, IN"	"18005"	"2002"	"2002"	14	71890	Unreliable
+	"Clark County, IN"	"18019"	"2000"	"2000"	10	96472	Unreliable
+	"Clark County, IN"	"18019"	"2002"	"2002"	14	97935	Unreliable
+	"Delaware County, IN"	"18035"	"2000"	"2000"	12	118769	Unreliable
+	"Delaware County, IN"	"18035"	"2002"	"2002"	15	119949	Unreliable
+	"Elkhart County, IN"	"18039"	"1999"	"1999"	15	180645	Unreliable
+	"Elkhart County, IN"	"18039"	"2000"	"2000"	16	182791	Unreliable
+	"Elkhart County, IN"	"18039"	"2002"	"2002"	11	184543	Unreliable
+	"Floyd County, IN"	"18043"	"2002"	"2002"	11	71407	Unreliable
+	"Grant County, IN"	"18053"	"2000"	"2000"	10	73403	Unreliable
+	"Grant County, IN"	"18053"	"2002"	"2002"	14	72425	Unreliable
+	"Hamilton County, IN"	"18057"	"1999"	"1999"	14	175348	Unreliable
+	"Hamilton County, IN"	"18057"	"2000"	"2000"	14	182740	Unreliable
+	"Henry County, IN"	"18065"	"2001"	"2001"	11	48397	Unreliable
+	"Howard County, IN"	"18067"	"1999"	"1999"	11	84772	Unreliable
+	"Howard County, IN"	"18067"	"2002"	"2002"	10	84563	Unreliable
+	"Johnson County, IN"	"18081"	"2000"	"2000"	11	115209	Unreliable
+	"Johnson County, IN"	"18081"	"2002"	"2002"	11	120447	Unreliable
+	"Lake County, IN"	"18089"	"1999"	"1999"	52	484792	10.7
+	"Lake County, IN"	"18089"	"2000"	"2000"	62	484564	12.8
+	"Lake County, IN"	"18089"	"2001"	"2001"	48	484454	9.9
+	"Lake County, IN"	"18089"	"2002"	"2002"	38	484520	7.8
+	"La Porte County, IN"	"18091"	"1999"	"1999"	11	110028	Unreliable
+	"La Porte County, IN"	"18091"	"2001"	"2001"	11	110077	Unreliable
+	"Madison County, IN"	"18095"	"1999"	"1999"	13	133334	Unreliable
+	"Madison County, IN"	"18095"	"2000"	"2000"	16	133358	Unreliable
+	"Madison County, IN"	"18095"	"2001"	"2001"	29	132920	21.8
+	"Madison County, IN"	"18095"	"2002"	"2002"	24	132433	18.1
+	"Marion County, IN"	"18097"	"1999"	"1999"	142	857461	16.6
+	"Marion County, IN"	"18097"	"2000"	"2000"	178	860454	20.7
+	"Marion County, IN"	"18097"	"2001"	"2001"	178	865662	20.6
+	"Marion County, IN"	"18097"	"2002"	"2002"	176	866210	20.3
+	"Monroe County, IN"	"18105"	"2001"	"2001"	14	121696	Unreliable
+	"Monroe County, IN"	"18105"	"2002"	"2002"	11	122628	Unreliable
+	"Porter County, IN"	"18127"	"1999"	"1999"	14	145815	Unreliable
+	"Porter County, IN"	"18127"	"2001"	"2001"	11	148372	Unreliable
+	"St. Joseph County, IN"	"18141"	"1999"	"1999"	34	264952	12.8
+	"St. Joseph County, IN"	"18141"	"2000"	"2000"	32	265559	12.1
+	"St. Joseph County, IN"	"18141"	"2001"	"2001"	23	265502	8.7
+	"St. Joseph County, IN"	"18141"	"2002"	"2002"	28	265090	10.6
+	"Tippecanoe County, IN"	"18157"	"1999"	"1999"	11	147779	Unreliable
+	"Tippecanoe County, IN"	"18157"	"2001"	"2001"	11	151095	Unreliable
+	"Tippecanoe County, IN"	"18157"	"2002"	"2002"	13	152348	Unreliable
+	"Vanderburgh County, IN"	"18163"	"1999"	"1999"	26	171966	15.1
+	"Vanderburgh County, IN"	"18163"	"2000"	"2000"	22	171922	12.8
+	"Vanderburgh County, IN"	"18163"	"2001"	"2001"	15	172449	Unreliable
+	"Vanderburgh County, IN"	"18163"	"2002"	"2002"	26	173067	15.0
+	"Vigo County, IN"	"18167"	"2000"	"2000"	13	105848	Unreliable
+	"Vigo County, IN"	"18167"	"2001"	"2001"	13	105482	Unreliable
+	"Vigo County, IN"	"18167"	"2002"	"2002"	15	105221	Unreliable
+	"Wayne County, IN"	"18177"	"1999"	"1999"	13	71244	Unreliable
+	"Wayne County, IN"	"18177"	"2002"	"2002"	12	70545	Unreliable
+	"Black Hawk County, IA"	"19013"	"2000"	"2000"	10	128012	Unreliable
+	"Black Hawk County, IA"	"19013"	"2001"	"2001"	14	127765	Unreliable
+	"Black Hawk County, IA"	"19013"	"2002"	"2002"	16	126876	Unreliable
+	"Cerro Gordo County, IA"	"19033"	"2002"	"2002"	11	45430	Unreliable
+	"Johnson County, IA"	"19103"	"2001"	"2001"	11	113546	Unreliable
+	"Johnson County, IA"	"19103"	"2002"	"2002"	11	114948	Unreliable
+	"Linn County, IA"	"19113"	"1999"	"1999"	14	189931	Unreliable
+	"Linn County, IA"	"19113"	"2000"	"2000"	11	191701	Unreliable
+	"Linn County, IA"	"19113"	"2001"	"2001"	20	194359	10.3
+	"Linn County, IA"	"19113"	"2002"	"2002"	17	195987	Unreliable
+	"Polk County, IA"	"19153"	"1999"	"1999"	41	370592	11.1
+	"Polk County, IA"	"19153"	"2000"	"2000"	32	374601	8.5
+	"Polk County, IA"	"19153"	"2001"	"2001"	32	380108	8.4
+	"Polk County, IA"	"19153"	"2002"	"2002"	48	384355	12.5
+	"Pottawattamie County, IA"	"19155"	"2002"	"2002"	11	88447	Unreliable
+	"Scott County, IA"	"19163"	"1999"	"1999"	18	158765	Unreliable
+	"Scott County, IA"	"19163"	"2000"	"2000"	21	158668	13.2
+	"Scott County, IA"	"19163"	"2001"	"2001"	20	158203	12.6
+	"Scott County, IA"	"19163"	"2002"	"2002"	20	158086	12.7
+	"Woodbury County, IA"	"19193"	"1999"	"1999"	11	103801	Unreliable
+	"Woodbury County, IA"	"19193"	"2000"	"2000"	14	103877	Unreliable
+	"Woodbury County, IA"	"19193"	"2001"	"2001"	13	103129	Unreliable
+	"Woodbury County, IA"	"19193"	"2002"	"2002"	16	102666	Unreliable
+	"Douglas County, KS"	"20045"	"2001"	"2001"	10	101269	Unreliable
+	"Douglas County, KS"	"20045"	"2002"	"2002"	10	102552	Unreliable
+	"Johnson County, KS"	"20091"	"1999"	"1999"	32	443434	7.2
+	"Johnson County, KS"	"20091"	"2000"	"2000"	35	451086	7.8
+	"Johnson County, KS"	"20091"	"2001"	"2001"	55	463554	11.9
+	"Johnson County, KS"	"20091"	"2002"	"2002"	48	475239	10.1
+	"Leavenworth County, KS"	"20103"	"2001"	"2001"	13	69906	Unreliable
+	"Leavenworth County, KS"	"20103"	"2002"	"2002"	14	70793	Unreliable
+	"Montgomery County, KS"	"20125"	"2000"	"2000"	10	36252	Unreliable
+	"Riley County, KS"	"20161"	"2001"	"2001"	10	62962	Unreliable
+	"Sedgwick County, KS"	"20173"	"1999"	"1999"	47	451808	10.4
+	"Sedgwick County, KS"	"20173"	"2000"	"2000"	49	452869	10.8
+	"Sedgwick County, KS"	"20173"	"2001"	"2001"	69	456887	15.1
+	"Sedgwick County, KS"	"20173"	"2002"	"2002"	81	461020	17.6
+	"Shawnee County, KS"	"20177"	"1999"	"1999"	18	169499	Unreliable
+	"Shawnee County, KS"	"20177"	"2000"	"2000"	26	169871	15.3
+	"Shawnee County, KS"	"20177"	"2001"	"2001"	25	170320	14.7
+	"Shawnee County, KS"	"20177"	"2002"	"2002"	42	170349	24.7
+	"Wyandotte County, KS"	"20209"	"1999"	"1999"	10	157980	Unreliable
+	"Wyandotte County, KS"	"20209"	"2000"	"2000"	16	157882	Unreliable
+	"Wyandotte County, KS"	"20209"	"2001"	"2001"	20	158372	12.6
+	"Wyandotte County, KS"	"20209"	"2002"	"2002"	27	157498	17.1
+	"Bell County, KY"	"21013"	"2000"	"2000"	10	30060	Unreliable
+	"Bell County, KY"	"21013"	"2002"	"2002"	10	29691	Unreliable
+	"Boone County, KY"	"21015"	"2002"	"2002"	13	93323	Unreliable
+	"Boyd County, KY"	"21019"	"2001"	"2001"	13	49595	Unreliable
+	"Boyd County, KY"	"21019"	"2002"	"2002"	11	49578	Unreliable
+	"Campbell County, KY"	"21037"	"1999"	"1999"	14	88545	Unreliable
+	"Campbell County, KY"	"21037"	"2000"	"2000"	15	88616	Unreliable
+	"Campbell County, KY"	"21037"	"2001"	"2001"	14	88843	Unreliable
+	"Campbell County, KY"	"21037"	"2002"	"2002"	17	88596	Unreliable
+	"Christian County, KY"	"21047"	"2001"	"2001"	13	73397	Unreliable
+	"Clark County, KY"	"21049"	"2002"	"2002"	12	33407	Unreliable
+	"Daviess County, KY"	"21059"	"1999"	"1999"	12	91325	Unreliable
+	"Daviess County, KY"	"21059"	"2000"	"2000"	20	91545	21.8
+	"Daviess County, KY"	"21059"	"2001"	"2001"	15	91707	Unreliable
+	"Daviess County, KY"	"21059"	"2002"	"2002"	19	91821	Unreliable
+	"Fayette County, KY"	"21067"	"1999"	"1999"	31	258704	12.0
+	"Fayette County, KY"	"21067"	"2000"	"2000"	36	260512	13.8
+	"Fayette County, KY"	"21067"	"2001"	"2001"	44	263990	16.7
+	"Fayette County, KY"	"21067"	"2002"	"2002"	46	265822	17.3
+	"Floyd County, KY"	"21071"	"2001"	"2001"	11	41844	Unreliable
+	"Floyd County, KY"	"21071"	"2002"	"2002"	15	41671	Unreliable
+	"Franklin County, KY"	"21073"	"2002"	"2002"	10	48293	Unreliable
+	"Hardin County, KY"	"21093"	"2001"	"2001"	16	93715	Unreliable
+	"Harlan County, KY"	"21095"	"2000"	"2000"	10	33202	Unreliable
+	"Harlan County, KY"	"21095"	"2001"	"2001"	14	32184	Unreliable
+	"Jefferson County, KY"	"21111"	"1999"	"1999"	94	691879	13.6
+	"Jefferson County, KY"	"21111"	"2000"	"2000"	98	693604	14.1
+	"Jefferson County, KY"	"21111"	"2001"	"2001"	111	697159	15.9
+	"Jefferson County, KY"	"21111"	"2002"	"2002"	108	699810	15.4
+	"Kenton County, KY"	"21117"	"1999"	"1999"	19	150914	Unreliable
+	"Kenton County, KY"	"21117"	"2000"	"2000"	24	151464	15.8
+	"Kenton County, KY"	"21117"	"2001"	"2001"	31	151974	20.4
+	"Kenton County, KY"	"21117"	"2002"	"2002"	36	151777	23.7
+	"McCracken County, KY"	"21145"	"2000"	"2000"	14	65514	Unreliable
+	"McCracken County, KY"	"21145"	"2002"	"2002"	12	64588	Unreliable
+	"Perry County, KY"	"21193"	"2002"	"2002"	12	29180	Unreliable
+	"Pike County, KY"	"21195"	"1999"	"1999"	12	69502	Unreliable
+	"Pike County, KY"	"21195"	"2000"	"2000"	17	68736	Unreliable
+	"Pike County, KY"	"21195"	"2001"	"2001"	13	67607	Unreliable
+	"Pike County, KY"	"21195"	"2002"	"2002"	15	67438	Unreliable
+	"Pulaski County, KY"	"21199"	"2002"	"2002"	12	57545	Unreliable
+	"Scott County, KY"	"21209"	"2001"	"2001"	10	34547	Unreliable
+	"Warren County, KY"	"21227"	"2001"	"2001"	12	94211	Unreliable
+	"Warren County, KY"	"21227"	"2002"	"2002"	16	95576	Unreliable
+	"Acadia Parish, LA"	"22001"	"2002"	"2002"	11	59065	Unreliable
+	"Bossier Parish, LA"	"22015"	"1999"	"1999"	12	97284	Unreliable
+	"Bossier Parish, LA"	"22015"	"2000"	"2000"	13	98310	Unreliable
+	"Bossier Parish, LA"	"22015"	"2002"	"2002"	14	102227	Unreliable
+	"Caddo Parish, LA"	"22017"	"1999"	"1999"	38	251876	15.1
+	"Caddo Parish, LA"	"22017"	"2000"	"2000"	49	252161	19.4
+	"Caddo Parish, LA"	"22017"	"2001"	"2001"	39	249815	15.6
+	"Caddo Parish, LA"	"22017"	"2002"	"2002"	53	248753	21.3
+	"Calcasieu Parish, LA"	"22019"	"1999"	"1999"	24	183417	13.1
+	"Calcasieu Parish, LA"	"22019"	"2000"	"2000"	14	183577	Unreliable
+	"Calcasieu Parish, LA"	"22019"	"2001"	"2001"	25	183296	13.6
+	"Calcasieu Parish, LA"	"22019"	"2002"	"2002"	21	183487	11.4
+	"East Baton Rouge Parish, LA"	"22033"	"1999"	"1999"	49	412110	11.9
+	"East Baton Rouge Parish, LA"	"22033"	"2000"	"2000"	35	412852	8.5
+	"East Baton Rouge Parish, LA"	"22033"	"2001"	"2001"	32	411666	7.8
+	"East Baton Rouge Parish, LA"	"22033"	"2002"	"2002"	30	411024	7.3
+	"Jefferson Parish, LA"	"22051"	"1999"	"1999"	73	457571	16.0
+	"Jefferson Parish, LA"	"22051"	"2000"	"2000"	107	455466	23.5
+	"Jefferson Parish, LA"	"22051"	"2001"	"2001"	86	453154	19.0
+	"Jefferson Parish, LA"	"22051"	"2002"	"2002"	116	453429	25.6
+	"Lafayette Parish, LA"	"22055"	"1999"	"1999"	17	190049	Unreliable
+	"Lafayette Parish, LA"	"22055"	"2000"	"2000"	21	190503	11.0
+	"Lafayette Parish, LA"	"22055"	"2001"	"2001"	22	191725	11.5
+	"Lafayette Parish, LA"	"22055"	"2002"	"2002"	28	194565	14.4
+	"Lafourche Parish, LA"	"22057"	"2000"	"2000"	12	89974	Unreliable
+	"Lafourche Parish, LA"	"22057"	"2001"	"2001"	10	90105	Unreliable
+	"Livingston Parish, LA"	"22063"	"2000"	"2000"	12	91814	Unreliable
+	"Livingston Parish, LA"	"22063"	"2001"	"2001"	12	95597	Unreliable
+	"Livingston Parish, LA"	"22063"	"2002"	"2002"	16	99007	Unreliable
+	"Orleans Parish, LA"	"22071"	"1999"	"1999"	105	485511	21.6
+	"Orleans Parish, LA"	"22071"	"2000"	"2000"	93	484674	19.2
+	"Orleans Parish, LA"	"22071"	"2001"	"2001"	88	487363	18.1
+	"Orleans Parish, LA"	"22071"	"2002"	"2002"	94	489722	19.2
+	"Ouachita Parish, LA"	"22073"	"1999"	"1999"	12	147190	Unreliable
+	"Ouachita Parish, LA"	"22073"	"2000"	"2000"	12	147250	Unreliable
+	"Ouachita Parish, LA"	"22073"	"2001"	"2001"	21	146789	14.3
+	"Ouachita Parish, LA"	"22073"	"2002"	"2002"	19	147728	Unreliable
+	"Rapides Parish, LA"	"22079"	"2000"	"2000"	10	126337	Unreliable
+	"Rapides Parish, LA"	"22079"	"2001"	"2001"	15	126206	Unreliable
+	"Rapides Parish, LA"	"22079"	"2002"	"2002"	11	126283	Unreliable
+	"St. Bernard Parish, LA"	"22087"	"1999"	"1999"	12	67659	Unreliable
+	"St. Bernard Parish, LA"	"22087"	"2000"	"2000"	13	67229	Unreliable
+	"St. Bernard Parish, LA"	"22087"	"2001"	"2001"	18	68028	Unreliable
+	"St. Bernard Parish, LA"	"22087"	"2002"	"2002"	46	68964	66.7
+	"St. Landry Parish, LA"	"22097"	"1999"	"1999"	10	87034	Unreliable
+	"St. Landry Parish, LA"	"22097"	"2001"	"2001"	10	86416	Unreliable
+	"St. Landry Parish, LA"	"22097"	"2002"	"2002"	15	85713	Unreliable
+	"St. Tammany Parish, LA"	"22103"	"1999"	"1999"	25	188947	13.2
+	"St. Tammany Parish, LA"	"22103"	"2000"	"2000"	21	191268	11.0
+	"St. Tammany Parish, LA"	"22103"	"2001"	"2001"	38	195622	19.4
+	"St. Tammany Parish, LA"	"22103"	"2002"	"2002"	40	200701	19.9
+	"Tangipahoa Parish, LA"	"22105"	"1999"	"1999"	13	99643	Unreliable
+	"Tangipahoa Parish, LA"	"22105"	"2001"	"2001"	12	101657	Unreliable
+	"Tangipahoa Parish, LA"	"22105"	"2002"	"2002"	11	102511	Unreliable
+	"Terrebonne Parish, LA"	"22109"	"2001"	"2001"	12	105255	Unreliable
+	"Washington Parish, LA"	"22117"	"1999"	"1999"	10	43884	Unreliable
+	"Washington Parish, LA"	"22117"	"2001"	"2001"	13	43992	Unreliable
+	"Washington Parish, LA"	"22117"	"2002"	"2002"	17	44156	Unreliable
+	"Androscoggin County, ME"	"23001"	"2001"	"2001"	23	104260	22.1
+	"Androscoggin County, ME"	"23001"	"2002"	"2002"	19	105063	Unreliable
+	"Cumberland County, ME"	"23005"	"1999"	"1999"	40	263931	15.2
+	"Cumberland County, ME"	"23005"	"2000"	"2000"	43	265612	16.2
+	"Cumberland County, ME"	"23005"	"2001"	"2001"	40	268391	14.9
+	"Cumberland County, ME"	"23005"	"2002"	"2002"	68	270533	25.1
+	"Hancock County, ME"	"23009"	"2002"	"2002"	11	52327	Unreliable
+	"Kennebec County, ME"	"23011"	"1999"	"1999"	25	116679	21.4
+	"Kennebec County, ME"	"23011"	"2001"	"2001"	23	118024	19.5
+	"Kennebec County, ME"	"23011"	"2002"	"2002"	26	118611	21.9
+	"Knox County, ME"	"23013"	"2000"	"2000"	10	39618	Unreliable
+	"Knox County, ME"	"23013"	"2001"	"2001"	10	39884	Unreliable
+	"Knox County, ME"	"23013"	"2002"	"2002"	10	40258	Unreliable
+	"Oxford County, ME"	"23017"	"2001"	"2001"	11	55157	Unreliable
+	"Penobscot County, ME"	"23019"	"1999"	"1999"	32	144902	22.1
+	"Penobscot County, ME"	"23019"	"2000"	"2000"	22	144919	15.2
+	"Penobscot County, ME"	"23019"	"2001"	"2001"	16	146110	Unreliable
+	"Penobscot County, ME"	"23019"	"2002"	"2002"	25	147298	17.0
+	"Washington County, ME"	"23029"	"2002"	"2002"	10	33345	Unreliable
+	"York County, ME"	"23031"	"1999"	"1999"	22	182817	12.0
+	"York County, ME"	"23031"	"2000"	"2000"	26	186742	13.9
+	"York County, ME"	"23031"	"2001"	"2001"	23	191261	12.0
+	"York County, ME"	"23031"	"2002"	"2002"	35	194100	18.0
+	"Allegany County, MD"	"24001"	"2001"	"2001"	14	74525	Unreliable
+	"Allegany County, MD"	"24001"	"2002"	"2002"	13	74204	Unreliable
+	"Anne Arundel County, MD"	"24003"	"1999"	"1999"	68	484800	14.0
+	"Anne Arundel County, MD"	"24003"	"2000"	"2000"	83	489656	17.0
+	"Anne Arundel County, MD"	"24003"	"2001"	"2001"	70	498559	14.0
+	"Anne Arundel County, MD"	"24003"	"2002"	"2002"	92	504884	18.2
+	"Baltimore County, MD"	"24005"	"1999"	"1999"	151	749425	20.1
+	"Baltimore County, MD"	"24005"	"2000"	"2000"	145	754292	19.2
+	"Baltimore County, MD"	"24005"	"2001"	"2001"	172	762925	22.5
+	"Baltimore County, MD"	"24005"	"2002"	"2002"	183	770147	23.8
+	"Calvert County, MD"	"24009"	"2001"	"2001"	11	77218	Unreliable
+	"Carroll County, MD"	"24013"	"1999"	"1999"	14	149149	Unreliable
+	"Carroll County, MD"	"24013"	"2000"	"2000"	16	150897	Unreliable
+	"Carroll County, MD"	"24013"	"2001"	"2001"	20	154037	13.0
+	"Carroll County, MD"	"24013"	"2002"	"2002"	24	157930	15.2
+	"Cecil County, MD"	"24015"	"1999"	"1999"	19	84591	Unreliable
+	"Cecil County, MD"	"24015"	"2000"	"2000"	18	85951	Unreliable
+	"Cecil County, MD"	"24015"	"2001"	"2001"	14	88228	Unreliable
+	"Cecil County, MD"	"24015"	"2002"	"2002"	23	90061	25.5
+	"Charles County, MD"	"24017"	"1999"	"1999"	11	118571	Unreliable
+	"Charles County, MD"	"24017"	"2000"	"2000"	11	120546	Unreliable
+	"Charles County, MD"	"24017"	"2001"	"2001"	10	124745	Unreliable
+	"Charles County, MD"	"24017"	"2002"	"2002"	24	128079	18.7
+	"Dorchester County, MD"	"24019"	"2000"	"2000"	11	30674	Unreliable
+	"Frederick County, MD"	"24021"	"1999"	"1999"	12	191606	Unreliable
+	"Frederick County, MD"	"24021"	"2000"	"2000"	12	195277	Unreliable
+	"Frederick County, MD"	"24021"	"2001"	"2001"	21	202315	10.4
+	"Frederick County, MD"	"24021"	"2002"	"2002"	21	209194	10.0
+	"Harford County, MD"	"24025"	"1999"	"1999"	25	216408	11.6
+	"Harford County, MD"	"24025"	"2000"	"2000"	25	218590	11.4
+	"Harford County, MD"	"24025"	"2001"	"2001"	42	222753	18.9
+	"Harford County, MD"	"24025"	"2002"	"2002"	41	227369	18.0
+	"Howard County, MD"	"24027"	"1999"	"1999"	22	243007	9.1
+	"Howard County, MD"	"24027"	"2000"	"2000"	24	247842	9.7
+	"Howard County, MD"	"24027"	"2001"	"2001"	18	255211	Unreliable
+	"Howard County, MD"	"24027"	"2002"	"2002"	23	259532	8.9
+	"Montgomery County, MD"	"24031"	"1999"	"1999"	67	862350	7.8
+	"Montgomery County, MD"	"24031"	"2000"	"2000"	49	873341	5.6
+	"Montgomery County, MD"	"24031"	"2001"	"2001"	62	891764	7.0
+	"Montgomery County, MD"	"24031"	"2002"	"2002"	55	903140	6.1
+	"Prince George's County, MD"	"24033"	"1999"	"1999"	96	795048	12.1
+	"Prince George's County, MD"	"24033"	"2000"	"2000"	82	801515	10.2
+	"Prince George's County, MD"	"24033"	"2001"	"2001"	67	817360	8.2
+	"Prince George's County, MD"	"24033"	"2002"	"2002"	87	828893	10.5
+	"St. Mary's County, MD"	"24037"	"2000"	"2000"	13	86211	Unreliable
+	"Washington County, MD"	"24043"	"1999"	"1999"	13	131178	Unreliable
+	"Washington County, MD"	"24043"	"2000"	"2000"	19	131923	Unreliable
+	"Washington County, MD"	"24043"	"2001"	"2001"	20	133093	15.0
+	"Washington County, MD"	"24043"	"2002"	"2002"	16	134831	Unreliable
+	"Wicomico County, MD"	"24045"	"2002"	"2002"	11	86679	Unreliable
+	"Worcester County, MD"	"24047"	"2000"	"2000"	13	46543	Unreliable
+	"Worcester County, MD"	"24047"	"2002"	"2002"	10	48752	Unreliable
+	"Baltimore city, MD"	"24510"	"1999"	"1999"	418	657441	63.6
+	"Baltimore city, MD"	"24510"	"2000"	"2000"	384	651154	59.0
+	"Baltimore city, MD"	"24510"	"2001"	"2001"	362	640733	56.5
+	"Baltimore city, MD"	"24510"	"2002"	"2002"	388	634115	61.2
+	"Barnstable County, MA"	"25001"	"1999"	"1999"	30	218960	13.7
+	"Barnstable County, MA"	"25001"	"2000"	"2000"	24	222230	10.8
+	"Barnstable County, MA"	"25001"	"2001"	"2001"	39	224087	17.4
+	"Barnstable County, MA"	"25001"	"2002"	"2002"	53	225421	23.5
+	"Berkshire County, MA"	"25003"	"1999"	"1999"	18	135227	Unreliable
+	"Berkshire County, MA"	"25003"	"2000"	"2000"	17	134953	Unreliable
+	"Berkshire County, MA"	"25003"	"2001"	"2001"	24	133928	17.9
+	"Berkshire County, MA"	"25003"	"2002"	"2002"	20	133529	15.0
+	"Bristol County, MA"	"25005"	"1999"	"1999"	80	531208	15.1
+	"Bristol County, MA"	"25005"	"2000"	"2000"	84	534678	15.7
+	"Bristol County, MA"	"25005"	"2001"	"2001"	114	538282	21.2
+	"Bristol County, MA"	"25005"	"2002"	"2002"	121	542721	22.3
+	"Essex County, MA"	"25009"	"1999"	"1999"	94	718629	13.1
+	"Essex County, MA"	"25009"	"2000"	"2000"	112	723419	15.5
+	"Essex County, MA"	"25009"	"2001"	"2001"	135	730206	18.5
+	"Essex County, MA"	"25009"	"2002"	"2002"	127	732232	17.3
+	"Franklin County, MA"	"25011"	"2000"	"2000"	11	71535	Unreliable
+	"Franklin County, MA"	"25011"	"2001"	"2001"	10	71557	Unreliable
+	"Hampden County, MA"	"25013"	"1999"	"1999"	67	455391	14.7
+	"Hampden County, MA"	"25013"	"2000"	"2000"	71	456228	15.6
+	"Hampden County, MA"	"25013"	"2001"	"2001"	86	456557	18.8
+	"Hampden County, MA"	"25013"	"2002"	"2002"	80	458780	17.4
+	"Hampshire County, MA"	"25015"	"1999"	"1999"	19	151756	Unreliable
+	"Hampshire County, MA"	"25015"	"2000"	"2000"	16	152251	Unreliable
+	"Hampshire County, MA"	"25015"	"2001"	"2001"	13	152518	Unreliable
+	"Hampshire County, MA"	"25015"	"2002"	"2002"	14	153461	Unreliable
+	"Middlesex County, MA"	"25017"	"1999"	"1999"	159	1459797	10.9
+	"Middlesex County, MA"	"25017"	"2000"	"2000"	154	1465396	10.5
+	"Middlesex County, MA"	"25017"	"2001"	"2001"	204	1473021	13.8
+	"Middlesex County, MA"	"25017"	"2002"	"2002"	224	1468488	15.3
+	"Norfolk County, MA"	"25021"	"1999"	"1999"	82	648262	12.6
+	"Norfolk County, MA"	"25021"	"2000"	"2000"	53	650308	8.1
+	"Norfolk County, MA"	"25021"	"2001"	"2001"	79	653137	12.1
+	"Norfolk County, MA"	"25021"	"2002"	"2002"	86	653860	13.2
+	"Plymouth County, MA"	"25023"	"1999"	"1999"	61	469065	13.0
+	"Plymouth County, MA"	"25023"	"2000"	"2000"	54	472822	11.4
+	"Plymouth County, MA"	"25023"	"2001"	"2001"	61	478222	12.8
+	"Plymouth County, MA"	"25023"	"2002"	"2002"	85	482092	17.6
+	"Suffolk County, MA"	"25025"	"1999"	"1999"	124	689109	18.0
+	"Suffolk County, MA"	"25025"	"2000"	"2000"	121	689807	17.5
+	"Suffolk County, MA"	"25025"	"2001"	"2001"	158	700232	22.6
+	"Suffolk County, MA"	"25025"	"2002"	"2002"	162	701333	23.1
+	"Worcester County, MA"	"25027"	"1999"	"1999"	122	744571	16.4
+	"Worcester County, MA"	"25027"	"2000"	"2000"	106	750963	14.1
+	"Worcester County, MA"	"25027"	"2001"	"2001"	134	761211	17.6
+	"Worcester County, MA"	"25027"	"2002"	"2002"	140	768490	18.2
+	"Allegan County, MI"	"26005"	"2000"	"2000"	14	105665	Unreliable
+	"Allegan County, MI"	"26005"	"2001"	"2001"	11	107367	Unreliable
+	"Allegan County, MI"	"26005"	"2002"	"2002"	10	108203	Unreliable
+	"Bay County, MI"	"26017"	"2001"	"2001"	13	109836	Unreliable
+	"Bay County, MI"	"26017"	"2002"	"2002"	15	109861	Unreliable
+	"Berrien County, MI"	"26021"	"1999"	"1999"	31	162028	19.1
+	"Berrien County, MI"	"26021"	"2000"	"2000"	18	162453	Unreliable
+	"Berrien County, MI"	"26021"	"2001"	"2001"	24	161153	14.9
+	"Berrien County, MI"	"26021"	"2002"	"2002"	25	160604	15.6
+	"Calhoun County, MI"	"26025"	"1999"	"1999"	21	138021	15.2
+	"Calhoun County, MI"	"26025"	"2000"	"2000"	28	137985	20.3
+	"Calhoun County, MI"	"26025"	"2001"	"2001"	30	138158	21.7
+	"Calhoun County, MI"	"26025"	"2002"	"2002"	47	138580	33.9
+	"Eaton County, MI"	"26045"	"2002"	"2002"	10	105794	Unreliable
+	"Genesee County, MI"	"26049"	"1999"	"1999"	67	434409	15.4
+	"Genesee County, MI"	"26049"	"2000"	"2000"	89	436141	20.4
+	"Genesee County, MI"	"26049"	"2001"	"2001"	113	438584	25.8
+	"Genesee County, MI"	"26049"	"2002"	"2002"	86	440062	19.5
+	"Grand Traverse County, MI"	"26055"	"2000"	"2000"	10	77654	Unreliable
+	"Grand Traverse County, MI"	"26055"	"2002"	"2002"	15	81013	Unreliable
+	"Ingham County, MI"	"26065"	"1999"	"1999"	22	280035	7.9
+	"Ingham County, MI"	"26065"	"2000"	"2000"	37	279320	13.2
+	"Ingham County, MI"	"26065"	"2001"	"2001"	39	281105	13.9
+	"Ingham County, MI"	"26065"	"2002"	"2002"	33	282030	11.7
+	"Isabella County, MI"	"26073"	"2002"	"2002"	11	64907	Unreliable
+	"Jackson County, MI"	"26075"	"1999"	"1999"	20	157085	12.7
+	"Jackson County, MI"	"26075"	"2000"	"2000"	16	158422	Unreliable
+	"Jackson County, MI"	"26075"	"2001"	"2001"	24	159772	15.0
+	"Jackson County, MI"	"26075"	"2002"	"2002"	20	160893	12.4
+	"Kalamazoo County, MI"	"26077"	"1999"	"1999"	18	237581	Unreliable
+	"Kalamazoo County, MI"	"26077"	"2000"	"2000"	30	238603	12.6
+	"Kalamazoo County, MI"	"26077"	"2001"	"2001"	16	240080	Unreliable
+	"Kalamazoo County, MI"	"26077"	"2002"	"2002"	30	241937	12.4
+	"Kent County, MI"	"26081"	"1999"	"1999"	54	568731	9.5
+	"Kent County, MI"	"26081"	"2000"	"2000"	71	574335	12.4
+	"Kent County, MI"	"26081"	"2001"	"2001"	78	581224	13.4
+	"Kent County, MI"	"26081"	"2002"	"2002"	80	584940	13.7
+	"Lenawee County, MI"	"26091"	"2000"	"2000"	11	98890	Unreliable
+	"Livingston County, MI"	"26093"	"1999"	"1999"	10	153033	Unreliable
+	"Livingston County, MI"	"26093"	"2000"	"2000"	18	156951	Unreliable
+	"Livingston County, MI"	"26093"	"2001"	"2001"	19	163146	Unreliable
+	"Livingston County, MI"	"26093"	"2002"	"2002"	29	167833	17.3
+	"Macomb County, MI"	"26099"	"1999"	"1999"	130	783828	16.6
+	"Macomb County, MI"	"26099"	"2000"	"2000"	137	788149	17.4
+	"Macomb County, MI"	"26099"	"2001"	"2001"	138	800571	17.2
+	"Macomb County, MI"	"26099"	"2002"	"2002"	155	808457	19.2
+	"Marquette County, MI"	"26103"	"1999"	"1999"	11	64410	Unreliable
+	"Marquette County, MI"	"26103"	"2001"	"2001"	12	64738	Unreliable
+	"Midland County, MI"	"26111"	"2002"	"2002"	10	83664	Unreliable
+	"Monroe County, MI"	"26115"	"1999"	"1999"	13	144525	Unreliable
+	"Monroe County, MI"	"26115"	"2000"	"2000"	17	145945	Unreliable
+	"Monroe County, MI"	"26115"	"2001"	"2001"	22	147605	14.9
+	"Monroe County, MI"	"26115"	"2002"	"2002"	17	148561	Unreliable
+	"Muskegon County, MI"	"26121"	"1999"	"1999"	26	169331	15.4
+	"Muskegon County, MI"	"26121"	"2000"	"2000"	23	170200	13.5
+	"Muskegon County, MI"	"26121"	"2001"	"2001"	26	171055	15.2
+	"Muskegon County, MI"	"26121"	"2002"	"2002"	31	171563	18.1
+	"Oakland County, MI"	"26125"	"1999"	"1999"	157	1188498	13.2
+	"Oakland County, MI"	"26125"	"2000"	"2000"	184	1194156	15.4
+	"Oakland County, MI"	"26125"	"2001"	"2001"	195	1200425	16.2
+	"Oakland County, MI"	"26125"	"2002"	"2002"	188	1198889	15.7
+	"Ottawa County, MI"	"26139"	"2000"	"2000"	12	238314	Unreliable
+	"Ottawa County, MI"	"26139"	"2001"	"2001"	12	243673	Unreliable
+	"Ottawa County, MI"	"26139"	"2002"	"2002"	22	246637	8.9
+	"Saginaw County, MI"	"26145"	"1999"	"1999"	21	210400	10.0
+	"Saginaw County, MI"	"26145"	"2000"	"2000"	24	210039	11.4
+	"Saginaw County, MI"	"26145"	"2001"	"2001"	33	209460	15.8
+	"Saginaw County, MI"	"26145"	"2002"	"2002"	33	209323	15.8
+	"St. Clair County, MI"	"26147"	"1999"	"1999"	19	163096	Unreliable
+	"St. Clair County, MI"	"26147"	"2000"	"2000"	28	164235	17.0
+	"St. Clair County, MI"	"26147"	"2001"	"2001"	24	165444	14.5
+	"St. Clair County, MI"	"26147"	"2002"	"2002"	34	166086	20.5
+	"St. Joseph County, MI"	"26149"	"2002"	"2002"	11	62152	Unreliable
+	"Shiawassee County, MI"	"26155"	"2002"	"2002"	18	72162	Unreliable
+	"Van Buren County, MI"	"26159"	"2001"	"2001"	13	76432	Unreliable
+	"Washtenaw County, MI"	"26161"	"1999"	"1999"	41	318270	12.9
+	"Washtenaw County, MI"	"26161"	"2000"	"2000"	45	322895	13.9
+	"Washtenaw County, MI"	"26161"	"2001"	"2001"	46	328749	14.0
+	"Washtenaw County, MI"	"26161"	"2002"	"2002"	38	332763	11.4
+	"Wayne County, MI"	"26163"	"1999"	"1999"	454	2072114	21.9
+	"Wayne County, MI"	"26163"	"2000"	"2000"	527	2061162	25.6
+	"Wayne County, MI"	"26163"	"2001"	"2001"	563	2043167	27.6
+	"Wayne County, MI"	"26163"	"2002"	"2002"	554	2025133	27.4
+	"Anoka County, MN"	"27003"	"1999"	"1999"	21	293599	7.2
+	"Anoka County, MN"	"27003"	"2000"	"2000"	30	298084	10.1
+	"Anoka County, MN"	"27003"	"2001"	"2001"	41	304823	13.5
+	"Anoka County, MN"	"27003"	"2002"	"2002"	27	308702	8.7
+	"Dakota County, MN"	"27037"	"1999"	"1999"	26	350520	7.4
+	"Dakota County, MN"	"27037"	"2000"	"2000"	27	355904	7.6
+	"Dakota County, MN"	"27037"	"2001"	"2001"	39	363602	10.7
+	"Dakota County, MN"	"27037"	"2002"	"2002"	35	368252	9.5
+	"Hennepin County, MN"	"27053"	"1999"	"1999"	145	1109634	13.1
+	"Hennepin County, MN"	"27053"	"2000"	"2000"	163	1116200	14.6
+	"Hennepin County, MN"	"27053"	"2001"	"2001"	172	1123375	15.3
+	"Hennepin County, MN"	"27053"	"2002"	"2002"	179	1120730	16.0
+	"Olmsted County, MN"	"27109"	"2001"	"2001"	12	126737	Unreliable
+	"Ramsey County, MN"	"27123"	"1999"	"1999"	66	509175	13.0
+	"Ramsey County, MN"	"27123"	"2000"	"2000"	48	511035	9.4
+	"Ramsey County, MN"	"27123"	"2001"	"2001"	59	512926	11.5
+	"Ramsey County, MN"	"27123"	"2002"	"2002"	65	510581	12.7
+	"St. Louis County, MN"	"27137"	"1999"	"1999"	39	200164	19.5
+	"St. Louis County, MN"	"27137"	"2000"	"2000"	39	200528	19.4
+	"St. Louis County, MN"	"27137"	"2001"	"2001"	39	201307	19.4
+	"St. Louis County, MN"	"27137"	"2002"	"2002"	37	200519	18.5
+	"Stearns County, MN"	"27145"	"1999"	"1999"	10	131810	Unreliable
+	"Stearns County, MN"	"27145"	"2000"	"2000"	10	133166	Unreliable
+	"Stearns County, MN"	"27145"	"2002"	"2002"	11	137006	Unreliable
+	"Washington County, MN"	"27163"	"2001"	"2001"	10	207206	Unreliable
+	"Washington County, MN"	"27163"	"2002"	"2002"	21	210181	10.0
+	"Wright County, MN"	"27171"	"2002"	"2002"	10	98434	Unreliable
+	"Adams County, MS"	"28001"	"2000"	"2000"	10	34340	Unreliable
+	"DeSoto County, MS"	"28033"	"1999"	"1999"	10	103343	Unreliable
+	"DeSoto County, MS"	"28033"	"2000"	"2000"	13	107199	Unreliable
+	"DeSoto County, MS"	"28033"	"2001"	"2001"	12	113401	Unreliable
+	"DeSoto County, MS"	"28033"	"2002"	"2002"	11	118603	Unreliable
+	"Forrest County, MS"	"28035"	"2000"	"2000"	12	72604	Unreliable
+	"Forrest County, MS"	"28035"	"2002"	"2002"	11	71584	Unreliable
+	"Hancock County, MS"	"28045"	"2000"	"2000"	10	42967	Unreliable
+	"Hancock County, MS"	"28045"	"2001"	"2001"	19	44172	Unreliable
+	"Hancock County, MS"	"28045"	"2002"	"2002"	16	45058	Unreliable
+	"Harrison County, MS"	"28047"	"1999"	"1999"	27	188565	14.3
+	"Harrison County, MS"	"28047"	"2000"	"2000"	26	189601	13.7
+	"Harrison County, MS"	"28047"	"2001"	"2001"	47	190922	24.6
+	"Harrison County, MS"	"28047"	"2002"	"2002"	54	192145	28.1
+	"Hinds County, MS"	"28049"	"1999"	"1999"	14	250823	Unreliable
+	"Hinds County, MS"	"28049"	"2000"	"2000"	20	250800	8.0
+	"Hinds County, MS"	"28049"	"2001"	"2001"	26	248941	10.4
+	"Hinds County, MS"	"28049"	"2002"	"2002"	20	247857	8.1
+	"Jackson County, MS"	"28059"	"1999"	"1999"	11	130392	Unreliable
+	"Jackson County, MS"	"28059"	"2000"	"2000"	16	131420	Unreliable
+	"Jackson County, MS"	"28059"	"2001"	"2001"	15	133069	Unreliable
+	"Jackson County, MS"	"28059"	"2002"	"2002"	36	133688	26.9
+	"Lauderdale County, MS"	"28075"	"1999"	"1999"	10	78224	Unreliable
+	"Lee County, MS"	"28081"	"1999"	"1999"	13	75163	Unreliable
+	"Lee County, MS"	"28081"	"2002"	"2002"	13	76783	Unreliable
+	"Lowndes County, MS"	"28087"	"2002"	"2002"	10	60508	Unreliable
+	"Pearl River County, MS"	"28109"	"2001"	"2001"	13	49083	Unreliable
+	"Rankin County, MS"	"28121"	"2001"	"2001"	14	118774	Unreliable
+	"Boone County, MO"	"29019"	"1999"	"1999"	18	134081	Unreliable
+	"Boone County, MO"	"29019"	"2001"	"2001"	19	138181	Unreliable
+	"Boone County, MO"	"29019"	"2002"	"2002"	14	140695	Unreliable
+	"Buchanan County, MO"	"29021"	"2001"	"2001"	12	86026	Unreliable
+	"Buchanan County, MO"	"29021"	"2002"	"2002"	16	86027	Unreliable
+	"Clay County, MO"	"29047"	"1999"	"1999"	21	181984	11.5
+	"Clay County, MO"	"29047"	"2000"	"2000"	30	184006	16.3
+	"Clay County, MO"	"29047"	"2001"	"2001"	18	188024	Unreliable
+	"Clay County, MO"	"29047"	"2002"	"2002"	39	190959	20.4
+	"Franklin County, MO"	"29071"	"1999"	"1999"	11	92914	Unreliable
+	"Franklin County, MO"	"29071"	"2000"	"2000"	14	93807	Unreliable
+	"Franklin County, MO"	"29071"	"2001"	"2001"	13	94872	Unreliable
+	"Franklin County, MO"	"29071"	"2002"	"2002"	12	95771	Unreliable
+	"Greene County, MO"	"29077"	"1999"	"1999"	37	238802	15.5
+	"Greene County, MO"	"29077"	"2000"	"2000"	41	240391	17.1
+	"Greene County, MO"	"29077"	"2001"	"2001"	43	243305	17.7
+	"Greene County, MO"	"29077"	"2002"	"2002"	48	245822	19.5
+	"Jackson County, MO"	"29095"	"1999"	"1999"	132	654073	20.2
+	"Jackson County, MO"	"29095"	"2000"	"2000"	128	654880	19.5
+	"Jackson County, MO"	"29095"	"2001"	"2001"	155	657012	23.6
+	"Jackson County, MO"	"29095"	"2002"	"2002"	135	658765	20.5
+	"Jasper County, MO"	"29097"	"1999"	"1999"	13	103740	Unreliable
+	"Jasper County, MO"	"29097"	"2001"	"2001"	16	105628	Unreliable
+	"Jasper County, MO"	"29097"	"2002"	"2002"	12	106684	Unreliable
+	"Jefferson County, MO"	"29099"	"1999"	"1999"	17	196287	Unreliable
+	"Jefferson County, MO"	"29099"	"2000"	"2000"	24	198099	12.1
+	"Jefferson County, MO"	"29099"	"2001"	"2001"	29	200682	14.5
+	"Jefferson County, MO"	"29099"	"2002"	"2002"	17	202477	Unreliable
+	"Platte County, MO"	"29165"	"2000"	"2000"	10	73781	Unreliable
+	"Platte County, MO"	"29165"	"2002"	"2002"	15	77986	Unreliable
+	"St. Charles County, MO"	"29183"	"1999"	"1999"	28	277961	10.1
+	"St. Charles County, MO"	"29183"	"2000"	"2000"	18	283883	Unreliable
+	"St. Charles County, MO"	"29183"	"2001"	"2001"	21	294908	7.1
+	"St. Charles County, MO"	"29183"	"2002"	"2002"	35	303224	11.5
+	"St. Francois County, MO"	"29187"	"2002"	"2002"	15	56823	Unreliable
+	"St. Louis County, MO"	"29189"	"1999"	"1999"	116	1016040	11.4
+	"St. Louis County, MO"	"29189"	"2000"	"2000"	88	1016315	8.7
+	"St. Louis County, MO"	"29189"	"2001"	"2001"	81	1016243	8.0
+	"St. Louis County, MO"	"29189"	"2002"	"2002"	105	1014359	10.4
+	"St. Louis city, MO"	"29510"	"1999"	"1999"	97	350156	27.7
+	"St. Louis city, MO"	"29510"	"2000"	"2000"	101	348189	29.0
+	"St. Louis city, MO"	"29510"	"2001"	"2001"	103	343243	30.0
+	"St. Louis city, MO"	"29510"	"2002"	"2002"	91	338457	26.9
+	"Cascade County, MT"	"30013"	"1999"	"1999"	13	80596	Unreliable
+	"Cascade County, MT"	"30013"	"2000"	"2000"	15	80357	Unreliable
+	"Cascade County, MT"	"30013"	"2001"	"2001"	20	80055	25.0
+	"Cascade County, MT"	"30013"	"2002"	"2002"	13	79848	Unreliable
+	"Flathead County, MT"	"30029"	"1999"	"1999"	11	73626	Unreliable
+	"Flathead County, MT"	"30029"	"2000"	"2000"	11	74471	Unreliable
+	"Flathead County, MT"	"30029"	"2001"	"2001"	17	76171	Unreliable
+	"Flathead County, MT"	"30029"	"2002"	"2002"	17	77583	Unreliable
+	"Lake County, MT"	"30047"	"2002"	"2002"	10	26814	Unreliable
+	"Lewis and Clark County, MT"	"30049"	"2001"	"2001"	11	56262	Unreliable
+	"Missoula County, MT"	"30063"	"1999"	"1999"	11	94791	Unreliable
+	"Missoula County, MT"	"30063"	"2001"	"2001"	17	97435	Unreliable
+	"Missoula County, MT"	"30063"	"2002"	"2002"	20	98968	20.2
+	"Silver Bow County, MT"	"30093"	"2000"	"2000"	11	34606	Unreliable
+	"Silver Bow County, MT"	"30093"	"2002"	"2002"	11	33636	Unreliable
+	"Yellowstone County, MT"	"30111"	"2000"	"2000"	13	129352	Unreliable
+	"Yellowstone County, MT"	"30111"	"2001"	"2001"	26	130801	19.9
+	"Yellowstone County, MT"	"30111"	"2002"	"2002"	33	132165	25.0
+	"Douglas County, NE"	"31055"	"1999"	"1999"	49	460798	10.6
+	"Douglas County, NE"	"31055"	"2000"	"2000"	37	463585	8.0
+	"Douglas County, NE"	"31055"	"2001"	"2001"	54	468125	11.5
+	"Douglas County, NE"	"31055"	"2002"	"2002"	59	471866	12.5
+	"Lancaster County, NE"	"31109"	"1999"	"1999"	19	247442	Unreliable
+	"Lancaster County, NE"	"31109"	"2000"	"2000"	17	250291	Unreliable
+	"Lancaster County, NE"	"31109"	"2001"	"2001"	31	254630	12.2
+	"Lancaster County, NE"	"31109"	"2002"	"2002"	36	258398	13.9
+	"Clark County, NV"	"32003"	"1999"	"1999"	339	1321254	25.7
+	"Clark County, NV"	"32003"	"2000"	"2000"	344	1375765	25.0
+	"Clark County, NV"	"32003"	"2001"	"2001"	363	1460500	24.9
+	"Clark County, NV"	"32003"	"2002"	"2002"	362	1522962	23.8
+	"Douglas County, NV"	"32005"	"2001"	"2001"	11	42327	Unreliable
+	"Nye County, NV"	"32023"	"1999"	"1999"	13	31475	Unreliable
+	"Nye County, NV"	"32023"	"2002"	"2002"	14	34433	Unreliable
+	"Washoe County, NV"	"32031"	"1999"	"1999"	83	332833	24.9
+	"Washoe County, NV"	"32031"	"2000"	"2000"	102	339486	30.0
+	"Washoe County, NV"	"32031"	"2001"	"2001"	97	351959	27.6
+	"Washoe County, NV"	"32031"	"2002"	"2002"	117	362374	32.3
+	"Carson City, NV"	"32510"	"1999"	"1999"	25	51953	48.1
+	"Carson City, NV"	"32510"	"2000"	"2000"	13	52457	Unreliable
+	"Carson City, NV"	"32510"	"2001"	"2001"	17	53472	Unreliable
+	"Carson City, NV"	"32510"	"2002"	"2002"	11	54503	Unreliable
+	"Belknap County, NH"	"33001"	"2001"	"2001"	11	57597	Unreliable
+	"Belknap County, NH"	"33001"	"2002"	"2002"	16	58609	Unreliable
+	"Carroll County, NH"	"33003"	"2001"	"2001"	10	44200	Unreliable
+	"Cheshire County, NH"	"33005"	"2000"	"2000"	15	73825	Unreliable
+	"Cheshire County, NH"	"33005"	"2001"	"2001"	13	74372	Unreliable
+	"Cheshire County, NH"	"33005"	"2002"	"2002"	12	75047	Unreliable
+	"Coos County, NH"	"33007"	"2002"	"2002"	12	33234	Unreliable
+	"Grafton County, NH"	"33009"	"2001"	"2001"	16	82233	Unreliable
+	"Grafton County, NH"	"33009"	"2002"	"2002"	15	83152	Unreliable
+	"Hillsborough County, NH"	"33011"	"1999"	"1999"	53	376407	14.1
+	"Hillsborough County, NH"	"33011"	"2000"	"2000"	42	380841	11.0
+	"Hillsborough County, NH"	"33011"	"2001"	"2001"	74	387414	19.1
+	"Hillsborough County, NH"	"33011"	"2002"	"2002"	56	389665	14.4
+	"Merrimack County, NH"	"33013"	"1999"	"1999"	16	134455	Unreliable
+	"Merrimack County, NH"	"33013"	"2000"	"2000"	14	136225	Unreliable
+	"Merrimack County, NH"	"33013"	"2001"	"2001"	20	138309	14.5
+	"Merrimack County, NH"	"33013"	"2002"	"2002"	22	140880	15.6
+	"Rockingham County, NH"	"33015"	"1999"	"1999"	26	273853	9.5
+	"Rockingham County, NH"	"33015"	"2000"	"2000"	27	277359	9.7
+	"Rockingham County, NH"	"33015"	"2001"	"2001"	31	282932	11.0
+	"Rockingham County, NH"	"33015"	"2002"	"2002"	30	286218	10.5
+	"Strafford County, NH"	"33017"	"2001"	"2001"	20	114382	17.5
+	"Strafford County, NH"	"33017"	"2002"	"2002"	14	115811	Unreliable
+	"Sullivan County, NH"	"33019"	"1999"	"1999"	11	40107	Unreliable
+	"Atlantic County, NJ"	"34001"	"1999"	"1999"	53	250432	21.2
+	"Atlantic County, NJ"	"34001"	"2000"	"2000"	54	252552	21.4
+	"Atlantic County, NJ"	"34001"	"2001"	"2001"	60	255737	23.5
+	"Atlantic County, NJ"	"34001"	"2002"	"2002"	56	259263	21.6
+	"Bergen County, NJ"	"34003"	"1999"	"1999"	91	880225	10.3
+	"Bergen County, NJ"	"34003"	"2000"	"2000"	96	884118	10.9
+	"Bergen County, NJ"	"34003"	"2001"	"2001"	88	888782	9.9
+	"Bergen County, NJ"	"34003"	"2002"	"2002"	97	890647	10.9
+	"Burlington County, NJ"	"34005"	"1999"	"1999"	62	420542	14.7
+	"Burlington County, NJ"	"34005"	"2000"	"2000"	50	423394	11.8
+	"Burlington County, NJ"	"34005"	"2001"	"2001"	55	429727	12.8
+	"Burlington County, NJ"	"34005"	"2002"	"2002"	45	436445	10.3
+	"Camden County, NJ"	"34007"	"1999"	"1999"	82	509410	16.1
+	"Camden County, NJ"	"34007"	"2000"	"2000"	107	508932	21.0
+	"Camden County, NJ"	"34007"	"2001"	"2001"	82	506326	16.2
+	"Camden County, NJ"	"34007"	"2002"	"2002"	95	507899	18.7
+	"Cape May County, NJ"	"34009"	"1999"	"1999"	26	102135	25.5
+	"Cape May County, NJ"	"34009"	"2000"	"2000"	24	102326	23.5
+	"Cape May County, NJ"	"34009"	"2001"	"2001"	17	102023	Unreliable
+	"Cape May County, NJ"	"34009"	"2002"	"2002"	24	101694	23.6
+	"Cumberland County, NJ"	"34011"	"1999"	"1999"	21	146293	14.4
+	"Cumberland County, NJ"	"34011"	"2000"	"2000"	26	146438	17.8
+	"Cumberland County, NJ"	"34011"	"2001"	"2001"	22	146451	15.0
+	"Cumberland County, NJ"	"34011"	"2002"	"2002"	25	147294	17.0
+	"Essex County, NJ"	"34013"	"1999"	"1999"	204	789678	25.8
+	"Essex County, NJ"	"34013"	"2000"	"2000"	185	793633	23.3
+	"Essex County, NJ"	"34013"	"2001"	"2001"	202	794312	25.4
+	"Essex County, NJ"	"34013"	"2002"	"2002"	195	795625	24.5
+	"Gloucester County, NJ"	"34015"	"1999"	"1999"	26	252536	10.3
+	"Gloucester County, NJ"	"34015"	"2000"	"2000"	45	254673	17.7
+	"Gloucester County, NJ"	"34015"	"2001"	"2001"	28	258783	10.8
+	"Gloucester County, NJ"	"34015"	"2002"	"2002"	49	262909	18.6
+	"Hudson County, NJ"	"34017"	"1999"	"1999"	118	603993	19.5
+	"Hudson County, NJ"	"34017"	"2000"	"2000"	101	608975	16.6
+	"Hudson County, NJ"	"34017"	"2001"	"2001"	99	616629	16.1
+	"Hudson County, NJ"	"34017"	"2002"	"2002"	121	615554	19.7
+	"Hunterdon County, NJ"	"34019"	"2000"	"2000"	10	121989	Unreliable
+	"Hunterdon County, NJ"	"34019"	"2001"	"2001"	17	124500	Unreliable
+	"Hunterdon County, NJ"	"34019"	"2002"	"2002"	17	125892	Unreliable
+	"Mercer County, NJ"	"34021"	"1999"	"1999"	41	348435	11.8
+	"Mercer County, NJ"	"34021"	"2000"	"2000"	52	350761	14.8
+	"Mercer County, NJ"	"34021"	"2001"	"2001"	52	353816	14.7
+	"Mercer County, NJ"	"34021"	"2002"	"2002"	39	355935	11.0
+	"Middlesex County, NJ"	"34023"	"1999"	"1999"	94	742213	12.7
+	"Middlesex County, NJ"	"34023"	"2000"	"2000"	118	750162	15.7
+	"Middlesex County, NJ"	"34023"	"2001"	"2001"	115	761770	15.1
+	"Middlesex County, NJ"	"34023"	"2002"	"2002"	125	769280	16.2
+	"Monmouth County, NJ"	"34025"	"1999"	"1999"	73	610811	12.0
+	"Monmouth County, NJ"	"34025"	"2000"	"2000"	87	615301	14.1
+	"Monmouth County, NJ"	"34025"	"2001"	"2001"	94	620563	15.1
+	"Monmouth County, NJ"	"34025"	"2002"	"2002"	88	624532	14.1
+	"Morris County, NJ"	"34027"	"1999"	"1999"	34	467678	7.3
+	"Morris County, NJ"	"34027"	"2000"	"2000"	54	470212	11.5
+	"Morris County, NJ"	"34027"	"2001"	"2001"	55	473515	11.6
+	"Morris County, NJ"	"34027"	"2002"	"2002"	55	477234	11.5
+	"Ocean County, NJ"	"34029"	"1999"	"1999"	71	504007	14.1
+	"Ocean County, NJ"	"34029"	"2000"	"2000"	77	510916	15.1
+	"Ocean County, NJ"	"34029"	"2001"	"2001"	71	523357	13.6
+	"Ocean County, NJ"	"34029"	"2002"	"2002"	91	536069	17.0
+	"Passaic County, NJ"	"34031"	"1999"	"1999"	88	488131	18.0
+	"Passaic County, NJ"	"34031"	"2000"	"2000"	89	489049	18.2
+	"Passaic County, NJ"	"34031"	"2001"	"2001"	85	493252	17.2
+	"Passaic County, NJ"	"34031"	"2002"	"2002"	97	494571	19.6
+	"Salem County, NJ"	"34033"	"2000"	"2000"	11	64285	Unreliable
+	"Salem County, NJ"	"34033"	"2001"	"2001"	10	64069	Unreliable
+	"Somerset County, NJ"	"34035"	"1999"	"1999"	25	293770	8.5
+	"Somerset County, NJ"	"34035"	"2000"	"2000"	22	297490	7.4
+	"Somerset County, NJ"	"34035"	"2001"	"2001"	35	301671	11.6
+	"Somerset County, NJ"	"34035"	"2002"	"2002"	43	305255	14.1
+	"Sussex County, NJ"	"34037"	"1999"	"1999"	21	142750	14.7
+	"Sussex County, NJ"	"34037"	"2000"	"2000"	10	144166	Unreliable
+	"Sussex County, NJ"	"34037"	"2001"	"2001"	23	146004	15.8
+	"Sussex County, NJ"	"34037"	"2002"	"2002"	22	147712	14.9
+	"Union County, NJ"	"34039"	"1999"	"1999"	71	520341	13.6
+	"Union County, NJ"	"34039"	"2000"	"2000"	72	522541	13.8
+	"Union County, NJ"	"34039"	"2001"	"2001"	76	526183	14.4
+	"Union County, NJ"	"34039"	"2002"	"2002"	79	527625	15.0
+	"Warren County, NJ"	"34041"	"1999"	"1999"	12	101040	Unreliable
+	"Warren County, NJ"	"34041"	"2000"	"2000"	15	102437	Unreliable
+	"Warren County, NJ"	"34041"	"2001"	"2001"	10	105201	Unreliable
+	"Warren County, NJ"	"34041"	"2002"	"2002"	12	106774	Unreliable
+	"Bernalillo County, NM"	"35001"	"1999"	"1999"	195	553002	35.3
+	"Bernalillo County, NM"	"35001"	"2000"	"2000"	233	556678	41.9
+	"Bernalillo County, NM"	"35001"	"2001"	"2001"	238	564241	42.2
+	"Bernalillo County, NM"	"35001"	"2002"	"2002"	232	576532	40.2
+	"Chaves County, NM"	"35005"	"1999"	"1999"	20	62052	32.2
+	"Chaves County, NM"	"35005"	"2000"	"2000"	20	61382	32.6
+	"Chaves County, NM"	"35005"	"2001"	"2001"	16	60928	Unreliable
+	"Chaves County, NM"	"35005"	"2002"	"2002"	18	60768	Unreliable
+	"Cibola County, NM"	"35006"	"2001"	"2001"	18	26488	Unreliable
+	"Cibola County, NM"	"35006"	"2002"	"2002"	14	26592	Unreliable
+	"Curry County, NM"	"35009"	"2000"	"2000"	12	45044	Unreliable
+	"Dona Ana County, NM"	"35013"	"1999"	"1999"	39	173889	22.4
+	"Dona Ana County, NM"	"35013"	"2000"	"2000"	36	174682	20.6
+	"Dona Ana County, NM"	"35013"	"2001"	"2001"	29	176496	16.4
+	"Dona Ana County, NM"	"35013"	"2002"	"2002"	33	178464	18.5
+	"Eddy County, NM"	"35015"	"2000"	"2000"	14	51658	Unreliable
+	"Eddy County, NM"	"35015"	"2001"	"2001"	11	50765	Unreliable
+	"Eddy County, NM"	"35015"	"2002"	"2002"	11	51002	Unreliable
+	"Lea County, NM"	"35025"	"1999"	"1999"	11	56399	Unreliable
+	"Lea County, NM"	"35025"	"2000"	"2000"	16	55511	Unreliable
+	"McKinley County, NM"	"35031"	"1999"	"1999"	42	73545	57.1
+	"McKinley County, NM"	"35031"	"2000"	"2000"	49	74798	65.5
+	"McKinley County, NM"	"35031"	"2001"	"2001"	26	74387	35.0
+	"McKinley County, NM"	"35031"	"2002"	"2002"	33	72868	45.3
+	"Otero County, NM"	"35035"	"1999"	"1999"	21	61903	33.9
+	"Otero County, NM"	"35035"	"2000"	"2000"	14	62298	Unreliable
+	"Otero County, NM"	"35035"	"2001"	"2001"	12	61277	Unreliable
+	"Otero County, NM"	"35035"	"2002"	"2002"	15	61194	Unreliable
+	"Rio Arriba County, NM"	"35039"	"1999"	"1999"	40	40826	98.0
+	"Rio Arriba County, NM"	"35039"	"2000"	"2000"	24	41190	58.3
+	"Rio Arriba County, NM"	"35039"	"2001"	"2001"	29	40870	71.0
+	"Rio Arriba County, NM"	"35039"	"2002"	"2002"	37	40717	90.9
+	"Sandoval County, NM"	"35043"	"1999"	"1999"	21	88116	23.8
+	"Sandoval County, NM"	"35043"	"2000"	"2000"	19	89908	Unreliable
+	"Sandoval County, NM"	"35043"	"2001"	"2001"	17	93440	Unreliable
+	"Sandoval County, NM"	"35043"	"2002"	"2002"	18	96263	Unreliable
+	"San Juan County, NM"	"35045"	"1999"	"1999"	25	112574	22.2
+	"San Juan County, NM"	"35045"	"2000"	"2000"	28	113801	24.6
+	"San Juan County, NM"	"35045"	"2001"	"2001"	34	115745	29.4
+	"San Juan County, NM"	"35045"	"2002"	"2002"	22	119430	18.4
+	"San Miguel County, NM"	"35047"	"2000"	"2000"	17	30126	Unreliable
+	"San Miguel County, NM"	"35047"	"2001"	"2001"	17	29788	Unreliable
+	"San Miguel County, NM"	"35047"	"2002"	"2002"	19	29707	Unreliable
+	"Santa Fe County, NM"	"35049"	"1999"	"1999"	52	127966	40.6
+	"Santa Fe County, NM"	"35049"	"2000"	"2000"	41	129292	31.7
+	"Santa Fe County, NM"	"35049"	"2001"	"2001"	46	131057	35.1
+	"Santa Fe County, NM"	"35049"	"2002"	"2002"	54	133555	40.4
+	"Taos County, NM"	"35055"	"2001"	"2001"	14	30236	Unreliable
+	"Taos County, NM"	"35055"	"2002"	"2002"	16	30844	Unreliable
+	"Valencia County, NM"	"35061"	"1999"	"1999"	24	65144	36.8
+	"Valencia County, NM"	"35061"	"2000"	"2000"	21	66152	31.7
+	"Valencia County, NM"	"35061"	"2001"	"2001"	24	67591	35.5
+	"Valencia County, NM"	"35061"	"2002"	"2002"	22	68401	32.2
+	"Albany County, NY"	"36001"	"1999"	"1999"	15	294692	Unreliable
+	"Albany County, NY"	"36001"	"2000"	"2000"	15	294565	Unreliable
+	"Albany County, NY"	"36001"	"2001"	"2001"	21	296232	7.1
+	"Albany County, NY"	"36001"	"2002"	"2002"	19	298283	Unreliable
+	"Bronx County, NY"	"36005"	"1999"	"1999"	326	1317895	24.7
+	"Bronx County, NY"	"36005"	"2000"	"2000"	302	1332650	22.7
+	"Bronx County, NY"	"36005"	"2001"	"2001"	357	1346555	26.5
+	"Bronx County, NY"	"36005"	"2002"	"2002"	327	1358739	24.1
+	"Broome County, NY"	"36007"	"1999"	"1999"	16	200881	Unreliable
+	"Broome County, NY"	"36007"	"2000"	"2000"	18	200536	Unreliable
+	"Broome County, NY"	"36007"	"2001"	"2001"	10	200868	Unreliable
+	"Broome County, NY"	"36007"	"2002"	"2002"	21	201438	10.4
+	"Chautauqua County, NY"	"36013"	"1999"	"1999"	13	140087	Unreliable
+	"Chautauqua County, NY"	"36013"	"2001"	"2001"	13	138730	Unreliable
+	"Chautauqua County, NY"	"36013"	"2002"	"2002"	11	138346	Unreliable
+	"Chemung County, NY"	"36015"	"2000"	"2000"	11	91070	Unreliable
+	"Chemung County, NY"	"36015"	"2001"	"2001"	13	90780	Unreliable
+	"Dutchess County, NY"	"36027"	"1999"	"1999"	11	277586	Unreliable
+	"Dutchess County, NY"	"36027"	"2000"	"2000"	11	280150	Unreliable
+	"Dutchess County, NY"	"36027"	"2001"	"2001"	13	284712	Unreliable
+	"Dutchess County, NY"	"36027"	"2002"	"2002"	14	287700	Unreliable
+	"Erie County, NY"	"36029"	"1999"	"1999"	68	952546	7.1
+	"Erie County, NY"	"36029"	"2000"	"2000"	63	950265	6.6
+	"Erie County, NY"	"36029"	"2001"	"2001"	83	946515	8.8
+	"Erie County, NY"	"36029"	"2002"	"2002"	58	943551	6.1
+	"Kings County, NY"	"36047"	"1999"	"1999"	522	2447352	21.3
+	"Kings County, NY"	"36047"	"2000"	"2000"	449	2465326	18.2
+	"Kings County, NY"	"36047"	"2001"	"2001"	504	2477252	20.3
+	"Kings County, NY"	"36047"	"2002"	"2002"	423	2480559	17.1
+	"Monroe County, NY"	"36055"	"1999"	"1999"	42	733679	5.7
+	"Monroe County, NY"	"36055"	"2000"	"2000"	43	735343	5.8
+	"Monroe County, NY"	"36055"	"2001"	"2001"	58	739891	7.8
+	"Monroe County, NY"	"36055"	"2002"	"2002"	45	741391	6.1
+	"Nassau County, NY"	"36059"	"1999"	"1999"	78	1330815	5.9
+	"Nassau County, NY"	"36059"	"2000"	"2000"	50	1334544	3.7
+	"Nassau County, NY"	"36059"	"2001"	"2001"	105	1337086	7.9
+	"Nassau County, NY"	"36059"	"2002"	"2002"	58	1339572	4.3
+	"New York County, NY"	"36061"	"1999"	"1999"	419	1535624	27.3
+	"New York County, NY"	"36061"	"2000"	"2000"	306	1537195	19.9
+	"New York County, NY"	"36061"	"2001"	"2001"	356	1555729	22.9
+	"New York County, NY"	"36061"	"2002"	"2002"	371	1555382	23.9
+	"Niagara County, NY"	"36063"	"1999"	"1999"	14	220556	Unreliable
+	"Niagara County, NY"	"36063"	"2000"	"2000"	18	219846	Unreliable
+	"Niagara County, NY"	"36063"	"2001"	"2001"	15	218552	Unreliable
+	"Niagara County, NY"	"36063"	"2002"	"2002"	15	218127	Unreliable
+	"Oneida County, NY"	"36065"	"1999"	"1999"	22	235412	9.3
+	"Oneida County, NY"	"36065"	"2000"	"2000"	15	235469	Unreliable
+	"Oneida County, NY"	"36065"	"2001"	"2001"	27	234247	11.5
+	"Oneida County, NY"	"36065"	"2002"	"2002"	19	234078	Unreliable
+	"Onondaga County, NY"	"36067"	"1999"	"1999"	39	458575	8.5
+	"Onondaga County, NY"	"36067"	"2000"	"2000"	51	458336	11.1
+	"Onondaga County, NY"	"36067"	"2001"	"2001"	40	458576	8.7
+	"Onondaga County, NY"	"36067"	"2002"	"2002"	36	459484	7.8
+	"Orange County, NY"	"36071"	"1999"	"1999"	15	336630	Unreliable
+	"Orange County, NY"	"36071"	"2000"	"2000"	22	341367	6.4
+	"Orange County, NY"	"36071"	"2001"	"2001"	31	347674	8.9
+	"Orange County, NY"	"36071"	"2002"	"2002"	15	352975	Unreliable
+	"Oswego County, NY"	"36075"	"2001"	"2001"	11	122269	Unreliable
+	"Oswego County, NY"	"36075"	"2002"	"2002"	10	122496	Unreliable
+	"Putnam County, NY"	"36079"	"2001"	"2001"	10	97055	Unreliable
+	"Queens County, NY"	"36081"	"1999"	"1999"	310	2208975	14.0
+	"Queens County, NY"	"36081"	"2000"	"2000"	269	2229379	12.1
+	"Queens County, NY"	"36081"	"2001"	"2001"	302	2231316	13.5
+	"Queens County, NY"	"36081"	"2002"	"2002"	319	2224507	14.3
+	"Rensselaer County, NY"	"36083"	"2001"	"2001"	12	152700	Unreliable
+	"Richmond County, NY"	"36085"	"1999"	"1999"	47	437814	10.7
+	"Richmond County, NY"	"36085"	"2000"	"2000"	53	443728	11.9
+	"Richmond County, NY"	"36085"	"2001"	"2001"	54	448961	12.0
+	"Richmond County, NY"	"36085"	"2002"	"2002"	82	452813	18.1
+	"Rockland County, NY"	"36087"	"1999"	"1999"	11	285265	Unreliable
+	"Rockland County, NY"	"36087"	"2000"	"2000"	13	286753	Unreliable
+	"Rockland County, NY"	"36087"	"2001"	"2001"	16	290613	Unreliable
+	"Saratoga County, NY"	"36091"	"1999"	"1999"	12	198641	Unreliable
+	"Saratoga County, NY"	"36091"	"2000"	"2000"	11	200635	Unreliable
+	"Saratoga County, NY"	"36091"	"2001"	"2001"	13	203974	Unreliable
+	"Saratoga County, NY"	"36091"	"2002"	"2002"	12	206446	Unreliable
+	"Schenectady County, NY"	"36093"	"1999"	"1999"	15	146857	Unreliable
+	"Schenectady County, NY"	"36093"	"2000"	"2000"	13	146555	Unreliable
+	"Schenectady County, NY"	"36093"	"2002"	"2002"	16	147199	Unreliable
+	"Steuben County, NY"	"36101"	"2000"	"2000"	12	98726	Unreliable
+	"Steuben County, NY"	"36101"	"2001"	"2001"	14	99216	Unreliable
+	"Suffolk County, NY"	"36103"	"1999"	"1999"	113	1406161	8.0
+	"Suffolk County, NY"	"36103"	"2000"	"2000"	107	1419369	7.5
+	"Suffolk County, NY"	"36103"	"2001"	"2001"	130	1442488	9.0
+	"Suffolk County, NY"	"36103"	"2002"	"2002"	115	1456745	7.9
+	"Sullivan County, NY"	"36105"	"1999"	"1999"	13	73341	Unreliable
+	"Sullivan County, NY"	"36105"	"2000"	"2000"	11	73966	Unreliable
+	"Sullivan County, NY"	"36105"	"2001"	"2001"	10	74143	Unreliable
+	"Ulster County, NY"	"36111"	"1999"	"1999"	14	176526	Unreliable
+	"Ulster County, NY"	"36111"	"2001"	"2001"	16	178440	Unreliable
+	"Ulster County, NY"	"36111"	"2002"	"2002"	15	180128	Unreliable
+	"Westchester County, NY"	"36119"	"1999"	"1999"	61	918532	6.6
+	"Westchester County, NY"	"36119"	"2000"	"2000"	46	923459	5.0
+	"Westchester County, NY"	"36119"	"2001"	"2001"	92	931577	9.9
+	"Westchester County, NY"	"36119"	"2002"	"2002"	39	935219	4.2
+	"Alamance County, NC"	"37001"	"1999"	"1999"	30	128743	23.3
+	"Alamance County, NC"	"37001"	"2000"	"2000"	27	130800	20.6
+	"Alamance County, NC"	"37001"	"2001"	"2001"	26	133346	19.5
+	"Alamance County, NC"	"37001"	"2002"	"2002"	18	135239	Unreliable
+	"Brunswick County, NC"	"37019"	"1999"	"1999"	15	71367	Unreliable
+	"Brunswick County, NC"	"37019"	"2000"	"2000"	16	73143	Unreliable
+	"Brunswick County, NC"	"37019"	"2001"	"2001"	15	76005	Unreliable
+	"Brunswick County, NC"	"37019"	"2002"	"2002"	15	78296	Unreliable
+	"Buncombe County, NC"	"37021"	"1999"	"1999"	36	204340	17.6
+	"Buncombe County, NC"	"37021"	"2000"	"2000"	33	206330	16.0
+	"Buncombe County, NC"	"37021"	"2001"	"2001"	29	209104	13.9
+	"Buncombe County, NC"	"37021"	"2002"	"2002"	48	211841	22.7
+	"Burke County, NC"	"37023"	"1999"	"1999"	12	88496	Unreliable
+	"Burke County, NC"	"37023"	"2000"	"2000"	17	89148	Unreliable
+	"Burke County, NC"	"37023"	"2001"	"2001"	18	89525	Unreliable
+	"Burke County, NC"	"37023"	"2002"	"2002"	22	89371	24.6
+	"Cabarrus County, NC"	"37025"	"1999"	"1999"	11	127826	Unreliable
+	"Cabarrus County, NC"	"37025"	"2000"	"2000"	17	131063	Unreliable
+	"Cabarrus County, NC"	"37025"	"2001"	"2001"	12	136463	Unreliable
+	"Cabarrus County, NC"	"37025"	"2002"	"2002"	17	140054	Unreliable
+	"Caldwell County, NC"	"37027"	"1999"	"1999"	11	76663	Unreliable
+	"Caldwell County, NC"	"37027"	"2001"	"2001"	12	78375	Unreliable
+	"Caldwell County, NC"	"37027"	"2002"	"2002"	14	78920	Unreliable
+	"Carteret County, NC"	"37031"	"1999"	"1999"	13	59341	Unreliable
+	"Carteret County, NC"	"37031"	"2000"	"2000"	13	59383	Unreliable
+	"Carteret County, NC"	"37031"	"2001"	"2001"	13	59790	Unreliable
+	"Carteret County, NC"	"37031"	"2002"	"2002"	18	60311	Unreliable
+	"Catawba County, NC"	"37035"	"1999"	"1999"	25	139522	17.9
+	"Catawba County, NC"	"37035"	"2000"	"2000"	14	141685	Unreliable
+	"Catawba County, NC"	"37035"	"2001"	"2001"	31	144865	21.4
+	"Catawba County, NC"	"37035"	"2002"	"2002"	29	145343	20.0
+	"Cherokee County, NC"	"37039"	"2002"	"2002"	12	24884	Unreliable
+	"Cleveland County, NC"	"37045"	"1999"	"1999"	12	95293	Unreliable
+	"Cleveland County, NC"	"37045"	"2000"	"2000"	25	96287	26.0
+	"Cleveland County, NC"	"37045"	"2001"	"2001"	26	96861	26.8
+	"Cleveland County, NC"	"37045"	"2002"	"2002"	26	97068	26.8
+	"Columbus County, NC"	"37047"	"2002"	"2002"	10	54975	Unreliable
+	"Craven County, NC"	"37049"	"2000"	"2000"	18	91436	Unreliable
+	"Craven County, NC"	"37049"	"2001"	"2001"	17	93325	Unreliable
+	"Craven County, NC"	"37049"	"2002"	"2002"	21	92633	22.7
+	"Cumberland County, NC"	"37051"	"1999"	"1999"	40	301608	13.3
+	"Cumberland County, NC"	"37051"	"2000"	"2000"	42	302963	13.9
+	"Cumberland County, NC"	"37051"	"2001"	"2001"	29	304316	9.5
+	"Cumberland County, NC"	"37051"	"2002"	"2002"	42	305697	13.7
+	"Dare County, NC"	"37055"	"2000"	"2000"	10	29967	Unreliable
+	"Dare County, NC"	"37055"	"2001"	"2001"	11	30826	Unreliable
+	"Davidson County, NC"	"37057"	"1999"	"1999"	18	146106	Unreliable
+	"Davidson County, NC"	"37057"	"2000"	"2000"	25	147246	17.0
+	"Davidson County, NC"	"37057"	"2001"	"2001"	10	149663	Unreliable
+	"Davidson County, NC"	"37057"	"2002"	"2002"	31	151296	20.5
+	"Durham County, NC"	"37063"	"1999"	"1999"	27	219811	12.3
+	"Durham County, NC"	"37063"	"2000"	"2000"	25	223314	11.2
+	"Durham County, NC"	"37063"	"2001"	"2001"	25	228978	10.9
+	"Durham County, NC"	"37063"	"2002"	"2002"	31	233505	13.3
+	"Edgecombe County, NC"	"37065"	"1999"	"1999"	12	56291	Unreliable
+	"Edgecombe County, NC"	"37065"	"2000"	"2000"	19	55606	Unreliable
+	"Edgecombe County, NC"	"37065"	"2002"	"2002"	12	55855	Unreliable
+	"Forsyth County, NC"	"37067"	"1999"	"1999"	40	303630	13.2
+	"Forsyth County, NC"	"37067"	"2000"	"2000"	50	306067	16.3
+	"Forsyth County, NC"	"37067"	"2001"	"2001"	43	310807	13.8
+	"Forsyth County, NC"	"37067"	"2002"	"2002"	55	314215	17.5
+	"Gaston County, NC"	"37071"	"1999"	"1999"	40	189127	21.1
+	"Gaston County, NC"	"37071"	"2000"	"2000"	46	190365	24.2
+	"Gaston County, NC"	"37071"	"2001"	"2001"	48	191424	25.1
+	"Gaston County, NC"	"37071"	"2002"	"2002"	52	191930	27.1
+	"Granville County, NC"	"37077"	"2001"	"2001"	12	50137	Unreliable
+	"Granville County, NC"	"37077"	"2002"	"2002"	11	51977	Unreliable
+	"Guilford County, NC"	"37081"	"1999"	"1999"	52	416459	12.5
+	"Guilford County, NC"	"37081"	"2000"	"2000"	58	421048	13.8
+	"Guilford County, NC"	"37081"	"2001"	"2001"	77	428381	18.0
+	"Guilford County, NC"	"37081"	"2002"	"2002"	70	432068	16.2
+	"Halifax County, NC"	"37083"	"2000"	"2000"	16	57370	Unreliable
+	"Halifax County, NC"	"37083"	"2001"	"2001"	13	56788	Unreliable
+	"Halifax County, NC"	"37083"	"2002"	"2002"	14	56507	Unreliable
+	"Harnett County, NC"	"37085"	"1999"	"1999"	11	89127	Unreliable
+	"Harnett County, NC"	"37085"	"2000"	"2000"	11	91025	Unreliable
+	"Harnett County, NC"	"37085"	"2001"	"2001"	11	93168	Unreliable
+	"Haywood County, NC"	"37087"	"1999"	"1999"	18	53602	Unreliable
+	"Haywood County, NC"	"37087"	"2000"	"2000"	18	54033	Unreliable
+	"Haywood County, NC"	"37087"	"2001"	"2001"	13	54802	Unreliable
+	"Haywood County, NC"	"37087"	"2002"	"2002"	16	55387	Unreliable
+	"Henderson County, NC"	"37089"	"1999"	"1999"	18	87825	Unreliable
+	"Henderson County, NC"	"37089"	"2000"	"2000"	17	89173	Unreliable
+	"Henderson County, NC"	"37089"	"2001"	"2001"	20	91150	21.9
+	"Henderson County, NC"	"37089"	"2002"	"2002"	16	92700	Unreliable
+	"Iredell County, NC"	"37097"	"1999"	"1999"	13	120031	Unreliable
+	"Iredell County, NC"	"37097"	"2000"	"2000"	13	122660	Unreliable
+	"Iredell County, NC"	"37097"	"2002"	"2002"	20	130352	15.3
+	"Jackson County, NC"	"37099"	"2000"	"2000"	10	33121	Unreliable
+	"Jackson County, NC"	"37099"	"2001"	"2001"	10	33885	Unreliable
+	"Jackson County, NC"	"37099"	"2002"	"2002"	11	34587	Unreliable
+	"Johnston County, NC"	"37101"	"1999"	"1999"	14	117765	Unreliable
+	"Johnston County, NC"	"37101"	"2000"	"2000"	14	121965	Unreliable
+	"Johnston County, NC"	"37101"	"2001"	"2001"	17	127487	Unreliable
+	"Johnston County, NC"	"37101"	"2002"	"2002"	14	132103	Unreliable
+	"Lee County, NC"	"37105"	"2001"	"2001"	10	49853	Unreliable
+	"Lee County, NC"	"37105"	"2002"	"2002"	10	49313	Unreliable
+	"Lenoir County, NC"	"37107"	"1999"	"1999"	15	59863	Unreliable
+	"Lincoln County, NC"	"37109"	"1999"	"1999"	13	62955	Unreliable
+	"Lincoln County, NC"	"37109"	"2001"	"2001"	10	65352	Unreliable
+	"Lincoln County, NC"	"37109"	"2002"	"2002"	13	66400	Unreliable
+	"McDowell County, NC"	"37111"	"2002"	"2002"	10	42911	Unreliable
+	"Mecklenburg County, NC"	"37119"	"1999"	"1999"	68	682071	10.0
+	"Mecklenburg County, NC"	"37119"	"2000"	"2000"	89	695454	12.8
+	"Mecklenburg County, NC"	"37119"	"2001"	"2001"	70	720171	9.7
+	"Mecklenburg County, NC"	"37119"	"2002"	"2002"	83	736422	11.3
+	"Moore County, NC"	"37125"	"2002"	"2002"	14	77521	Unreliable
+	"Nash County, NC"	"37127"	"1999"	"1999"	19	87042	Unreliable
+	"Nash County, NC"	"37127"	"2000"	"2000"	13	87420	Unreliable
+	"Nash County, NC"	"37127"	"2001"	"2001"	15	88242	Unreliable
+	"Nash County, NC"	"37127"	"2002"	"2002"	14	88843	Unreliable
+	"New Hanover County, NC"	"37129"	"1999"	"1999"	20	158774	12.6
+	"New Hanover County, NC"	"37129"	"2000"	"2000"	27	160307	16.8
+	"New Hanover County, NC"	"37129"	"2001"	"2001"	35	164386	21.3
+	"New Hanover County, NC"	"37129"	"2002"	"2002"	36	168147	21.4
+	"Onslow County, NC"	"37133"	"1999"	"1999"	13	149628	Unreliable
+	"Onslow County, NC"	"37133"	"2000"	"2000"	11	150355	Unreliable
+	"Onslow County, NC"	"37133"	"2001"	"2001"	19	151068	Unreliable
+	"Onslow County, NC"	"37133"	"2002"	"2002"	22	153397	14.3
+	"Orange County, NC"	"37135"	"1999"	"1999"	16	116862	Unreliable
+	"Orange County, NC"	"37135"	"2000"	"2000"	11	118227	Unreliable
+	"Orange County, NC"	"37135"	"2001"	"2001"	13	118684	Unreliable
+	"Orange County, NC"	"37135"	"2002"	"2002"	11	117667	Unreliable
+	"Pitt County, NC"	"37147"	"1999"	"1999"	21	132554	15.8
+	"Pitt County, NC"	"37147"	"2000"	"2000"	18	133798	Unreliable
+	"Pitt County, NC"	"37147"	"2001"	"2001"	28	136605	20.5
+	"Pitt County, NC"	"37147"	"2002"	"2002"	18	139128	Unreliable
+	"Randolph County, NC"	"37151"	"1999"	"1999"	19	128722	Unreliable
+	"Randolph County, NC"	"37151"	"2000"	"2000"	12	130454	Unreliable
+	"Randolph County, NC"	"37151"	"2001"	"2001"	14	132092	Unreliable
+	"Randolph County, NC"	"37151"	"2002"	"2002"	18	132989	Unreliable
+	"Richmond County, NC"	"37153"	"2002"	"2002"	10	46659	Unreliable
+	"Robeson County, NC"	"37155"	"1999"	"1999"	12	122514	Unreliable
+	"Robeson County, NC"	"37155"	"2000"	"2000"	19	123339	Unreliable
+	"Robeson County, NC"	"37155"	"2001"	"2001"	21	123913	16.9
+	"Robeson County, NC"	"37155"	"2002"	"2002"	16	124676	Unreliable
+	"Rockingham County, NC"	"37157"	"1999"	"1999"	11	91845	Unreliable
+	"Rockingham County, NC"	"37157"	"2000"	"2000"	20	91928	21.8
+	"Rockingham County, NC"	"37157"	"2001"	"2001"	11	92268	Unreliable
+	"Rockingham County, NC"	"37157"	"2002"	"2002"	11	92798	Unreliable
+	"Rowan County, NC"	"37159"	"1999"	"1999"	19	129436	Unreliable
+	"Rowan County, NC"	"37159"	"2000"	"2000"	21	130340	16.1
+	"Rowan County, NC"	"37159"	"2001"	"2001"	17	131852	Unreliable
+	"Rowan County, NC"	"37159"	"2002"	"2002"	34	132765	25.6
+	"Rutherford County, NC"	"37161"	"1999"	"1999"	14	62511	Unreliable
+	"Rutherford County, NC"	"37161"	"2000"	"2000"	20	62899	31.8
+	"Rutherford County, NC"	"37161"	"2001"	"2001"	17	63671	Unreliable
+	"Rutherford County, NC"	"37161"	"2002"	"2002"	11	63924	Unreliable
+	"Sampson County, NC"	"37163"	"2000"	"2000"	12	60161	Unreliable
+	"Sampson County, NC"	"37163"	"2001"	"2001"	13	60526	Unreliable
+	"Scotland County, NC"	"37165"	"2000"	"2000"	10	35998	Unreliable
+	"Stanly County, NC"	"37167"	"2000"	"2000"	11	58100	Unreliable
+	"Stanly County, NC"	"37167"	"2001"	"2001"	13	58674	Unreliable
+	"Surry County, NC"	"37171"	"2000"	"2000"	11	71219	Unreliable
+	"Surry County, NC"	"37171"	"2001"	"2001"	16	71782	Unreliable
+	"Surry County, NC"	"37171"	"2002"	"2002"	16	72152	Unreliable
+	"Union County, NC"	"37179"	"1999"	"1999"	19	118621	Unreliable
+	"Union County, NC"	"37179"	"2001"	"2001"	14	131661	Unreliable
+	"Union County, NC"	"37179"	"2002"	"2002"	11	138329	Unreliable
+	"Vance County, NC"	"37181"	"2002"	"2002"	14	44056	Unreliable
+	"Wake County, NC"	"37183"	"1999"	"1999"	60	612728	9.8
+	"Wake County, NC"	"37183"	"2000"	"2000"	62	627846	9.9
+	"Wake County, NC"	"37183"	"2001"	"2001"	61	656819	9.3
+	"Wake County, NC"	"37183"	"2002"	"2002"	58	676392	8.6
+	"Wayne County, NC"	"37191"	"1999"	"1999"	26	113176	23.0
+	"Wayne County, NC"	"37191"	"2000"	"2000"	18	113329	Unreliable
+	"Wayne County, NC"	"37191"	"2001"	"2001"	18	113934	Unreliable
+	"Wayne County, NC"	"37191"	"2002"	"2002"	17	114305	Unreliable
+	"Wilkes County, NC"	"37193"	"1999"	"1999"	16	65092	Unreliable
+	"Wilkes County, NC"	"37193"	"2000"	"2000"	14	65632	Unreliable
+	"Wilkes County, NC"	"37193"	"2001"	"2001"	14	66694	Unreliable
+	"Wilkes County, NC"	"37193"	"2002"	"2002"	15	67202	Unreliable
+	"Wilson County, NC"	"37195"	"1999"	"1999"	21	73166	28.7
+	"Wilson County, NC"	"37195"	"2000"	"2000"	17	73814	Unreliable
+	"Wilson County, NC"	"37195"	"2002"	"2002"	10	75213	Unreliable
+	"Burleigh County, ND"	"38015"	"2002"	"2002"	10	71090	Unreliable
+	"Cass County, ND"	"38017"	"2001"	"2001"	15	125520	Unreliable
+	"Cass County, ND"	"38017"	"2002"	"2002"	19	127119	Unreliable
+	"Allen County, OH"	"39003"	"1999"	"1999"	12	108192	Unreliable
+	"Ashtabula County, OH"	"39007"	"2001"	"2001"	14	102450	Unreliable
+	"Ashtabula County, OH"	"39007"	"2002"	"2002"	11	102577	Unreliable
+	"Belmont County, OH"	"39013"	"2001"	"2001"	11	69901	Unreliable
+	"Butler County, OH"	"39017"	"1999"	"1999"	45	330751	13.6
+	"Butler County, OH"	"39017"	"2000"	"2000"	51	332807	15.3
+	"Butler County, OH"	"39017"	"2001"	"2001"	55	336679	16.3
+	"Butler County, OH"	"39017"	"2002"	"2002"	64	339514	18.9
+	"Champaign County, OH"	"39021"	"2001"	"2001"	10	39047	Unreliable
+	"Clark County, OH"	"39023"	"1999"	"1999"	20	145159	13.8
+	"Clark County, OH"	"39023"	"2000"	"2000"	23	144742	15.9
+	"Clark County, OH"	"39023"	"2001"	"2001"	24	143803	16.7
+	"Clark County, OH"	"39023"	"2002"	"2002"	21	143229	14.7
+	"Clermont County, OH"	"39025"	"2000"	"2000"	18	177977	Unreliable
+	"Clermont County, OH"	"39025"	"2001"	"2001"	13	179845	Unreliable
+	"Clermont County, OH"	"39025"	"2002"	"2002"	24	182143	13.2
+	"Columbiana County, OH"	"39029"	"2000"	"2000"	11	112075	Unreliable
+	"Columbiana County, OH"	"39029"	"2002"	"2002"	11	111097	Unreliable
+	"Cuyahoga County, OH"	"39035"	"1999"	"1999"	147	1399752	10.5
+	"Cuyahoga County, OH"	"39035"	"2000"	"2000"	182	1393978	13.1
+	"Cuyahoga County, OH"	"39035"	"2001"	"2001"	218	1382520	15.8
+	"Cuyahoga County, OH"	"39035"	"2002"	"2002"	194	1371493	14.1
+	"Delaware County, OH"	"39041"	"2002"	"2002"	12	126172	Unreliable
+	"Erie County, OH"	"39043"	"1999"	"1999"	10	79513	Unreliable
+	"Fairfield County, OH"	"39045"	"2001"	"2001"	16	126245	Unreliable
+	"Fairfield County, OH"	"39045"	"2002"	"2002"	18	129355	Unreliable
+	"Franklin County, OH"	"39049"	"1999"	"1999"	102	1061223	9.6
+	"Franklin County, OH"	"39049"	"2000"	"2000"	104	1068978	9.7
+	"Franklin County, OH"	"39049"	"2001"	"2001"	139	1082938	12.8
+	"Franklin County, OH"	"39049"	"2002"	"2002"	160	1088693	14.7
+	"Geauga County, OH"	"39055"	"2002"	"2002"	14	91970	Unreliable
+	"Greene County, OH"	"39057"	"1999"	"1999"	16	147479	Unreliable
+	"Greene County, OH"	"39057"	"2000"	"2000"	13	147886	Unreliable
+	"Greene County, OH"	"39057"	"2001"	"2001"	17	149643	Unreliable
+	"Greene County, OH"	"39057"	"2002"	"2002"	27	151537	17.8
+	"Hamilton County, OH"	"39061"	"1999"	"1999"	116	849917	13.6
+	"Hamilton County, OH"	"39061"	"2000"	"2000"	112	845303	13.2
+	"Hamilton County, OH"	"39061"	"2001"	"2001"	131	840335	15.6
+	"Hamilton County, OH"	"39061"	"2002"	"2002"	147	832390	17.7
+	"Jefferson County, OH"	"39081"	"1999"	"1999"	10	74546	Unreliable
+	"Jefferson County, OH"	"39081"	"2000"	"2000"	12	73894	Unreliable
+	"Jefferson County, OH"	"39081"	"2001"	"2001"	10	73043	Unreliable
+	"Jefferson County, OH"	"39081"	"2002"	"2002"	11	72416	Unreliable
+	"Lake County, OH"	"39085"	"1999"	"1999"	22	227605	9.7
+	"Lake County, OH"	"39085"	"2000"	"2000"	17	227511	Unreliable
+	"Lake County, OH"	"39085"	"2001"	"2001"	13	227648	Unreliable
+	"Lake County, OH"	"39085"	"2002"	"2002"	20	227747	8.8
+	"Lawrence County, OH"	"39087"	"2001"	"2001"	14	61965	Unreliable
+	"Licking County, OH"	"39089"	"2000"	"2000"	16	145491	Unreliable
+	"Licking County, OH"	"39089"	"2001"	"2001"	11	148226	Unreliable
+	"Licking County, OH"	"39089"	"2002"	"2002"	19	150061	Unreliable
+	"Lorain County, OH"	"39093"	"1999"	"1999"	16	283364	Unreliable
+	"Lorain County, OH"	"39093"	"2000"	"2000"	23	284664	8.1
+	"Lorain County, OH"	"39093"	"2001"	"2001"	26	285827	9.1
+	"Lorain County, OH"	"39093"	"2002"	"2002"	22	287489	7.7
+	"Lucas County, OH"	"39095"	"1999"	"1999"	66	455515	14.5
+	"Lucas County, OH"	"39095"	"2000"	"2000"	79	455054	17.4
+	"Lucas County, OH"	"39095"	"2001"	"2001"	68	454855	14.9
+	"Lucas County, OH"	"39095"	"2002"	"2002"	79	454240	17.4
+	"Mahoning County, OH"	"39099"	"1999"	"1999"	24	259145	9.3
+	"Mahoning County, OH"	"39099"	"2000"	"2000"	36	257555	14.0
+	"Mahoning County, OH"	"39099"	"2001"	"2001"	38	255264	14.9
+	"Mahoning County, OH"	"39099"	"2002"	"2002"	30	252998	11.9
+	"Marion County, OH"	"39101"	"1999"	"1999"	10	66533	Unreliable
+	"Medina County, OH"	"39103"	"1999"	"1999"	10	149137	Unreliable
+	"Medina County, OH"	"39103"	"2000"	"2000"	10	151095	Unreliable
+	"Miami County, OH"	"39109"	"2001"	"2001"	11	99300	Unreliable
+	"Miami County, OH"	"39109"	"2002"	"2002"	14	99579	Unreliable
+	"Montgomery County, OH"	"39113"	"1999"	"1999"	114	561944	20.3
+	"Montgomery County, OH"	"39113"	"2000"	"2000"	110	559062	19.7
+	"Montgomery County, OH"	"39113"	"2001"	"2001"	135	555536	24.3
+	"Montgomery County, OH"	"39113"	"2002"	"2002"	183	553170	33.1
+	"Muskingum County, OH"	"39119"	"2002"	"2002"	11	85247	Unreliable
+	"Ottawa County, OH"	"39123"	"1999"	"1999"	10	41017	Unreliable
+	"Pike County, OH"	"39131"	"2000"	"2000"	10	27695	Unreliable
+	"Portage County, OH"	"39133"	"2001"	"2001"	17	153554	Unreliable
+	"Portage County, OH"	"39133"	"2002"	"2002"	28	154667	18.1
+	"Richland County, OH"	"39139"	"1999"	"1999"	11	129233	Unreliable
+	"Richland County, OH"	"39139"	"2001"	"2001"	22	128187	17.2
+	"Richland County, OH"	"39139"	"2002"	"2002"	17	128363	Unreliable
+	"Ross County, OH"	"39141"	"1999"	"1999"	10	73287	Unreliable
+	"Ross County, OH"	"39141"	"2001"	"2001"	13	73840	Unreliable
+	"Ross County, OH"	"39141"	"2002"	"2002"	12	74363	Unreliable
+	"Sandusky County, OH"	"39143"	"2001"	"2001"	10	61788	Unreliable
+	"Sandusky County, OH"	"39143"	"2002"	"2002"	10	61918	Unreliable
+	"Scioto County, OH"	"39145"	"1999"	"1999"	12	79640	Unreliable
+	"Scioto County, OH"	"39145"	"2000"	"2000"	12	79195	Unreliable
+	"Scioto County, OH"	"39145"	"2001"	"2001"	21	78784	26.7
+	"Scioto County, OH"	"39145"	"2002"	"2002"	27	78652	34.3
+	"Stark County, OH"	"39151"	"1999"	"1999"	24	378220	6.3
+	"Stark County, OH"	"39151"	"2000"	"2000"	34	378098	9.0
+	"Stark County, OH"	"39151"	"2001"	"2001"	34	377295	9.0
+	"Stark County, OH"	"39151"	"2002"	"2002"	44	376867	11.7
+	"Summit County, OH"	"39153"	"1999"	"1999"	39	541737	7.2
+	"Summit County, OH"	"39153"	"2000"	"2000"	45	542899	8.3
+	"Summit County, OH"	"39153"	"2001"	"2001"	66	544554	12.1
+	"Summit County, OH"	"39153"	"2002"	"2002"	90	544866	16.5
+	"Trumbull County, OH"	"39155"	"1999"	"1999"	27	226084	11.9
+	"Trumbull County, OH"	"39155"	"2000"	"2000"	24	225116	10.7
+	"Trumbull County, OH"	"39155"	"2001"	"2001"	22	223991	9.8
+	"Trumbull County, OH"	"39155"	"2002"	"2002"	44	222484	19.8
+	"Warren County, OH"	"39165"	"2000"	"2000"	11	158383	Unreliable
+	"Warren County, OH"	"39165"	"2002"	"2002"	22	174833	12.6
+	"Washington County, OH"	"39167"	"2001"	"2001"	12	62847	Unreliable
+	"Washington County, OH"	"39167"	"2002"	"2002"	13	62638	Unreliable
+	"Wayne County, OH"	"39169"	"2000"	"2000"	12	111564	Unreliable
+	"Wayne County, OH"	"39169"	"2001"	"2001"	15	112161	Unreliable
+	"Caddo County, OK"	"40015"	"2002"	"2002"	12	29532	Unreliable
+	"Canadian County, OK"	"40017"	"1999"	"1999"	10	86306	Unreliable
+	"Canadian County, OK"	"40017"	"2002"	"2002"	10	91507	Unreliable
+	"Cherokee County, OK"	"40021"	"2002"	"2002"	13	43625	Unreliable
+	"Cleveland County, OK"	"40027"	"1999"	"1999"	15	206844	Unreliable
+	"Cleveland County, OK"	"40027"	"2000"	"2000"	27	208016	13.0
+	"Cleveland County, OK"	"40027"	"2001"	"2001"	23	213414	10.8
+	"Cleveland County, OK"	"40027"	"2002"	"2002"	23	217235	10.6
+	"Comanche County, OK"	"40031"	"1999"	"1999"	14	116064	Unreliable
+	"Comanche County, OK"	"40031"	"2000"	"2000"	17	114996	Unreliable
+	"Comanche County, OK"	"40031"	"2001"	"2001"	11	113551	Unreliable
+	"Comanche County, OK"	"40031"	"2002"	"2002"	11	113551	Unreliable
+	"Creek County, OK"	"40037"	"2000"	"2000"	10	67367	Unreliable
+	"Creek County, OK"	"40037"	"2001"	"2001"	14	67768	Unreliable
+	"Creek County, OK"	"40037"	"2002"	"2002"	12	68148	Unreliable
+	"Garfield County, OK"	"40047"	"2000"	"2000"	10	57813	Unreliable
+	"Garfield County, OK"	"40047"	"2001"	"2001"	10	57279	Unreliable
+	"Kay County, OK"	"40071"	"2002"	"2002"	14	47686	Unreliable
+	"Le Flore County, OK"	"40079"	"1999"	"1999"	10	47858	Unreliable
+	"Le Flore County, OK"	"40079"	"2001"	"2001"	11	48018	Unreliable
+	"Muskogee County, OK"	"40101"	"2001"	"2001"	11	69428	Unreliable
+	"Oklahoma County, OK"	"40109"	"1999"	"1999"	91	657182	13.8
+	"Oklahoma County, OK"	"40109"	"2000"	"2000"	101	660448	15.3
+	"Oklahoma County, OK"	"40109"	"2001"	"2001"	93	664836	14.0
+	"Oklahoma County, OK"	"40109"	"2002"	"2002"	104	671120	15.5
+	"Osage County, OK"	"40113"	"2001"	"2001"	10	45227	Unreliable
+	"Payne County, OK"	"40119"	"2001"	"2001"	12	70132	Unreliable
+	"Pittsburg County, OK"	"40121"	"2002"	"2002"	13	43933	Unreliable
+	"Pottawatomie County, OK"	"40125"	"2001"	"2001"	12	66222	Unreliable
+	"Stephens County, OK"	"40137"	"2000"	"2000"	12	43182	Unreliable
+	"Stephens County, OK"	"40137"	"2001"	"2001"	11	42796	Unreliable
+	"Tulsa County, OK"	"40143"	"1999"	"1999"	66	561682	11.8
+	"Tulsa County, OK"	"40143"	"2000"	"2000"	100	563299	17.8
+	"Tulsa County, OK"	"40143"	"2001"	"2001"	112	566175	19.8
+	"Tulsa County, OK"	"40143"	"2002"	"2002"	121	569170	21.3
+	"Wagoner County, OK"	"40145"	"1999"	"1999"	12	56735	Unreliable
+	"Benton County, OR"	"41003"	"2000"	"2000"	10	78153	Unreliable
+	"Clackamas County, OR"	"41005"	"1999"	"1999"	48	335891	14.3
+	"Clackamas County, OR"	"41005"	"2000"	"2000"	54	338391	16.0
+	"Clackamas County, OR"	"41005"	"2001"	"2001"	48	343444	14.0
+	"Clackamas County, OR"	"41005"	"2002"	"2002"	65	348951	18.6
+	"Clatsop County, OR"	"41007"	"1999"	"1999"	15	35720	Unreliable
+	"Clatsop County, OR"	"41007"	"2001"	"2001"	11	35509	Unreliable
+	"Clatsop County, OR"	"41007"	"2002"	"2002"	20	35519	56.3
+	"Columbia County, OR"	"41009"	"2002"	"2002"	11	45104	Unreliable
+	"Coos County, OR"	"41011"	"1999"	"1999"	10	62962	Unreliable
+	"Coos County, OR"	"41011"	"2000"	"2000"	19	62779	Unreliable
+	"Coos County, OR"	"41011"	"2001"	"2001"	25	62190	40.2
+	"Coos County, OR"	"41011"	"2002"	"2002"	26	62286	41.7
+	"Deschutes County, OR"	"41017"	"1999"	"1999"	13	111933	Unreliable
+	"Deschutes County, OR"	"41017"	"2000"	"2000"	12	115367	Unreliable
+	"Deschutes County, OR"	"41017"	"2001"	"2001"	18	120526	Unreliable
+	"Deschutes County, OR"	"41017"	"2002"	"2002"	18	125247	Unreliable
+	"Douglas County, OR"	"41019"	"1999"	"1999"	22	100364	21.9
+	"Douglas County, OR"	"41019"	"2000"	"2000"	22	100399	21.9
+	"Douglas County, OR"	"41019"	"2001"	"2001"	15	100562	Unreliable
+	"Douglas County, OR"	"41019"	"2002"	"2002"	30	101529	29.5
+	"Jackson County, OR"	"41029"	"1999"	"1999"	33	179264	18.4
+	"Jackson County, OR"	"41029"	"2000"	"2000"	31	181269	17.1
+	"Jackson County, OR"	"41029"	"2001"	"2001"	34	183835	18.5
+	"Jackson County, OR"	"41029"	"2002"	"2002"	44	186704	23.6
+	"Josephine County, OR"	"41033"	"1999"	"1999"	15	75209	Unreliable
+	"Josephine County, OR"	"41033"	"2000"	"2000"	18	75726	Unreliable
+	"Josephine County, OR"	"41033"	"2001"	"2001"	11	76452	Unreliable
+	"Josephine County, OR"	"41033"	"2002"	"2002"	27	77712	34.7
+	"Klamath County, OR"	"41035"	"1999"	"1999"	13	63396	Unreliable
+	"Klamath County, OR"	"41035"	"2000"	"2000"	22	63775	34.5
+	"Klamath County, OR"	"41035"	"2001"	"2001"	17	64139	Unreliable
+	"Klamath County, OR"	"41035"	"2002"	"2002"	24	64150	37.4
+	"Lane County, OR"	"41039"	"1999"	"1999"	69	321778	21.4
+	"Lane County, OR"	"41039"	"2000"	"2000"	58	322959	18.0
+	"Lane County, OR"	"41039"	"2001"	"2001"	76	324855	23.4
+	"Lane County, OR"	"41039"	"2002"	"2002"	71	327506	21.7
+	"Lincoln County, OR"	"41041"	"1999"	"1999"	17	44935	Unreliable
+	"Lincoln County, OR"	"41041"	"2001"	"2001"	12	43854	Unreliable
+	"Lincoln County, OR"	"41041"	"2002"	"2002"	25	44270	56.5
+	"Linn County, OR"	"41043"	"1999"	"1999"	13	103462	Unreliable
+	"Linn County, OR"	"41043"	"2000"	"2000"	15	103069	Unreliable
+	"Linn County, OR"	"41043"	"2001"	"2001"	23	103544	22.2
+	"Linn County, OR"	"41043"	"2002"	"2002"	20	104561	19.1
+	"Marion County, OR"	"41047"	"1999"	"1999"	31	282129	11.0
+	"Marion County, OR"	"41047"	"2000"	"2000"	33	284834	11.6
+	"Marion County, OR"	"41047"	"2001"	"2001"	39	288136	13.5
+	"Marion County, OR"	"41047"	"2002"	"2002"	53	292533	18.1
+	"Multnomah County, OR"	"41051"	"1999"	"1999"	230	657740	35.0
+	"Multnomah County, OR"	"41051"	"2000"	"2000"	196	660486	29.7
+	"Multnomah County, OR"	"41051"	"2001"	"2001"	211	669690	31.5
+	"Multnomah County, OR"	"41051"	"2002"	"2002"	243	676653	35.9
+	"Polk County, OR"	"41053"	"2002"	"2002"	16	64135	Unreliable
+	"Umatilla County, OR"	"41059"	"1999"	"1999"	12	69847	Unreliable
+	"Umatilla County, OR"	"41059"	"2001"	"2001"	11	70682	Unreliable
+	"Umatilla County, OR"	"41059"	"2002"	"2002"	11	72150	Unreliable
+	"Washington County, OR"	"41067"	"1999"	"1999"	36	435602	8.3
+	"Washington County, OR"	"41067"	"2000"	"2000"	54	445342	12.1
+	"Washington County, OR"	"41067"	"2001"	"2001"	56	460622	12.2
+	"Washington County, OR"	"41067"	"2002"	"2002"	67	468549	14.3
+	"Yamhill County, OR"	"41071"	"2001"	"2001"	14	86156	Unreliable
+	"Yamhill County, OR"	"41071"	"2002"	"2002"	12	87370	Unreliable
+	"Adams County, PA"	"42001"	"2000"	"2000"	10	91292	Unreliable
+	"Allegheny County, PA"	"42003"	"1999"	"1999"	190	1287247	14.8
+	"Allegheny County, PA"	"42003"	"2000"	"2000"	193	1281666	15.1
+	"Allegheny County, PA"	"42003"	"2001"	"2001"	173	1272416	13.6
+	"Allegheny County, PA"	"42003"	"2002"	"2002"	194	1265577	15.3
+	"Armstrong County, PA"	"42005"	"2002"	"2002"	10	71747	Unreliable
+	"Beaver County, PA"	"42007"	"1999"	"1999"	13	182592	Unreliable
+	"Beaver County, PA"	"42007"	"2000"	"2000"	11	181412	Unreliable
+	"Beaver County, PA"	"42007"	"2001"	"2001"	23	179391	12.8
+	"Beaver County, PA"	"42007"	"2002"	"2002"	25	178277	14.0
+	"Berks County, PA"	"42011"	"1999"	"1999"	45	370942	12.1
+	"Berks County, PA"	"42011"	"2000"	"2000"	35	373638	9.4
+	"Berks County, PA"	"42011"	"2001"	"2001"	44	377487	11.7
+	"Berks County, PA"	"42011"	"2002"	"2002"	54	381338	14.2
+	"Blair County, PA"	"42013"	"1999"	"1999"	21	129757	16.2
+	"Blair County, PA"	"42013"	"2000"	"2000"	24	129144	18.6
+	"Blair County, PA"	"42013"	"2001"	"2001"	16	128471	Unreliable
+	"Blair County, PA"	"42013"	"2002"	"2002"	23	127631	18.0
+	"Bradford County, PA"	"42015"	"2000"	"2000"	10	62761	Unreliable
+	"Bucks County, PA"	"42017"	"1999"	"1999"	85	593947	14.3
+	"Bucks County, PA"	"42017"	"2000"	"2000"	96	597635	16.1
+	"Bucks County, PA"	"42017"	"2001"	"2001"	87	602883	14.4
+	"Bucks County, PA"	"42017"	"2002"	"2002"	72	607157	11.9
+	"Butler County, PA"	"42019"	"1999"	"1999"	13	172924	Unreliable
+	"Butler County, PA"	"42019"	"2000"	"2000"	17	174083	Unreliable
+	"Butler County, PA"	"42019"	"2001"	"2001"	13	175621	Unreliable
+	"Butler County, PA"	"42019"	"2002"	"2002"	19	177146	Unreliable
+	"Cambria County, PA"	"42021"	"1999"	"1999"	17	153911	Unreliable
+	"Cambria County, PA"	"42021"	"2000"	"2000"	18	152598	Unreliable
+	"Cambria County, PA"	"42021"	"2001"	"2001"	18	150902	Unreliable
+	"Cambria County, PA"	"42021"	"2002"	"2002"	25	149831	16.7
+	"Carbon County, PA"	"42025"	"2002"	"2002"	12	59820	Unreliable
+	"Chester County, PA"	"42029"	"1999"	"1999"	26	428055	6.1
+	"Chester County, PA"	"42029"	"2000"	"2000"	38	433501	8.8
+	"Chester County, PA"	"42029"	"2001"	"2001"	29	441024	6.6
+	"Chester County, PA"	"42029"	"2002"	"2002"	38	447842	8.5
+	"Clearfield County, PA"	"42033"	"2002"	"2002"	11	82925	Unreliable
+	"Crawford County, PA"	"42039"	"1999"	"1999"	13	90149	Unreliable
+	"Cumberland County, PA"	"42041"	"1999"	"1999"	13	213282	Unreliable
+	"Cumberland County, PA"	"42041"	"2000"	"2000"	10	213674	Unreliable
+	"Cumberland County, PA"	"42041"	"2001"	"2001"	15	215087	Unreliable
+	"Cumberland County, PA"	"42041"	"2002"	"2002"	14	217318	Unreliable
+	"Dauphin County, PA"	"42043"	"1999"	"1999"	21	251329	8.4
+	"Dauphin County, PA"	"42043"	"2000"	"2000"	31	251798	12.3
+	"Dauphin County, PA"	"42043"	"2001"	"2001"	24	252500	9.5
+	"Dauphin County, PA"	"42043"	"2002"	"2002"	24	254339	9.4
+	"Delaware County, PA"	"42045"	"1999"	"1999"	94	550820	17.1
+	"Delaware County, PA"	"42045"	"2000"	"2000"	93	550864	16.9
+	"Delaware County, PA"	"42045"	"2001"	"2001"	79	552041	14.3
+	"Delaware County, PA"	"42045"	"2002"	"2002"	87	551929	15.8
+	"Erie County, PA"	"42049"	"1999"	"1999"	34	281294	12.1
+	"Erie County, PA"	"42049"	"2000"	"2000"	27	280843	9.6
+	"Erie County, PA"	"42049"	"2001"	"2001"	25	280647	8.9
+	"Erie County, PA"	"42049"	"2002"	"2002"	31	280379	11.1
+	"Fayette County, PA"	"42051"	"1999"	"1999"	13	148857	Unreliable
+	"Fayette County, PA"	"42051"	"2000"	"2000"	13	148644	Unreliable
+	"Fayette County, PA"	"42051"	"2001"	"2001"	11	146219	Unreliable
+	"Fayette County, PA"	"42051"	"2002"	"2002"	18	144817	Unreliable
+	"Franklin County, PA"	"42055"	"2002"	"2002"	13	131998	Unreliable
+	"Indiana County, PA"	"42063"	"2002"	"2002"	10	89133	Unreliable
+	"Lackawanna County, PA"	"42069"	"1999"	"1999"	26	214001	12.1
+	"Lackawanna County, PA"	"42069"	"2000"	"2000"	51	213295	23.9
+	"Lackawanna County, PA"	"42069"	"2001"	"2001"	25	212692	11.8
+	"Lackawanna County, PA"	"42069"	"2002"	"2002"	40	211980	18.9
+	"Lancaster County, PA"	"42071"	"1999"	"1999"	36	467879	7.7
+	"Lancaster County, PA"	"42071"	"2000"	"2000"	33	470658	7.0
+	"Lancaster County, PA"	"42071"	"2001"	"2001"	39	475483	8.2
+	"Lancaster County, PA"	"42071"	"2002"	"2002"	44	480118	9.2
+	"Lawrence County, PA"	"42073"	"2000"	"2000"	12	94643	Unreliable
+	"Lebanon County, PA"	"42075"	"1999"	"1999"	12	119944	Unreliable
+	"Lebanon County, PA"	"42075"	"2000"	"2000"	16	120327	Unreliable
+	"Lebanon County, PA"	"42075"	"2001"	"2001"	12	120954	Unreliable
+	"Lehigh County, PA"	"42077"	"1999"	"1999"	30	310514	9.7
+	"Lehigh County, PA"	"42077"	"2000"	"2000"	49	312090	15.7
+	"Lehigh County, PA"	"42077"	"2001"	"2001"	35	314823	11.1
+	"Lehigh County, PA"	"42077"	"2002"	"2002"	31	317252	9.8
+	"Luzerne County, PA"	"42079"	"1999"	"1999"	56	320888	17.5
+	"Luzerne County, PA"	"42079"	"2000"	"2000"	58	319250	18.2
+	"Luzerne County, PA"	"42079"	"2001"	"2001"	56	316665	17.7
+	"Luzerne County, PA"	"42079"	"2002"	"2002"	59	315711	18.7
+	"Lycoming County, PA"	"42081"	"2001"	"2001"	11	118930	Unreliable
+	"Lycoming County, PA"	"42081"	"2002"	"2002"	11	118344	Unreliable
+	"Mercer County, PA"	"42085"	"2001"	"2001"	20	119861	16.7
+	"Mercer County, PA"	"42085"	"2002"	"2002"	19	119476	Unreliable
+	"Monroe County, PA"	"42089"	"1999"	"1999"	13	134936	Unreliable
+	"Monroe County, PA"	"42089"	"2000"	"2000"	26	138687	18.7
+	"Monroe County, PA"	"42089"	"2001"	"2001"	12	143775	Unreliable
+	"Monroe County, PA"	"42089"	"2002"	"2002"	19	148833	Unreliable
+	"Montgomery County, PA"	"42091"	"1999"	"1999"	83	744683	11.1
+	"Montgomery County, PA"	"42091"	"2000"	"2000"	85	750097	11.3
+	"Montgomery County, PA"	"42091"	"2001"	"2001"	79	759392	10.4
+	"Montgomery County, PA"	"42091"	"2002"	"2002"	82	766056	10.7
+	"Northampton County, PA"	"42095"	"1999"	"1999"	21	265928	7.9
+	"Northampton County, PA"	"42095"	"2000"	"2000"	24	267066	9.0
+	"Northampton County, PA"	"42095"	"2001"	"2001"	30	269363	11.1
+	"Northampton County, PA"	"42095"	"2002"	"2002"	29	272782	10.6
+	"Philadelphia County, PA"	"42101"	"1999"	"1999"	384	1520064	25.3
+	"Philadelphia County, PA"	"42101"	"2000"	"2000"	444	1517550	29.3
+	"Philadelphia County, PA"	"42101"	"2001"	"2001"	388	1505455	25.8
+	"Philadelphia County, PA"	"42101"	"2002"	"2002"	375	1498493	25.0
+	"Pike County, PA"	"42103"	"2000"	"2000"	10	46302	Unreliable
+	"Pike County, PA"	"42103"	"2001"	"2001"	10	47594	Unreliable
+	"Schuylkill County, PA"	"42107"	"1999"	"1999"	19	151021	Unreliable
+	"Schuylkill County, PA"	"42107"	"2000"	"2000"	20	150336	13.3
+	"Schuylkill County, PA"	"42107"	"2001"	"2001"	22	149175	14.7
+	"Schuylkill County, PA"	"42107"	"2002"	"2002"	25	148705	16.8
+	"Washington County, PA"	"42125"	"1999"	"1999"	18	203078	Unreliable
+	"Washington County, PA"	"42125"	"2000"	"2000"	14	202897	Unreliable
+	"Washington County, PA"	"42125"	"2001"	"2001"	22	203179	10.8
+	"Washington County, PA"	"42125"	"2002"	"2002"	30	203104	14.8
+	"Wayne County, PA"	"42127"	"2002"	"2002"	11	48330	Unreliable
+	"Westmoreland County, PA"	"42129"	"1999"	"1999"	27	371248	7.3
+	"Westmoreland County, PA"	"42129"	"2000"	"2000"	24	369993	6.5
+	"Westmoreland County, PA"	"42129"	"2001"	"2001"	36	368698	9.8
+	"Westmoreland County, PA"	"42129"	"2002"	"2002"	42	367680	11.4
+	"York County, PA"	"42133"	"1999"	"1999"	30	378905	7.9
+	"York County, PA"	"42133"	"2000"	"2000"	43	381751	11.3
+	"York County, PA"	"42133"	"2001"	"2001"	30	385773	7.8
+	"York County, PA"	"42133"	"2002"	"2002"	26	389692	6.7
+	"Kent County, RI"	"44003"	"1999"	"1999"	23	166044	13.9
+	"Kent County, RI"	"44003"	"2000"	"2000"	27	167090	16.2
+	"Kent County, RI"	"44003"	"2001"	"2001"	35	168516	20.8
+	"Kent County, RI"	"44003"	"2002"	"2002"	30	169478	17.7
+	"Newport County, RI"	"44005"	"2000"	"2000"	15	85433	Unreliable
+	"Newport County, RI"	"44005"	"2001"	"2001"	12	85754	Unreliable
+	"Newport County, RI"	"44005"	"2002"	"2002"	14	85953	Unreliable
+	"Providence County, RI"	"44007"	"1999"	"1999"	85	616607	13.8
+	"Providence County, RI"	"44007"	"2000"	"2000"	95	621602	15.3
+	"Providence County, RI"	"44007"	"2001"	"2001"	108	626935	17.2
+	"Providence County, RI"	"44007"	"2002"	"2002"	115	632252	18.2
+	"Washington County, RI"	"44009"	"1999"	"1999"	13	122445	Unreliable
+	"Washington County, RI"	"44009"	"2000"	"2000"	12	123546	Unreliable
+	"Washington County, RI"	"44009"	"2001"	"2001"	20	124995	16.0
+	"Washington County, RI"	"44009"	"2002"	"2002"	22	126462	17.4
+	"Aiken County, SC"	"45003"	"1999"	"1999"	30	141379	21.2
+	"Aiken County, SC"	"45003"	"2000"	"2000"	30	142552	21.0
+	"Aiken County, SC"	"45003"	"2001"	"2001"	17	143676	Unreliable
+	"Aiken County, SC"	"45003"	"2002"	"2002"	32	145226	22.0
+	"Anderson County, SC"	"45007"	"1999"	"1999"	28	164029	17.1
+	"Anderson County, SC"	"45007"	"2000"	"2000"	31	165740	18.7
+	"Anderson County, SC"	"45007"	"2001"	"2001"	30	168881	17.8
+	"Anderson County, SC"	"45007"	"2002"	"2002"	32	170287	18.8
+	"Beaufort County, SC"	"45013"	"1999"	"1999"	13	117975	Unreliable
+	"Beaufort County, SC"	"45013"	"2000"	"2000"	20	120937	16.5
+	"Beaufort County, SC"	"45013"	"2001"	"2001"	13	125550	Unreliable
+	"Berkeley County, SC"	"45015"	"1999"	"1999"	10	141956	Unreliable
+	"Berkeley County, SC"	"45015"	"2000"	"2000"	19	142651	Unreliable
+	"Berkeley County, SC"	"45015"	"2001"	"2001"	14	145153	Unreliable
+	"Berkeley County, SC"	"45015"	"2002"	"2002"	11	146733	Unreliable
+	"Charleston County, SC"	"45019"	"1999"	"1999"	45	309247	14.6
+	"Charleston County, SC"	"45019"	"2000"	"2000"	83	309969	26.8
+	"Charleston County, SC"	"45019"	"2001"	"2001"	53	313065	16.9
+	"Charleston County, SC"	"45019"	"2002"	"2002"	46	317379	14.5
+	"Cherokee County, SC"	"45021"	"2000"	"2000"	10	52537	Unreliable
+	"Cherokee County, SC"	"45021"	"2001"	"2001"	11	53020	Unreliable
+	"Darlington County, SC"	"45031"	"1999"	"1999"	11	67029	Unreliable
+	"Darlington County, SC"	"45031"	"2002"	"2002"	12	68247	Unreliable
+	"Dorchester County, SC"	"45035"	"1999"	"1999"	13	94966	Unreliable
+	"Dorchester County, SC"	"45035"	"2000"	"2000"	15	96413	Unreliable
+	"Florence County, SC"	"45041"	"1999"	"1999"	20	125612	15.9
+	"Florence County, SC"	"45041"	"2000"	"2000"	22	125761	17.5
+	"Florence County, SC"	"45041"	"2001"	"2001"	13	126377	Unreliable
+	"Florence County, SC"	"45041"	"2002"	"2002"	15	127343	Unreliable
+	"Georgetown County, SC"	"45043"	"1999"	"1999"	13	55053	Unreliable
+	"Georgetown County, SC"	"45043"	"2000"	"2000"	11	55797	Unreliable
+	"Greenville County, SC"	"45045"	"1999"	"1999"	58	374851	15.5
+	"Greenville County, SC"	"45045"	"2000"	"2000"	86	379616	22.7
+	"Greenville County, SC"	"45045"	"2001"	"2001"	79	385780	20.5
+	"Greenville County, SC"	"45045"	"2002"	"2002"	61	390197	15.6
+	"Greenwood County, SC"	"45047"	"2000"	"2000"	14	66271	Unreliable
+	"Greenwood County, SC"	"45047"	"2001"	"2001"	14	66544	Unreliable
+	"Horry County, SC"	"45051"	"1999"	"1999"	33	191833	17.2
+	"Horry County, SC"	"45051"	"2000"	"2000"	56	196629	28.5
+	"Horry County, SC"	"45051"	"2001"	"2001"	58	201982	28.7
+	"Horry County, SC"	"45051"	"2002"	"2002"	32	206566	15.5
+	"Kershaw County, SC"	"45055"	"1999"	"1999"	15	51708	Unreliable
+	"Kershaw County, SC"	"45055"	"2000"	"2000"	10	52647	Unreliable
+	"Kershaw County, SC"	"45055"	"2001"	"2001"	14	53474	Unreliable
+	"Laurens County, SC"	"45059"	"1999"	"1999"	11	68783	Unreliable
+	"Laurens County, SC"	"45059"	"2000"	"2000"	25	69567	35.9
+	"Laurens County, SC"	"45059"	"2001"	"2001"	14	69407	Unreliable
+	"Laurens County, SC"	"45059"	"2002"	"2002"	15	68841	Unreliable
+	"Lexington County, SC"	"45063"	"1999"	"1999"	33	213243	15.5
+	"Lexington County, SC"	"45063"	"2000"	"2000"	38	216014	17.6
+	"Lexington County, SC"	"45063"	"2001"	"2001"	23	220099	10.4
+	"Lexington County, SC"	"45063"	"2002"	"2002"	30	222761	13.5
+	"Oconee County, SC"	"45073"	"1999"	"1999"	11	65513	Unreliable
+	"Oconee County, SC"	"45073"	"2000"	"2000"	12	66215	Unreliable
+	"Oconee County, SC"	"45073"	"2001"	"2001"	12	67170	Unreliable
+	"Orangeburg County, SC"	"45075"	"1999"	"1999"	16	91313	Unreliable
+	"Orangeburg County, SC"	"45075"	"2000"	"2000"	17	91582	Unreliable
+	"Orangeburg County, SC"	"45075"	"2001"	"2001"	10	91536	Unreliable
+	"Pickens County, SC"	"45077"	"1999"	"1999"	17	109851	Unreliable
+	"Pickens County, SC"	"45077"	"2000"	"2000"	14	110757	Unreliable
+	"Pickens County, SC"	"45077"	"2001"	"2001"	12	111600	Unreliable
+	"Pickens County, SC"	"45077"	"2002"	"2002"	18	111806	Unreliable
+	"Richland County, SC"	"45079"	"1999"	"1999"	42	318034	13.2
+	"Richland County, SC"	"45079"	"2000"	"2000"	46	320677	14.3
+	"Richland County, SC"	"45079"	"2001"	"2001"	33	327446	10.1
+	"Richland County, SC"	"45079"	"2002"	"2002"	36	331285	10.9
+	"Spartanburg County, SC"	"45083"	"1999"	"1999"	38	251886	15.1
+	"Spartanburg County, SC"	"45083"	"2000"	"2000"	52	253791	20.5
+	"Spartanburg County, SC"	"45083"	"2001"	"2001"	58	256469	22.6
+	"Spartanburg County, SC"	"45083"	"2002"	"2002"	36	258467	13.9
+	"Sumter County, SC"	"45085"	"1999"	"1999"	17	104827	Unreliable
+	"Sumter County, SC"	"45085"	"2000"	"2000"	14	104646	Unreliable
+	"Sumter County, SC"	"45085"	"2001"	"2001"	17	104629	Unreliable
+	"York County, SC"	"45091"	"1999"	"1999"	25	161546	15.5
+	"York County, SC"	"45091"	"2000"	"2000"	20	164614	12.1
+	"York County, SC"	"45091"	"2001"	"2001"	17	169103	Unreliable
+	"York County, SC"	"45091"	"2002"	"2002"	29	173021	16.8
+	"Minnehaha County, SD"	"46099"	"1999"	"1999"	15	145631	Unreliable
+	"Minnehaha County, SD"	"46099"	"2001"	"2001"	25	150775	16.6
+	"Minnehaha County, SD"	"46099"	"2002"	"2002"	17	152062	Unreliable
+	"Pennington County, SD"	"46103"	"1999"	"1999"	12	88047	Unreliable
+	"Pennington County, SD"	"46103"	"2000"	"2000"	11	88565	Unreliable
+	"Pennington County, SD"	"46103"	"2001"	"2001"	14	89953	Unreliable
+	"Pennington County, SD"	"46103"	"2002"	"2002"	10	90677	Unreliable
+	"Shannon County, SD"	"46113"	"1999"	"1999"	10	12269	Unreliable
+	"Todd County, SD"	"46121"	"1999"	"1999"	13	8946	Unreliable
+	"Todd County, SD"	"46121"	"2000"	"2000"	11	9050	Unreliable
+	"Anderson County, TN"	"47001"	"1999"	"1999"	12	71454	Unreliable
+	"Anderson County, TN"	"47001"	"2000"	"2000"	11	71330	Unreliable
+	"Anderson County, TN"	"47001"	"2001"	"2001"	16	71461	Unreliable
+	"Anderson County, TN"	"47001"	"2002"	"2002"	19	71515	Unreliable
+	"Blount County, TN"	"47009"	"1999"	"1999"	13	104492	Unreliable
+	"Blount County, TN"	"47009"	"2000"	"2000"	11	105823	Unreliable
+	"Blount County, TN"	"47009"	"2001"	"2001"	14	107916	Unreliable
+	"Blount County, TN"	"47009"	"2002"	"2002"	21	109515	19.2
+	"Bradley County, TN"	"47011"	"1999"	"1999"	13	87125	Unreliable
+	"Bradley County, TN"	"47011"	"2001"	"2001"	10	88934	Unreliable
+	"Bradley County, TN"	"47011"	"2002"	"2002"	11	89711	Unreliable
+	"Campbell County, TN"	"47013"	"1999"	"1999"	11	39514	Unreliable
+	"Campbell County, TN"	"47013"	"2002"	"2002"	11	39824	Unreliable
+	"Carroll County, TN"	"47017"	"2001"	"2001"	10	29447	Unreliable
+	"Carter County, TN"	"47019"	"1999"	"1999"	11	56244	Unreliable
+	"Carter County, TN"	"47019"	"2000"	"2000"	14	56742	Unreliable
+	"Carter County, TN"	"47019"	"2001"	"2001"	14	56770	Unreliable
+	"Cocke County, TN"	"47029"	"2001"	"2001"	11	33618	Unreliable
+	"Coffee County, TN"	"47031"	"1999"	"1999"	12	47506	Unreliable
+	"Coffee County, TN"	"47031"	"2001"	"2001"	12	48594	Unreliable
+	"Davidson County, TN"	"47037"	"1999"	"1999"	93	567251	16.4
+	"Davidson County, TN"	"47037"	"2000"	"2000"	77	569891	13.5
+	"Davidson County, TN"	"47037"	"2001"	"2001"	134	574119	23.3
+	"Davidson County, TN"	"47037"	"2002"	"2002"	109	574215	19.0
+	"Dickson County, TN"	"47043"	"2000"	"2000"	10	43156	Unreliable
+	"Dickson County, TN"	"47043"	"2001"	"2001"	11	43987	Unreliable
+	"Greene County, TN"	"47059"	"1999"	"1999"	12	62357	Unreliable
+	"Greene County, TN"	"47059"	"2000"	"2000"	14	62909	Unreliable
+	"Hamblen County, TN"	"47063"	"2000"	"2000"	11	58128	Unreliable
+	"Hamblen County, TN"	"47063"	"2001"	"2001"	11	58710	Unreliable
+	"Hamilton County, TN"	"47065"	"1999"	"1999"	49	306915	16.0
+	"Hamilton County, TN"	"47065"	"2000"	"2000"	46	307896	14.9
+	"Hamilton County, TN"	"47065"	"2001"	"2001"	48	310254	15.5
+	"Hamilton County, TN"	"47065"	"2002"	"2002"	59	311890	18.9
+	"Knox County, TN"	"47093"	"1999"	"1999"	43	380010	11.3
+	"Knox County, TN"	"47093"	"2000"	"2000"	60	382032	15.7
+	"Knox County, TN"	"47093"	"2001"	"2001"	70	385823	18.1
+	"Knox County, TN"	"47093"	"2002"	"2002"	82	389443	21.1
+	"Loudon County, TN"	"47105"	"2002"	"2002"	11	40993	Unreliable
+	"McMinn County, TN"	"47107"	"1999"	"1999"	14	48349	Unreliable
+	"McMinn County, TN"	"47107"	"2000"	"2000"	14	49015	Unreliable
+	"McMinn County, TN"	"47107"	"2002"	"2002"	10	49934	Unreliable
+	"Madison County, TN"	"47113"	"2001"	"2001"	14	92985	Unreliable
+	"Madison County, TN"	"47113"	"2002"	"2002"	14	93503	Unreliable
+	"Maury County, TN"	"47119"	"2000"	"2000"	14	69498	Unreliable
+	"Maury County, TN"	"47119"	"2001"	"2001"	13	69789	Unreliable
+	"Maury County, TN"	"47119"	"2002"	"2002"	15	70574	Unreliable
+	"Montgomery County, TN"	"47125"	"1999"	"1999"	19	132489	Unreliable
+	"Montgomery County, TN"	"47125"	"2000"	"2000"	13	134768	Unreliable
+	"Montgomery County, TN"	"47125"	"2001"	"2001"	15	136801	Unreliable
+	"Montgomery County, TN"	"47125"	"2002"	"2002"	14	138098	Unreliable
+	"Putnam County, TN"	"47141"	"2000"	"2000"	12	62315	Unreliable
+	"Putnam County, TN"	"47141"	"2001"	"2001"	10	63130	Unreliable
+	"Roane County, TN"	"47145"	"1999"	"1999"	20	51736	38.7
+	"Roane County, TN"	"47145"	"2001"	"2001"	14	52166	Unreliable
+	"Roane County, TN"	"47145"	"2002"	"2002"	13	52325	Unreliable
+	"Rutherford County, TN"	"47149"	"1999"	"1999"	13	177473	Unreliable
+	"Rutherford County, TN"	"47149"	"2000"	"2000"	25	182023	13.7
+	"Rutherford County, TN"	"47149"	"2001"	"2001"	21	189901	11.1
+	"Rutherford County, TN"	"47149"	"2002"	"2002"	30	196518	15.3
+	"Sevier County, TN"	"47155"	"1999"	"1999"	11	69302	Unreliable
+	"Sevier County, TN"	"47155"	"2000"	"2000"	10	71170	Unreliable
+	"Sevier County, TN"	"47155"	"2002"	"2002"	16	75035	Unreliable
+	"Shelby County, TN"	"47157"	"1999"	"1999"	115	893826	12.9
+	"Shelby County, TN"	"47157"	"2000"	"2000"	125	897472	13.9
+	"Shelby County, TN"	"47157"	"2001"	"2001"	101	899345	11.2
+	"Shelby County, TN"	"47157"	"2002"	"2002"	95	902634	10.5
+	"Sullivan County, TN"	"47163"	"1999"	"1999"	26	153112	17.0
+	"Sullivan County, TN"	"47163"	"2000"	"2000"	31	153048	20.3
+	"Sullivan County, TN"	"47163"	"2001"	"2001"	30	152718	19.6
+	"Sullivan County, TN"	"47163"	"2002"	"2002"	32	153160	20.9
+	"Sumner County, TN"	"47165"	"2000"	"2000"	15	130449	Unreliable
+	"Sumner County, TN"	"47165"	"2001"	"2001"	11	133681	Unreliable
+	"Sumner County, TN"	"47165"	"2002"	"2002"	24	136097	17.6
+	"Washington County, TN"	"47179"	"1999"	"1999"	23	106239	21.6
+	"Washington County, TN"	"47179"	"2000"	"2000"	19	107198	Unreliable
+	"Washington County, TN"	"47179"	"2001"	"2001"	14	107775	Unreliable
+	"Washington County, TN"	"47179"	"2002"	"2002"	14	109526	Unreliable
+	"Williamson County, TN"	"47187"	"2000"	"2000"	10	126638	Unreliable
+	"Williamson County, TN"	"47187"	"2002"	"2002"	14	136953	Unreliable
+	"Wilson County, TN"	"47189"	"2000"	"2000"	11	88809	Unreliable
+	"Wilson County, TN"	"47189"	"2002"	"2002"	14	93033	Unreliable
+	"Anderson County, TX"	"48001"	"2002"	"2002"	10	54740	Unreliable
+	"Aransas County, TX"	"48007"	"1999"	"1999"	10	22417	Unreliable
+	"Bell County, TX"	"48027"	"1999"	"1999"	20	233886	8.6
+	"Bell County, TX"	"48027"	"2000"	"2000"	18	237974	Unreliable
+	"Bell County, TX"	"48027"	"2001"	"2001"	16	244299	Unreliable
+	"Bell County, TX"	"48027"	"2002"	"2002"	31	249671	12.4
+	"Bexar County, TX"	"48029"	"1999"	"1999"	243	1378688	17.6
+	"Bexar County, TX"	"48029"	"2000"	"2000"	224	1392931	16.1
+	"Bexar County, TX"	"48029"	"2001"	"2001"	232	1419020	16.3
+	"Bexar County, TX"	"48029"	"2002"	"2002"	288	1446755	19.9
+	"Bowie County, TX"	"48037"	"2000"	"2000"	11	89306	Unreliable
+	"Bowie County, TX"	"48037"	"2001"	"2001"	14	88942	Unreliable
+	"Brazoria County, TX"	"48039"	"1999"	"1999"	27	237602	11.4
+	"Brazoria County, TX"	"48039"	"2000"	"2000"	21	241767	8.7
+	"Brazoria County, TX"	"48039"	"2001"	"2001"	24	248280	9.7
+	"Brazoria County, TX"	"48039"	"2002"	"2002"	44	255246	17.2
+	"Brazos County, TX"	"48041"	"2000"	"2000"	11	152415	Unreliable
+	"Brazos County, TX"	"48041"	"2001"	"2001"	16	155533	Unreliable
+	"Brazos County, TX"	"48041"	"2002"	"2002"	12	159297	Unreliable
+	"Brown County, TX"	"48049"	"2000"	"2000"	10	37674	Unreliable
+	"Brown County, TX"	"48049"	"2002"	"2002"	11	37766	Unreliable
+	"Cameron County, TX"	"48061"	"1999"	"1999"	25	330277	7.6
+	"Cameron County, TX"	"48061"	"2000"	"2000"	27	335227	8.1
+	"Cameron County, TX"	"48061"	"2001"	"2001"	24	342368	7.0
+	"Cameron County, TX"	"48061"	"2002"	"2002"	33	350194	9.4
+	"Collin County, TX"	"48085"	"1999"	"1999"	25	468620	5.3
+	"Collin County, TX"	"48085"	"2000"	"2000"	41	491675	8.3
+	"Collin County, TX"	"48085"	"2001"	"2001"	40	534642	7.5
+	"Collin County, TX"	"48085"	"2002"	"2002"	41	563565	7.3
+	"Comal County, TX"	"48091"	"1999"	"1999"	10	75919	Unreliable
+	"Comal County, TX"	"48091"	"2000"	"2000"	13	78021	Unreliable
+	"Comal County, TX"	"48091"	"2002"	"2002"	14	82797	Unreliable
+	"Dallas County, TX"	"48113"	"1999"	"1999"	291	2197658	13.2
+	"Dallas County, TX"	"48113"	"2000"	"2000"	265	2218899	11.9
+	"Dallas County, TX"	"48113"	"2001"	"2001"	310	2249418	13.8
+	"Dallas County, TX"	"48113"	"2002"	"2002"	347	2250326	15.4
+	"Denton County, TX"	"48121"	"1999"	"1999"	33	416622	7.9
+	"Denton County, TX"	"48121"	"2000"	"2000"	39	432976	9.0
+	"Denton County, TX"	"48121"	"2001"	"2001"	34	463688	7.3
+	"Denton County, TX"	"48121"	"2002"	"2002"	50	487617	10.3
+	"Ector County, TX"	"48135"	"1999"	"1999"	11	122450	Unreliable
+	"Ector County, TX"	"48135"	"2000"	"2000"	17	121123	Unreliable
+	"Ector County, TX"	"48135"	"2001"	"2001"	19	120802	Unreliable
+	"Ector County, TX"	"48135"	"2002"	"2002"	23	122199	18.8
+	"Ellis County, TX"	"48139"	"1999"	"1999"	14	108174	Unreliable
+	"Ellis County, TX"	"48139"	"2001"	"2001"	11	115286	Unreliable
+	"Ellis County, TX"	"48139"	"2002"	"2002"	12	118737	Unreliable
+	"El Paso County, TX"	"48141"	"1999"	"1999"	135	675397	20.0
+	"El Paso County, TX"	"48141"	"2000"	"2000"	130	679622	19.1
+	"El Paso County, TX"	"48141"	"2001"	"2001"	135	689163	19.6
+	"El Paso County, TX"	"48141"	"2002"	"2002"	112	696446	16.1
+	"Fort Bend County, TX"	"48157"	"1999"	"1999"	16	343372	Unreliable
+	"Fort Bend County, TX"	"48157"	"2000"	"2000"	11	354452	Unreliable
+	"Fort Bend County, TX"	"48157"	"2001"	"2001"	15	375708	Unreliable
+	"Fort Bend County, TX"	"48157"	"2002"	"2002"	27	397943	6.8
+	"Galveston County, TX"	"48167"	"1999"	"1999"	29	248893	11.7
+	"Galveston County, TX"	"48167"	"2000"	"2000"	34	250158	13.6
+	"Galveston County, TX"	"48167"	"2001"	"2001"	43	254521	16.9
+	"Galveston County, TX"	"48167"	"2002"	"2002"	43	260096	16.5
+	"Grayson County, TX"	"48181"	"1999"	"1999"	26	109173	23.8
+	"Grayson County, TX"	"48181"	"2000"	"2000"	17	110595	Unreliable
+	"Grayson County, TX"	"48181"	"2001"	"2001"	18	112330	Unreliable
+	"Grayson County, TX"	"48181"	"2002"	"2002"	19	113239	Unreliable
+	"Gregg County, TX"	"48183"	"1999"	"1999"	15	111783	Unreliable
+	"Gregg County, TX"	"48183"	"2000"	"2000"	21	111379	18.9
+	"Gregg County, TX"	"48183"	"2001"	"2001"	13	111791	Unreliable
+	"Gregg County, TX"	"48183"	"2002"	"2002"	20	112767	17.7
+	"Guadalupe County, TX"	"48187"	"1999"	"1999"	10	86332	Unreliable
+	"Guadalupe County, TX"	"48187"	"2000"	"2000"	10	89023	Unreliable
+	"Harris County, TX"	"48201"	"1999"	"1999"	370	3359671	11.0
+	"Harris County, TX"	"48201"	"2000"	"2000"	371	3400578	10.9
+	"Harris County, TX"	"48201"	"2001"	"2001"	522	3471291	15.0
+	"Harris County, TX"	"48201"	"2002"	"2002"	540	3536682	15.3
+	"Hays County, TX"	"48209"	"1999"	"1999"	10	93622	Unreliable
+	"Hays County, TX"	"48209"	"2000"	"2000"	12	97589	Unreliable
+	"Hays County, TX"	"48209"	"2001"	"2001"	11	104739	Unreliable
+	"Hays County, TX"	"48209"	"2002"	"2002"	12	111397	Unreliable
+	"Henderson County, TX"	"48213"	"2000"	"2000"	11	73277	Unreliable
+	"Henderson County, TX"	"48213"	"2002"	"2002"	11	74712	Unreliable
+	"Hidalgo County, TX"	"48215"	"1999"	"1999"	43	555875	7.7
+	"Hidalgo County, TX"	"48215"	"2000"	"2000"	37	569463	6.5
+	"Hidalgo County, TX"	"48215"	"2001"	"2001"	40	590067	6.8
+	"Hidalgo County, TX"	"48215"	"2002"	"2002"	43	610520	7.0
+	"Hunt County, TX"	"48231"	"2000"	"2000"	10	76596	Unreliable
+	"Hunt County, TX"	"48231"	"2001"	"2001"	13	78431	Unreliable
+	"Jasper County, TX"	"48241"	"2002"	"2002"	12	35692	Unreliable
+	"Jefferson County, TX"	"48245"	"1999"	"1999"	22	252288	8.7
+	"Jefferson County, TX"	"48245"	"2000"	"2000"	31	252051	12.3
+	"Jefferson County, TX"	"48245"	"2001"	"2001"	29	250137	11.6
+	"Jefferson County, TX"	"48245"	"2002"	"2002"	38	250146	15.2
+	"Jim Wells County, TX"	"48249"	"2002"	"2002"	11	39821	Unreliable
+	"Johnson County, TX"	"48251"	"1999"	"1999"	10	123249	Unreliable
+	"Johnson County, TX"	"48251"	"2000"	"2000"	15	126811	Unreliable
+	"Johnson County, TX"	"48251"	"2001"	"2001"	18	130795	Unreliable
+	"Johnson County, TX"	"48251"	"2002"	"2002"	19	133399	Unreliable
+	"Kaufman County, TX"	"48257"	"1999"	"1999"	10	69008	Unreliable
+	"Kaufman County, TX"	"48257"	"2002"	"2002"	13	77693	Unreliable
+	"Kerr County, TX"	"48265"	"2000"	"2000"	11	43653	Unreliable
+	"Kerr County, TX"	"48265"	"2001"	"2001"	15	44331	Unreliable
+	"Kerr County, TX"	"48265"	"2002"	"2002"	13	44894	Unreliable
+	"Liberty County, TX"	"48291"	"1999"	"1999"	14	68661	Unreliable
+	"Liberty County, TX"	"48291"	"2000"	"2000"	11	70154	Unreliable
+	"Liberty County, TX"	"48291"	"2001"	"2001"	12	71679	Unreliable
+	"Liberty County, TX"	"48291"	"2002"	"2002"	13	73280	Unreliable
+	"Lubbock County, TX"	"48303"	"1999"	"1999"	31	240776	12.9
+	"Lubbock County, TX"	"48303"	"2000"	"2000"	18	242628	Unreliable
+	"Lubbock County, TX"	"48303"	"2001"	"2001"	30	246616	12.2
+	"Lubbock County, TX"	"48303"	"2002"	"2002"	40	249407	16.0
+	"McLennan County, TX"	"48309"	"1999"	"1999"	24	211548	11.3
+	"McLennan County, TX"	"48309"	"2000"	"2000"	24	213517	11.2
+	"McLennan County, TX"	"48309"	"2001"	"2001"	25	215099	11.6
+	"McLennan County, TX"	"48309"	"2002"	"2002"	21	216571	9.7
+	"Midland County, TX"	"48329"	"1999"	"1999"	17	117621	Unreliable
+	"Midland County, TX"	"48329"	"2000"	"2000"	11	116009	Unreliable
+	"Midland County, TX"	"48329"	"2001"	"2001"	19	116180	Unreliable
+	"Midland County, TX"	"48329"	"2002"	"2002"	21	117717	17.8
+	"Montgomery County, TX"	"48339"	"1999"	"1999"	42	284271	14.8
+	"Montgomery County, TX"	"48339"	"2000"	"2000"	50	293768	17.0
+	"Montgomery County, TX"	"48339"	"2001"	"2001"	34	311437	10.9
+	"Montgomery County, TX"	"48339"	"2002"	"2002"	49	326466	15.0
+	"Navarro County, TX"	"48349"	"2002"	"2002"	12	45937	Unreliable
+	"Nueces County, TX"	"48355"	"1999"	"1999"	59	314553	18.8
+	"Nueces County, TX"	"48355"	"2000"	"2000"	70	313645	22.3
+	"Nueces County, TX"	"48355"	"2001"	"2001"	58	313670	18.5
+	"Nueces County, TX"	"48355"	"2002"	"2002"	50	316256	15.8
+	"Orange County, TX"	"48361"	"1999"	"1999"	12	84883	Unreliable
+	"Orange County, TX"	"48361"	"2000"	"2000"	16	84966	Unreliable
+	"Orange County, TX"	"48361"	"2001"	"2001"	14	84108	Unreliable
+	"Orange County, TX"	"48361"	"2002"	"2002"	22	83813	26.2
+	"Parker County, TX"	"48367"	"2001"	"2001"	15	91660	Unreliable
+	"Polk County, TX"	"48373"	"2002"	"2002"	10	43928	Unreliable
+	"Potter County, TX"	"48375"	"1999"	"1999"	27	112919	23.9
+	"Potter County, TX"	"48375"	"2000"	"2000"	24	113546	21.1
+	"Potter County, TX"	"48375"	"2001"	"2001"	28	114307	24.5
+	"Potter County, TX"	"48375"	"2002"	"2002"	26	115427	22.5
+	"Randall County, TX"	"48381"	"2000"	"2000"	10	104312	Unreliable
+	"Randall County, TX"	"48381"	"2001"	"2001"	12	105399	Unreliable
+	"Randall County, TX"	"48381"	"2002"	"2002"	14	106286	Unreliable
+	"San Patricio County, TX"	"48409"	"1999"	"1999"	13	67185	Unreliable
+	"San Patricio County, TX"	"48409"	"2001"	"2001"	10	66690	Unreliable
+	"San Patricio County, TX"	"48409"	"2002"	"2002"	10	66820	Unreliable
+	"Smith County, TX"	"48423"	"1999"	"1999"	18	172758	Unreliable
+	"Smith County, TX"	"48423"	"2000"	"2000"	18	174706	Unreliable
+	"Smith County, TX"	"48423"	"2001"	"2001"	12	177836	Unreliable
+	"Smith County, TX"	"48423"	"2002"	"2002"	21	181107	11.6
+	"Tarrant County, TX"	"48439"	"1999"	"1999"	164	1422372	11.5
+	"Tarrant County, TX"	"48439"	"2000"	"2000"	141	1446219	9.7
+	"Tarrant County, TX"	"48439"	"2001"	"2001"	167	1490204	11.2
+	"Tarrant County, TX"	"48439"	"2002"	"2002"	208	1524249	13.6
+	"Taylor County, TX"	"48441"	"1999"	"1999"	13	126335	Unreliable
+	"Taylor County, TX"	"48441"	"2000"	"2000"	12	126555	Unreliable
+	"Taylor County, TX"	"48441"	"2001"	"2001"	18	125920	Unreliable
+	"Taylor County, TX"	"48441"	"2002"	"2002"	16	125920	Unreliable
+	"Tom Green County, TX"	"48451"	"1999"	"1999"	12	103908	Unreliable
+	"Tom Green County, TX"	"48451"	"2000"	"2000"	12	104010	Unreliable
+	"Tom Green County, TX"	"48451"	"2001"	"2001"	16	103923	Unreliable
+	"Tom Green County, TX"	"48451"	"2002"	"2002"	11	104035	Unreliable
+	"Travis County, TX"	"48453"	"1999"	"1999"	111	788500	14.1
+	"Travis County, TX"	"48453"	"2000"	"2000"	104	812280	12.8
+	"Travis County, TX"	"48453"	"2001"	"2001"	111	844877	13.1
+	"Travis County, TX"	"48453"	"2002"	"2002"	126	848090	14.9
+	"Victoria County, TX"	"48469"	"2000"	"2000"	10	84088	Unreliable
+	"Webb County, TX"	"48479"	"1999"	"1999"	12	189014	Unreliable
+	"Webb County, TX"	"48479"	"2000"	"2000"	13	193117	Unreliable
+	"Webb County, TX"	"48479"	"2001"	"2001"	28	200347	14.0
+	"Webb County, TX"	"48479"	"2002"	"2002"	12	206001	Unreliable
+	"Wichita County, TX"	"48485"	"1999"	"1999"	23	132246	17.4
+	"Wichita County, TX"	"48485"	"2000"	"2000"	16	131664	Unreliable
+	"Wichita County, TX"	"48485"	"2001"	"2001"	32	130790	24.5
+	"Wichita County, TX"	"48485"	"2002"	"2002"	28	130761	21.4
+	"Williamson County, TX"	"48491"	"1999"	"1999"	14	236609	Unreliable
+	"Williamson County, TX"	"48491"	"2000"	"2000"	19	249967	Unreliable
+	"Williamson County, TX"	"48491"	"2001"	"2001"	26	276940	9.4
+	"Williamson County, TX"	"48491"	"2002"	"2002"	24	290112	8.3
+	"Carbon County, UT"	"49007"	"2002"	"2002"	14	20114	Unreliable
+	"Davis County, UT"	"49011"	"1999"	"1999"	29	235912	12.3
+	"Davis County, UT"	"49011"	"2000"	"2000"	34	238994	14.2
+	"Davis County, UT"	"49011"	"2001"	"2001"	22	244687	9.0
+	"Davis County, UT"	"49011"	"2002"	"2002"	44	249676	17.6
+	"Salt Lake County, UT"	"49035"	"1999"	"1999"	197	891116	22.1
+	"Salt Lake County, UT"	"49035"	"2000"	"2000"	183	898387	20.4
+	"Salt Lake County, UT"	"49035"	"2001"	"2001"	181	910750	19.9
+	"Salt Lake County, UT"	"49035"	"2002"	"2002"	198	918152	21.6
+	"Utah County, UT"	"49049"	"1999"	"1999"	27	361631	7.5
+	"Utah County, UT"	"49049"	"2000"	"2000"	30	368536	8.1
+	"Utah County, UT"	"49049"	"2001"	"2001"	32	385671	8.3
+	"Utah County, UT"	"49049"	"2002"	"2002"	45	397190	11.3
+	"Washington County, UT"	"49053"	"2001"	"2001"	16	94512	Unreliable
+	"Washington County, UT"	"49053"	"2002"	"2002"	17	99274	Unreliable
+	"Weber County, UT"	"49057"	"1999"	"1999"	29	193697	15.0
+	"Weber County, UT"	"49057"	"2000"	"2000"	32	196533	16.3
+	"Weber County, UT"	"49057"	"2001"	"2001"	33	200073	16.5
+	"Weber County, UT"	"49057"	"2002"	"2002"	37	203045	18.2
+	"Chittenden County, VT"	"50007"	"1999"	"1999"	19	145379	Unreliable
+	"Chittenden County, VT"	"50007"	"2000"	"2000"	20	146571	13.6
+	"Chittenden County, VT"	"50007"	"2001"	"2001"	19	148441	Unreliable
+	"Chittenden County, VT"	"50007"	"2002"	"2002"	31	149639	20.7
+	"Franklin County, VT"	"50011"	"2002"	"2002"	10	46305	Unreliable
+	"Rutland County, VT"	"50021"	"2000"	"2000"	11	63400	Unreliable
+	"Rutland County, VT"	"50021"	"2002"	"2002"	14	62982	Unreliable
+	"Washington County, VT"	"50023"	"2001"	"2001"	13	58526	Unreliable
+	"Washington County, VT"	"50023"	"2002"	"2002"	10	58889	Unreliable
+	"Windham County, VT"	"50025"	"2002"	"2002"	16	44122	Unreliable
+	"Windsor County, VT"	"50027"	"2002"	"2002"	11	57673	Unreliable
+	"Arlington County, VA"	"51013"	"1999"	"1999"	12	188716	Unreliable
+	"Arlington County, VA"	"51013"	"2000"	"2000"	12	189453	Unreliable
+	"Arlington County, VA"	"51013"	"2001"	"2001"	18	190386	Unreliable
+	"Arlington County, VA"	"51013"	"2002"	"2002"	23	190137	12.1
+	"Bedford County, VA"	"51019"	"2002"	"2002"	10	61580	Unreliable
+	"Chesterfield County, VA"	"51041"	"1999"	"1999"	17	256555	Unreliable
+	"Chesterfield County, VA"	"51041"	"2000"	"2000"	25	259903	9.6
+	"Chesterfield County, VA"	"51041"	"2001"	"2001"	27	265544	10.2
+	"Chesterfield County, VA"	"51041"	"2002"	"2002"	20	270741	7.4
+	"Dickenson County, VA"	"51051"	"2002"	"2002"	10	16074	Unreliable
+	"Fairfax County, VA"	"51059"	"1999"	"1999"	66	955629	6.9
+	"Fairfax County, VA"	"51059"	"2000"	"2000"	50	969749	5.2
+	"Fairfax County, VA"	"51059"	"2001"	"2001"	53	991564	5.3
+	"Fairfax County, VA"	"51059"	"2002"	"2002"	56	998613	5.6
+	"Henrico County, VA"	"51087"	"1999"	"1999"	29	257884	11.2
+	"Henrico County, VA"	"51087"	"2000"	"2000"	30	262300	11.4
+	"Henrico County, VA"	"51087"	"2001"	"2001"	29	267722	10.8
+	"Henrico County, VA"	"51087"	"2002"	"2002"	34	270608	12.6
+	"Henry County, VA"	"51089"	"2000"	"2000"	12	57930	Unreliable
+	"Henry County, VA"	"51089"	"2001"	"2001"	23	57393	40.1
+	"Henry County, VA"	"51089"	"2002"	"2002"	11	56986	Unreliable
+	"Lee County, VA"	"51105"	"1999"	"1999"	13	23662	Unreliable
+	"Lee County, VA"	"51105"	"2001"	"2001"	10	23320	Unreliable
+	"Loudoun County, VA"	"51107"	"2000"	"2000"	12	169599	Unreliable
+	"Loudoun County, VA"	"51107"	"2001"	"2001"	13	189910	Unreliable
+	"Loudoun County, VA"	"51107"	"2002"	"2002"	12	203543	Unreliable
+	"Montgomery County, VA"	"51121"	"2001"	"2001"	11	85236	Unreliable
+	"Pittsylvania County, VA"	"51143"	"2001"	"2001"	11	62037	Unreliable
+	"Prince William County, VA"	"51153"	"1999"	"1999"	10	272661	Unreliable
+	"Prince William County, VA"	"51153"	"2000"	"2000"	29	280813	10.3
+	"Prince William County, VA"	"51153"	"2001"	"2001"	24	298843	8.0
+	"Prince William County, VA"	"51153"	"2002"	"2002"	30	311749	9.6
+	"Pulaski County, VA"	"51155"	"2001"	"2001"	14	35120	Unreliable
+	"Pulaski County, VA"	"51155"	"2002"	"2002"	20	34817	57.4
+	"Roanoke County, VA"	"51161"	"2000"	"2000"	17	85778	Unreliable
+	"Roanoke County, VA"	"51161"	"2001"	"2001"	11	85941	Unreliable
+	"Roanoke County, VA"	"51161"	"2002"	"2002"	16	86569	Unreliable
+	"Russell County, VA"	"51167"	"2001"	"2001"	13	29001	Unreliable
+	"Russell County, VA"	"51167"	"2002"	"2002"	11	28741	Unreliable
+	"Spotsylvania County, VA"	"51177"	"2002"	"2002"	11	101802	Unreliable
+	"Tazewell County, VA"	"51185"	"2000"	"2000"	15	44598	Unreliable
+	"Tazewell County, VA"	"51185"	"2002"	"2002"	13	43995	Unreliable
+	"Wise County, VA"	"51195"	"1999"	"1999"	11	40112	Unreliable
+	"Wise County, VA"	"51195"	"2001"	"2001"	13	41810	Unreliable
+	"Wise County, VA"	"51195"	"2002"	"2002"	13	41667	Unreliable
+	"Wythe County, VA"	"51197"	"2002"	"2002"	12	27710	Unreliable
+	"Alexandria city, VA"	"51510"	"1999"	"1999"	12	125668	Unreliable
+	"Alexandria city, VA"	"51510"	"2000"	"2000"	19	128283	Unreliable
+	"Alexandria city, VA"	"51510"	"2002"	"2002"	10	130614	Unreliable
+	"Charlottesville city, VA"	"51540"	"1999"	"1999"	10	44280	Unreliable
+	"Chesapeake city, VA"	"51550"	"1999"	"1999"	16	196035	Unreliable
+	"Chesapeake city, VA"	"51550"	"2001"	"2001"	22	202325	10.9
+	"Chesapeake city, VA"	"51550"	"2002"	"2002"	17	203970	Unreliable
+	"Danville city, VA"	"51590"	"1999"	"1999"	15	49091	Unreliable
+	"Danville city, VA"	"51590"	"2000"	"2000"	12	48411	Unreliable
+	"Danville city, VA"	"51590"	"2001"	"2001"	13	47415	Unreliable
+	"Hampton city, VA"	"51650"	"1999"	"1999"	12	145538	Unreliable
+	"Hampton city, VA"	"51650"	"2000"	"2000"	16	146437	Unreliable
+	"Hampton city, VA"	"51650"	"2001"	"2001"	12	143432	Unreliable
+	"Hampton city, VA"	"51650"	"2002"	"2002"	14	141844	Unreliable
+	"Lynchburg city, VA"	"51680"	"1999"	"1999"	13	65406	Unreliable
+	"Lynchburg city, VA"	"51680"	"2002"	"2002"	16	65263	Unreliable
+	"Newport News city, VA"	"51700"	"1999"	"1999"	24	180224	13.3
+	"Newport News city, VA"	"51700"	"2000"	"2000"	27	180150	15.0
+	"Newport News city, VA"	"51700"	"2001"	"2001"	19	181873	Unreliable
+	"Newport News city, VA"	"51700"	"2002"	"2002"	23	183061	12.6
+	"Norfolk city, VA"	"51710"	"1999"	"1999"	30	233497	12.8
+	"Norfolk city, VA"	"51710"	"2000"	"2000"	39	234403	16.6
+	"Norfolk city, VA"	"51710"	"2001"	"2001"	34	236489	14.4
+	"Norfolk city, VA"	"51710"	"2002"	"2002"	32	241704	13.2
+	"Portsmouth city, VA"	"51740"	"1999"	"1999"	14	100794	Unreliable
+	"Portsmouth city, VA"	"51740"	"2000"	"2000"	10	100565	Unreliable
+	"Portsmouth city, VA"	"51740"	"2001"	"2001"	18	99166	Unreliable
+	"Portsmouth city, VA"	"51740"	"2002"	"2002"	10	98297	Unreliable
+	"Richmond city, VA"	"51760"	"1999"	"1999"	51	199145	25.6
+	"Richmond city, VA"	"51760"	"2000"	"2000"	54	197790	27.3
+	"Richmond city, VA"	"51760"	"2001"	"2001"	63	197575	31.9
+	"Richmond city, VA"	"51760"	"2002"	"2002"	42	197513	21.3
+	"Roanoke city, VA"	"51770"	"1999"	"1999"	24	95431	25.1
+	"Roanoke city, VA"	"51770"	"2000"	"2000"	26	94911	27.4
+	"Roanoke city, VA"	"51770"	"2001"	"2001"	29	94931	30.5
+	"Roanoke city, VA"	"51770"	"2002"	"2002"	28	93956	29.8
+	"Suffolk city, VA"	"51800"	"1999"	"1999"	13	62393	Unreliable
+	"Suffolk city, VA"	"51800"	"2001"	"2001"	11	66448	Unreliable
+	"Virginia Beach city, VA"	"51810"	"1999"	"1999"	41	422369	9.7
+	"Virginia Beach city, VA"	"51810"	"2000"	"2000"	42	425257	9.9
+	"Virginia Beach city, VA"	"51810"	"2001"	"2001"	48	428396	11.2
+	"Virginia Beach city, VA"	"51810"	"2002"	"2002"	44	430183	10.2
+	"Benton County, WA"	"53005"	"1999"	"1999"	23	140629	16.4
+	"Benton County, WA"	"53005"	"2000"	"2000"	20	142475	14.0
+	"Benton County, WA"	"53005"	"2001"	"2001"	19	145909	Unreliable
+	"Benton County, WA"	"53005"	"2002"	"2002"	15	150323	Unreliable
+	"Chelan County, WA"	"53007"	"1999"	"1999"	14	65764	Unreliable
+	"Chelan County, WA"	"53007"	"2000"	"2000"	14	66616	Unreliable
+	"Chelan County, WA"	"53007"	"2001"	"2001"	19	66574	Unreliable
+	"Chelan County, WA"	"53007"	"2002"	"2002"	11	66742	Unreliable
+	"Clallam County, WA"	"53009"	"1999"	"1999"	12	64252	Unreliable
+	"Clallam County, WA"	"53009"	"2000"	"2000"	15	64525	Unreliable
+	"Clallam County, WA"	"53009"	"2001"	"2001"	13	64756	Unreliable
+	"Clallam County, WA"	"53009"	"2002"	"2002"	16	65777	Unreliable
+	"Clark County, WA"	"53011"	"1999"	"1999"	58	339541	17.1
+	"Clark County, WA"	"53011"	"2000"	"2000"	64	345238	18.5
+	"Clark County, WA"	"53011"	"2001"	"2001"	56	357211	15.7
+	"Clark County, WA"	"53011"	"2002"	"2002"	71	366405	19.4
+	"Cowlitz County, WA"	"53015"	"1999"	"1999"	28	92820	30.2
+	"Cowlitz County, WA"	"53015"	"2000"	"2000"	23	92948	24.7
+	"Cowlitz County, WA"	"53015"	"2001"	"2001"	28	93608	29.9
+	"Cowlitz County, WA"	"53015"	"2002"	"2002"	30	94325	31.8
+	"Grant County, WA"	"53025"	"1999"	"1999"	11	73928	Unreliable
+	"Grant County, WA"	"53025"	"2002"	"2002"	16	76944	Unreliable
+	"Grays Harbor County, WA"	"53027"	"1999"	"1999"	27	67265	40.1
+	"Grays Harbor County, WA"	"53027"	"2000"	"2000"	19	67194	Unreliable
+	"Grays Harbor County, WA"	"53027"	"2001"	"2001"	23	67896	33.9
+	"Grays Harbor County, WA"	"53027"	"2002"	"2002"	19	68264	Unreliable
+	"King County, WA"	"53033"	"1999"	"1999"	376	1729058	21.7
+	"King County, WA"	"53033"	"2000"	"2000"	345	1737034	19.9
+	"King County, WA"	"53033"	"2001"	"2001"	314	1754090	17.9
+	"King County, WA"	"53033"	"2002"	"2002"	343	1758685	19.5
+	"Kitsap County, WA"	"53035"	"1999"	"1999"	57	229393	24.8
+	"Kitsap County, WA"	"53035"	"2000"	"2000"	47	231969	20.3
+	"Kitsap County, WA"	"53035"	"2001"	"2001"	50	234513	21.3
+	"Kitsap County, WA"	"53035"	"2002"	"2002"	52	238129	21.8
+	"Lewis County, WA"	"53041"	"1999"	"1999"	11	68345	Unreliable
+	"Lewis County, WA"	"53041"	"2000"	"2000"	21	68600	30.6
+	"Lewis County, WA"	"53041"	"2001"	"2001"	18	68934	Unreliable
+	"Lewis County, WA"	"53041"	"2002"	"2002"	16	69452	Unreliable
+	"Mason County, WA"	"53045"	"1999"	"1999"	21	48753	43.1
+	"Mason County, WA"	"53045"	"2000"	"2000"	10	49405	Unreliable
+	"Mason County, WA"	"53045"	"2001"	"2001"	13	50298	Unreliable
+	"Mason County, WA"	"53045"	"2002"	"2002"	22	51215	43.0
+	"Okanogan County, WA"	"53047"	"1999"	"1999"	10	39394	Unreliable
+	"Okanogan County, WA"	"53047"	"2001"	"2001"	12	39126	Unreliable
+	"Okanogan County, WA"	"53047"	"2002"	"2002"	22	38865	56.6
+	"Pacific County, WA"	"53049"	"2001"	"2001"	14	20631	Unreliable
+	"Pacific County, WA"	"53049"	"2002"	"2002"	15	20514	Unreliable
+	"Pierce County, WA"	"53053"	"1999"	"1999"	138	692662	19.9
+	"Pierce County, WA"	"53053"	"2000"	"2000"	142	700820	20.3
+	"Pierce County, WA"	"53053"	"2001"	"2001"	144	716447	20.1
+	"Pierce County, WA"	"53053"	"2002"	"2002"	129	728091	17.7
+	"Skagit County, WA"	"53057"	"1999"	"1999"	19	101701	Unreliable
+	"Skagit County, WA"	"53057"	"2000"	"2000"	24	102979	23.3
+	"Skagit County, WA"	"53057"	"2001"	"2001"	25	104534	23.9
+	"Skagit County, WA"	"53057"	"2002"	"2002"	18	105563	Unreliable
+	"Snohomish County, WA"	"53061"	"1999"	"1999"	104	597931	17.4
+	"Snohomish County, WA"	"53061"	"2000"	"2000"	119	606024	19.6
+	"Snohomish County, WA"	"53061"	"2001"	"2001"	107	622390	17.2
+	"Snohomish County, WA"	"53061"	"2002"	"2002"	147	631526	23.3
+	"Spokane County, WA"	"53063"	"1999"	"1999"	82	415426	19.7
+	"Spokane County, WA"	"53063"	"2000"	"2000"	95	417939	22.7
+	"Spokane County, WA"	"53063"	"2001"	"2001"	103	422922	24.4
+	"Spokane County, WA"	"53063"	"2002"	"2002"	108	427107	25.3
+	"Thurston County, WA"	"53067"	"1999"	"1999"	37	204873	18.1
+	"Thurston County, WA"	"53067"	"2000"	"2000"	25	207355	12.1
+	"Thurston County, WA"	"53067"	"2001"	"2001"	36	212421	16.9
+	"Thurston County, WA"	"53067"	"2002"	"2002"	43	216313	19.9
+	"Walla Walla County, WA"	"53071"	"2002"	"2002"	11	55666	Unreliable
+	"Whatcom County, WA"	"53073"	"1999"	"1999"	25	164566	15.2
+	"Whatcom County, WA"	"53073"	"2000"	"2000"	28	166814	16.8
+	"Whatcom County, WA"	"53073"	"2001"	"2001"	41	171172	24.0
+	"Whatcom County, WA"	"53073"	"2002"	"2002"	39	174904	22.3
+	"Yakima County, WA"	"53077"	"1999"	"1999"	42	221573	19.0
+	"Yakima County, WA"	"53077"	"2000"	"2000"	33	222581	14.8
+	"Yakima County, WA"	"53077"	"2001"	"2001"	48	222757	21.5
+	"Yakima County, WA"	"53077"	"2002"	"2002"	47	223402	21.0
+	"Berkeley County, WV"	"54003"	"2000"	"2000"	12	75905	Unreliable
+	"Berkeley County, WV"	"54003"	"2001"	"2001"	15	78428	Unreliable
+	"Berkeley County, WV"	"54003"	"2002"	"2002"	18	80875	Unreliable
+	"Cabell County, WV"	"54011"	"1999"	"1999"	17	96987	Unreliable
+	"Cabell County, WV"	"54011"	"2000"	"2000"	14	96784	Unreliable
+	"Cabell County, WV"	"54011"	"2001"	"2001"	23	96035	23.9
+	"Cabell County, WV"	"54011"	"2002"	"2002"	34	95741	35.5
+	"Fayette County, WV"	"54019"	"2000"	"2000"	10	47579	Unreliable
+	"Fayette County, WV"	"54019"	"2001"	"2001"	13	47067	Unreliable
+	"Fayette County, WV"	"54019"	"2002"	"2002"	16	46935	Unreliable
+	"Greenbrier County, WV"	"54025"	"2001"	"2001"	10	34452	Unreliable
+	"Harrison County, WV"	"54033"	"2001"	"2001"	17	67817	Unreliable
+	"Harrison County, WV"	"54033"	"2002"	"2002"	18	67778	Unreliable
+	"Jefferson County, WV"	"54037"	"2002"	"2002"	10	44767	Unreliable
+	"Kanawha County, WV"	"54039"	"1999"	"1999"	37	201309	18.4
+	"Kanawha County, WV"	"54039"	"2000"	"2000"	52	200073	26.0
+	"Kanawha County, WV"	"54039"	"2001"	"2001"	43	197898	21.7
+	"Kanawha County, WV"	"54039"	"2002"	"2002"	44	196422	22.4
+	"Logan County, WV"	"54045"	"2001"	"2001"	12	37013	Unreliable
+	"Logan County, WV"	"54045"	"2002"	"2002"	13	37093	Unreliable
+	"McDowell County, WV"	"54047"	"1999"	"1999"	10	27848	Unreliable
+	"McDowell County, WV"	"54047"	"2001"	"2001"	18	26301	Unreliable
+	"Mercer County, WV"	"54055"	"1999"	"1999"	17	63181	Unreliable
+	"Mercer County, WV"	"54055"	"2000"	"2000"	12	62980	Unreliable
+	"Mercer County, WV"	"54055"	"2001"	"2001"	28	61858	45.3
+	"Mercer County, WV"	"54055"	"2002"	"2002"	29	62016	46.8
+	"Mingo County, WV"	"54059"	"1999"	"1999"	12	29098	Unreliable
+	"Mingo County, WV"	"54059"	"2001"	"2001"	10	27489	Unreliable
+	"Ohio County, WV"	"54069"	"2001"	"2001"	10	46636	Unreliable
+	"Raleigh County, WV"	"54081"	"1999"	"1999"	10	79614	Unreliable
+	"Raleigh County, WV"	"54081"	"2000"	"2000"	19	79220	Unreliable
+	"Raleigh County, WV"	"54081"	"2001"	"2001"	14	78251	Unreliable
+	"Raleigh County, WV"	"54081"	"2002"	"2002"	15	78737	Unreliable
+	"Wayne County, WV"	"54099"	"2001"	"2001"	10	42919	Unreliable
+	"Wayne County, WV"	"54099"	"2002"	"2002"	10	42800	Unreliable
+	"Wood County, WV"	"54107"	"2000"	"2000"	13	87986	Unreliable
+	"Wood County, WV"	"54107"	"2001"	"2001"	11	87678	Unreliable
+	"Wood County, WV"	"54107"	"2002"	"2002"	10	87608	Unreliable
+	"Brown County, WI"	"55009"	"1999"	"1999"	14	224825	Unreliable
+	"Brown County, WI"	"55009"	"2000"	"2000"	22	226778	9.7
+	"Brown County, WI"	"55009"	"2001"	"2001"	28	229332	12.2
+	"Brown County, WI"	"55009"	"2002"	"2002"	34	231821	14.7
+	"Dane County, WI"	"55025"	"1999"	"1999"	58	423248	13.7
+	"Dane County, WI"	"55025"	"2000"	"2000"	59	426526	13.8
+	"Dane County, WI"	"55025"	"2001"	"2001"	61	434745	14.0
+	"Dane County, WI"	"55025"	"2002"	"2002"	48	441623	10.9
+	"Douglas County, WI"	"55031"	"2000"	"2000"	14	43287	Unreliable
+	"Douglas County, WI"	"55031"	"2002"	"2002"	10	43593	Unreliable
+	"Eau Claire County, WI"	"55035"	"2001"	"2001"	11	93835	Unreliable
+	"Eau Claire County, WI"	"55035"	"2002"	"2002"	11	94493	Unreliable
+	"Fond du Lac County, WI"	"55039"	"2001"	"2001"	10	97856	Unreliable
+	"Jefferson County, WI"	"55055"	"1999"	"1999"	10	73660	Unreliable
+	"Kenosha County, WI"	"55059"	"1999"	"1999"	18	148321	Unreliable
+	"Kenosha County, WI"	"55059"	"2000"	"2000"	31	149577	20.7
+	"Kenosha County, WI"	"55059"	"2001"	"2001"	27	151962	17.8
+	"Kenosha County, WI"	"55059"	"2002"	"2002"	15	153905	Unreliable
+	"La Crosse County, WI"	"55063"	"1999"	"1999"	10	106410	Unreliable
+	"La Crosse County, WI"	"55063"	"2000"	"2000"	23	107120	21.5
+	"La Crosse County, WI"	"55063"	"2001"	"2001"	19	107761	Unreliable
+	"La Crosse County, WI"	"55063"	"2002"	"2002"	14	108477	Unreliable
+	"Marathon County, WI"	"55073"	"1999"	"1999"	12	125404	Unreliable
+	"Marathon County, WI"	"55073"	"2000"	"2000"	10	125834	Unreliable
+	"Marathon County, WI"	"55073"	"2001"	"2001"	11	126459	Unreliable
+	"Marathon County, WI"	"55073"	"2002"	"2002"	12	126880	Unreliable
+	"Milwaukee County, WI"	"55079"	"1999"	"1999"	183	940529	19.5
+	"Milwaukee County, WI"	"55079"	"2000"	"2000"	199	940164	21.2
+	"Milwaukee County, WI"	"55079"	"2001"	"2001"	205	939305	21.8
+	"Milwaukee County, WI"	"55079"	"2002"	"2002"	240	939854	25.5
+	"Monroe County, WI"	"55081"	"1999"	"1999"	10	40541	Unreliable
+	"Outagamie County, WI"	"55087"	"2001"	"2001"	19	163726	Unreliable
+	"Outagamie County, WI"	"55087"	"2002"	"2002"	13	165336	Unreliable
+	"Ozaukee County, WI"	"55089"	"2001"	"2001"	10	83001	Unreliable
+	"Racine County, WI"	"55101"	"1999"	"1999"	32	188361	17.0
+	"Racine County, WI"	"55101"	"2000"	"2000"	30	188831	15.9
+	"Racine County, WI"	"55101"	"2001"	"2001"	36	189047	19.0
+	"Racine County, WI"	"55101"	"2002"	"2002"	36	189833	19.0
+	"Rock County, WI"	"55105"	"1999"	"1999"	13	151541	Unreliable
+	"Rock County, WI"	"55105"	"2000"	"2000"	17	152307	Unreliable
+	"Rock County, WI"	"55105"	"2001"	"2001"	17	153174	Unreliable
+	"Rock County, WI"	"55105"	"2002"	"2002"	18	153628	Unreliable
+	"Sheboygan County, WI"	"55117"	"1999"	"1999"	14	112088	Unreliable
+	"Sheboygan County, WI"	"55117"	"2001"	"2001"	13	113023	Unreliable
+	"Sheboygan County, WI"	"55117"	"2002"	"2002"	15	113251	Unreliable
+	"Walworth County, WI"	"55127"	"2001"	"2001"	11	93462	Unreliable
+	"Walworth County, WI"	"55127"	"2002"	"2002"	16	95370	Unreliable
+	"Washington County, WI"	"55131"	"1999"	"1999"	11	116131	Unreliable
+	"Washington County, WI"	"55131"	"2000"	"2000"	13	117493	Unreliable
+	"Washington County, WI"	"55131"	"2002"	"2002"	16	120741	Unreliable
+	"Waukesha County, WI"	"55133"	"1999"	"1999"	24	357829	6.7
+	"Waukesha County, WI"	"55133"	"2000"	"2000"	45	360767	12.5
+	"Waukesha County, WI"	"55133"	"2001"	"2001"	29	365564	7.9
+	"Waukesha County, WI"	"55133"	"2002"	"2002"	37	370051	10.0
+	"Winnebago County, WI"	"55139"	"1999"	"1999"	13	155801	Unreliable
+	"Winnebago County, WI"	"55139"	"2000"	"2000"	20	156763	12.8
+	"Winnebago County, WI"	"55139"	"2002"	"2002"	19	159134	Unreliable
+	"Fremont County, WY"	"56013"	"2001"	"2001"	11	35718	Unreliable
+	"Fremont County, WY"	"56013"	"2002"	"2002"	14	36015	Unreliable
+	"Laramie County, WY"	"56021"	"1999"	"1999"	23	81009	28.4
+	"Laramie County, WY"	"56021"	"2000"	"2000"	21	81607	25.7
+	"Laramie County, WY"	"56021"	"2001"	"2001"	15	82554	Unreliable
+	"Laramie County, WY"	"56021"	"2002"	"2002"	27	83226	32.4
+	"Natrona County, WY"	"56025"	"2000"	"2000"	18	66533	Unreliable
+	"Natrona County, WY"	"56025"	"2001"	"2001"	13	66978	Unreliable
+	"Natrona County, WY"	"56025"	"2002"	"2002"	21	67554	31.1
+"---"
+"Dataset: Underlying Cause of Death, 1999-2018"
+"Query Parameters:"
+"Drug/Alcohol Induced Causes: Drug-induced causes; Alcohol-induced causes"
+"Year/Month: 1999; 2000; 2001; 2002"
+"Group By: County; Year"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information."
+"---"
+"Query Date: Jun 10, 2020 4:01:48 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Underlying Cause of Death"
+"1999-2018 on CDC WONDER Online Database, released in 2020. Data are from the Multiple Cause of Death Files, 1999-2018, as"
+"compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed"
+"at http://wonder.cdc.gov/ucd-icd10.html on Jun 10, 2020 4:01:48 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"2. Rows with zero Deaths are hidden. Use Quick Options above to show zero rows."
+"3. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows."
+"---"
+Footnotes:
+"1. Data are not available for this area for all of the requested years. See Caveats below for more information."
+"2. Data discontinuity due to county line boundary changes in requested years. See Caveats below for more information."
+"---"
+Caveats:
+"1. Note: County of residence is misidentified in 316 deaths that occurred in the year 2000, for Hartford County, CT (FIPS code"
+"09003) and New London County, CT (FIPS code 09011). More information: http://wonder.cdc.gov/wonder/help/ucd.html#errata."
+"2. Circumstances in California resulted in unusually high death counts for the ICD-10 cause of death code R99, ""Other"
+"ill-defined and unspecified causes of mortality"" for deaths occurring in years 2000 and 2001. Caution should be used in"
+"interpreting these data. More information: http://wonder.cdc.gov/wonder/help/ucd.html#California-Reporting-Anomalies."
+"3. Data for Prince of Wales-Hyder Census Area, AK (FIPS code 02198), Hoonah-Angoon Census Area, AK (FIPS code 02105), Skagway"
+"Municipality, AK (FIPS code 02230), Petersburg Borough/Census Area, AK (FIPS code 02195) and Wrangell City and Borough, AK (FIPS"
+"code 02275) are only available for 2014 and later; for computational purposes, counts and population estimates for 2013 and"
+"earlier are set to zero. Thus, counts and rates shown in multi-year requests for this entity do not include any data for years"
+"before 2014, only data for 2014 and later. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Alaska2014."
+"4. Data for Denali Borough, Alaska (FIPS code 02068) are only available for 2003 and later; for computational purposes, counts"
+"and population estimates for 1999-2002 are set to zero. Thus, counts and rates shown in multi-year requests for this entity do"
+"not include any data for years prior to 2003, only data for 2003 and later. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Denali Borough."
+"5. Death rates for Clifton Forge city, Virginia (FIPS code 51560) are available only for 1999-2000. For 2001 and beyond, death"
+"counts and population estimates for Clifton Forge city have been combined with those for Alleghany county, Virginia (FIPS code"
+"51005). Death counts and population estimates for this entity from multi-year requests, only reflect data from 1999 and 2000;"
+"for 2001 and beyond they have been set to zero. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Clifton Forge."
+"6. There is a discontinuity in the mortality and population data for Alleghany, Virginia (FIPS code 51005) between 2000 and"
+"2001. It occurs because for 2001 and beyond, death counts and population estimates for Clifton Forge city, Virginia (FIPS code"
+"51560) have been combined with those for Alleghany county."
+"7. Data for Broomfield, Colorado (FIPS code 08014) are only available for 2003 and later; for computational purposes, counts and"
+"population estimates for 1999-2002 are set to zero. Thus, counts and rates shown in multi-year requests for this entity do not"
+"include any data for years prior to 2003, only data for 2003 and later. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Broomfield."
+"8. Deaths and population estimates are shown separately from the adjacent counties for Carson City, Nevada (FIPS code 32510)."
+"9. Deaths and population estimates are reported separately for Baltimore City (FIPS code 24510) and Baltimore county (FIPS code"
+"24005)."
+"10. Deaths and population estimates are reported separately for St. Louis City (FIPS code 29510) and county (FIPS code 29189)."
+"11. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Assurance of Confidentiality."
+"12. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Unreliable."
+"13. The population figures for year 2018 are bridged-race estimates of the July 1 resident population, from the Vintage 2018"
+"postcensal series released by NCHS on June 25, 2019. The population figures for year 2017 are bridged-race estimates of the July"
+"1 resident population, from the Vintage 2017 postcensal series released by NCHS on June 27, 2018. The population figures for"
+"year 2016 are bridged-race estimates of the July 1 resident population, from the Vintage 2016 postcensal series released by NCHS"
+"on June 26, 2017. The population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the"
+"Vintage 2015 postcensal series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race"
+"estimates of the July 1 resident population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The"
+"population figures for year 2013 are bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal"
+"series released by NCHS on June 26, 2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident"
+"population, from the Vintage 2012 postcensal series released by NCHS on June 13, 2013. The population figures for year 2011 are"
+"bridged-race estimates of the July 1 resident population, from the Vintage 2011 postcensal series released by NCHS on July 18,"
+"2012. Population figures for 2010 are April 1 Census counts. The population figures for years 2001 - 2009 are bridged-race"
+"estimates of the July 1 resident population, from the revised intercensal county-level 2000 - 2009 series released by NCHS on"
+"October 26, 2012. Population figures for 2000 are April 1 Census counts. Population figures for 1999 are from the 1990-1999"
+"intercensal series of July 1 estimates. Population figures for the infant age groups are the number of live births."
+"<br/><b>Note:</b> Rates and population figures for years 2001 - 2009 differ slightly from previously published reports, due to"
+"use of the population estimates which were available at the time of release."
+"14. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Age Group."
