@@ -116,5 +116,55 @@ stargazer(mod_nolag, mod_1lag, mod_2lag, mod_3lag, mod_4lag, mod_5lag,
           label="tb:total-fe")
 
 
+##### REGRESSIONS ON TOTAL LAYOFFS WITH YEAR-STATE FE #####
+## total deaths on total layoffs, no lag. within gives FE model
+mod_nolag_ysfe <- plm(formula = total_deaths ~ Total_layoff + income_pc + factor(state_years), 
+                      model="within", data = panel_df)
+
+## total deaths on total layoffs + 1 year lag. FE model
+mod_1lag_ysfe <- plm(formula = total_deaths ~ Total_layoff + income_pc + lag(Total_layoff, 1)
+                     + factor(state_years),
+                     model="within", effect="twoways", data = panel_df)
+
+## total deaths on total layoff + 1,2 year lag. FE model
+mod_2lag_ysfe <- plm(formula=total_deaths ~ Total_layoff + income_pc + lag(Total_layoff, 1) 
+                     + lag(Total_layoff, 2) + factor(state_years), 
+                     model="within", effect="twoways",
+                     data=panel_df)
+
+## total deaths on total layoff + 1,2,3 year lag. FE model
+mod_3lag_ysfe <- plm(formula=total_deaths ~ Total_layoff + income_pc + lag(Total_layoff, 1)
+                     + lag(Total_layoff, 2) + lag(Total_layoff, 3) + factor(state_years),
+                     model="within", effect="twoways",data=panel_df)
+
+## total deaths on total layoff + 1,2,3,4 year lag. FE model
+mod_4lag_ysfe <- plm(formula=total_deaths ~ Total_layoff + income_pc + lag(Total_layoff, 1)
+                     + lag(Total_layoff, 2) + lag(Total_layoff, 3)
+                     + lag(Total_layoff, 4) + factor(state_years),
+                     model="within", effect="twoways", data=panel_df)
+## total deaths on total layoff + 1,2,3,4,5 year lag. FE model
+mod_5lag_ysfe <- plm(formula=total_deaths ~ Total_layoff + income_pc + lag(Total_layoff, 1)
+                     + lag(Total_layoff, 2) + lag(Total_layoff, 3)
+                     + lag(Total_layoff, 4) + lag(Total_layoff, 5) + factor(state_years),
+                     model="within", effect="twoways", data=panel_df)
+
+## generate LaTeX table
+stargazer(mod_nolag_ysfe, mod_1lag_ysfe, mod_2lag_ysfe, mod_3lag_ysfe, mod_4lag_ysfe, 
+          mod_5lag_ysfe, align=TRUE, no.space=TRUE, omit.stat=c("rsq","adj.rsq"),
+          omit="([0-9]{1,2}_[0-9]{4})+",
+          dep.var.labels = c("Total alcohol and drug deaths"),
+          covariate.labels = c("Total layoffs this year",
+                               "Per Capita Income",
+                               "Total layoffs 1 year ago",
+                               "Total layoffs 2 years ago",
+                               "Total layoffs 3 years ago",
+                               "Total layoffs 4 years ago",
+                               "Total layoffs 5 years ago"),
+          title="Total alcohol and drug deaths regressed on total layoffs with Per Capita Income and year, county, and state-year fixed effects",
+          digits=6,
+          column.sep.width = "-4pt",
+          label="tb:total-ysfe")
+
+
 
 
