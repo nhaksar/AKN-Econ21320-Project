@@ -288,8 +288,15 @@ mod_nofe_2lag <- plm(formula = total_deaths ~ Total_layoff + lag(Total_layoff, 1
                     + lag(Total_layoff, 2), data=panel_df)
 mod_nofe_3lag <- plm(formula = total_deaths ~ Total_layoff + lag(Total_layoff, 1)
                     + lag(Total_layoff, 2) + lag(Total_layoff, 3), data=panel_df)
+mod_nofe_4lag <- plm(formula = total_deaths ~ Total_layoff + 
+                       lag(Total_layoff, 1) + lag(Total_layoff, 2) + 
+                       lag(Total_layoff, 3) + lag(Total_layoff, 4), data=panel_df)
+mod_nofe_5lag <- plm(formula = total_deaths ~ Total_layoff + 
+                       lag(Total_layoff, 1) + lag(Total_layoff, 2) + 
+                       lag(Total_layoff, 3) + lag(Total_layoff, 4) +
+                       lag(Total_layoff, 5), data=panel_df)
 
-stargazer(mod_nofe_nolag, mod_nofe_1lag, mod_nofe_2lag, mod_nofe_3lag, 
+stargazer(mod_nofe_nolag, mod_nofe_1lag, mod_nofe_2lag, mod_nofe_3lag, mod_nofe_4lag, mod_nofe_5lag,
           align=TRUE, no.space=TRUE, #omit.stat="f",
           dep.var.labels = c("Total alcohol and drug deaths"),
           covariate.labels = c("Total layoffs this year",
