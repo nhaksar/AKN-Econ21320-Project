@@ -313,7 +313,7 @@ stargazer(mod_nofe_nolag, mod_nofe_1lag, mod_nofe_2lag, mod_nofe_3lag, mod_nofe_
 
 ## total deaths on total layoffs, no lag. within gives FE model
 mod_nolag <- plm(formula = total_deaths ~ Total_layoff, 
-                 model="within", data = panel_df)
+                 model="within", effect = "twoways", data = panel_df)
 
 ## total deaths on total layoffs + 1 year lag. FE model
 mod_1lag <- plm(formula = total_deaths ~ Total_layoff + lag(Total_layoff, 1),
