@@ -6,50 +6,98 @@
 library(glmnet)
 library(caret)
 
-##### LASSO REGRESSIONS FOR ALL
-lasso_df <- panel_df
+##### LASSO REGRESSIONS FOR ALL DRUG/ALC DEATHS, INCOME
+ad_lasso_df <- panel_df
 
 ## grab lags
-lasso_df$lag1 <- lag(panel_df$Total_layoff, 1)
-lasso_df$lag2 <- lag(panel_df$Total_layoff, 2)
-lasso_df$lag3 <- lag(panel_df$Total_layoff, 3)
-lasso_df$lag4 <- lag(panel_df$Total_layoff, 4)
-lasso_df$lag5 <- lag(panel_df$Total_layoff, 5)
+ad_lasso_df$lag1 <- lag(panel_df$Total_layoff, 1)
+ad_lasso_df$lag2 <- lag(panel_df$Total_layoff, 2)
+ad_lasso_df$lag3 <- lag(panel_df$Total_layoff, 3)
+ad_lasso_df$lag4 <- lag(panel_df$Total_layoff, 4)
+ad_lasso_df$lag5 <- lag(panel_df$Total_layoff, 5)
 
 ## coerce to standard data.frame
-lasso_df <- data.frame(as.list(lasso_df))
+ad_lasso_df <- data.frame(as.list(ad_lasso_df))
 
 ## drop NAs
-lasso_df <- na.omit(lasso_df, cols="new_alc_and_drugs")
+ad_lasso_df <- na.omit(ad_lasso_df, cols="new_alc_and_drugs")
 
 ## columns of interest
 all_vars <- c("Total_layoff", "lag1", "lag2", 
-              "lag3", "lag4", "lag5", 
+              "lag3", "lag4", "lag5", "income_pc",
               "State_county_FIPS", "Year",
               "new_alc_and_drugs")
 
 ## regularize data
-preproc <- preProcess(lasso_df[,all_vars],
+preproc <- preProcess(ad_lasso_df[,all_vars],
                       method=c("center","scale"))
-lasso_df[,all_vars] <- predict(preproc, lasso_df[,all_vars])
+ad_lasso_df[,all_vars] <- predict(preproc, ad_lasso_df[,all_vars])
 
-all_effects <- dummyVars(new_alc_and_drugs ~ ., data = lasso_df[,all_vars])
-all_effects <- predict(all_effects, lasso_df[,all_vars])
+all_effects <- dummyVars(new_alc_and_drugs ~ ., data = ad_lasso_df[,all_vars])
+all_effects <- predict(all_effects, ad_lasso_df[,all_vars])
 all_effects <- as.matrix(all_effects)
-all_outcome <- lasso_df$new_alc_and_drugs
+all_outcome <- ad_lasso_df$new_alc_and_drugs
 
 
 ## use cross-validation to find optimal lambda
 potent.lambdas <- 10^seq(-0.3,2, by=0.1)
-lasso_mod <- cv.glmnet(all_effects, all_outcome,
+ad_lasso_mod <- cv.glmnet(all_effects, all_outcome,
                        alpha=1, lambda=potent.lambdas,
                        standardize=TRUE)
 
-plot(lasso_mod, type="l")
+plot(ad_lasso_mod, type="l")
 
 ## now that CV done, calculate coefficients and output
-lasso_mod_2 <- glmnet(all_effects, all_outcome,
+ad_lasso_mod_2 <- glmnet(all_effects, all_outcome,
                       alpha = 1,
                       standardize = TRUE,
                       lambda=potent.lambdas)
-head(coef(lasso_mod_2, lasso_mod$lambda.min), 7)
+head(coef(ad_lasso_mod_2, ad_lasso_mod$lambda.min), 8)
+
+##### DRUG LASSO #####
+drug_lasso_df <- panel_df
+
+## grab lags
+drug_lasso_df$lag1 <- lag(panel_df$Total_layoff, 1)
+drug_lasso_df$lag2 <- lag(panel_df$Total_layoff, 2)
+drug_lasso_df$lag3 <- lag(panel_df$Total_layoff, 3)
+drug_lasso_df$lag4 <- lag(panel_df$Total_layoff, 4)
+drug_lasso_df$lag5 <- lag(panel_df$Total_layoff, 5)
+
+## coerce to standard data.frame
+drug_lasso_df <- data.frame(as.list(drug_lasso_df))
+
+## drop NAs
+drug_lasso_df <- na.omit(drug_lasso_df, cols="new_alc_and_drugs")
+
+## columns of interest
+all_vars <- c("Total_layoff", "lag1", "lag2", 
+              "lag3", "lag4", "lag5", "income_pc",
+              "State_county_FIPS", "Year",
+              "new_alc_and_drugs")
+
+## regularize data
+preproc <- preProcess(drug_lasso_df[,all_vars],
+                      method=c("center","scale"))
+drug_lasso_df[,all_vars] <- predict(preproc, drug_lasso_df[,all_vars])
+
+all_effects <- dummyVars(new_alc_and_drugs ~ ., data = drug_lasso_df[,all_vars])
+all_effects <- predict(all_effects, drug_lasso_df[,all_vars])
+all_effects <- as.matrix(all_effects)
+all_outcome <- drug_lasso_df$new_alc_and_drugs
+
+
+## use cross-validation to find optimal lambda
+potent.lambdas <- 10^seq(-0.3,2, by=0.1)
+drug_lasso_mod <- cv.glmnet(all_effects, all_outcome,
+                            alpha=1, lambda=potent.lambdas,
+                            standardize=TRUE)
+
+plot(drug_lasso_mod, type="l")
+
+## now that CV done, calculate coefficients and output
+drug_lasso_mod_2 <- glmnet(all_effects, all_outcome,
+                           alpha = 1,
+                           standardize = TRUE,
+                           lambda=potent.lambdas)
+head(coef(drug_lasso_mod_2, drug_lasso_mod$lambda.min), 8)
