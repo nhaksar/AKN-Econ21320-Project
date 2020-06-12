@@ -43,11 +43,16 @@ for (row in c(1:nrow(main_df))) {
 
 panel_df <- pdata.frame(main_df, index=c("County_code", "Year"))
 
-
+nofe_df <- panel_df
+nofe_df$lag1 <- lag(panel_df$Total_layoff, 1)
+nofe_df$lag2 <- lag(panel_df$Total_layoff, 2)
+nofe_df$lag3 <- lag(panel_df$Total_layoff, 3)
+nofe_df$lag4 <- lag(panel_df$Total_layoff, 4)
+nofe_df$lag5 <- lag(panel_df$Total_layoff, 5)
 
 
 ##### OLS REGRESSIONS ON TOTAL LAYOFFS #####
-mod_nofe_nolag <- plm(formula = new_alc_and_drugs ~ Total_layoff, data=panel_df)
+mod_nofe_nolag <- lm(formula = new_alc_and_drugs ~ Total_layoff, data=nofe_df)
 mod_nofe_1lag <- plm(formula = new_alc_and_drugs ~ Total_layoff + lag(Total_layoff, 1),
                      data=panel_df)
 mod_nofe_2lag <- plm(formula = new_alc_and_drugs ~ Total_layoff + lag(Total_layoff, 1)
