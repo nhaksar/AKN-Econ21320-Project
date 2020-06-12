@@ -501,4 +501,30 @@ stargazer(mod_nolag, mod_1lag, mod_2lag, mod_3lag, mod_4lag, mod_5lag,
           label="tb:total-fe")
 
 
-###################
+##### LASSO SUGGESTED REGRESSIONS #####
+mod_lasso_tim <- plm(formula = new_alc_and_drugs ~ lag(Total_layoff, 1)
+                     + lag(Total_layoff, 2) + lag(Total_layoff, 4)
+                     + lag(Total_layoff, 5), data=panel_df,
+                     model="within", effect="time")
+mod_lasso_ind <- plm(formula = new_alc_and_drugs ~ lag(Total_layoff, 1)
+                     + lag(Total_layoff, 2) + lag(Total_layoff, 4)
+                     + lag(Total_layoff, 5), data=panel_df,
+                     model="within", effect="individual")
+mod_lasso_2fe <- plm(formula = new_alc_and_drugs ~ lag(Total_layoff, 1)
+                 + lag(Total_layoff, 2) + lag(Total_layoff, 4)
+                 + lag(Total_layoff, 5), data=panel_df,
+                 model="within", effect="twoways")
+stargazer(mod_lasso_ind, mod_lasso_tim, mod_lasso_2fe, 
+          align=TRUE, no.space=TRUE, omit.stat=c("rsq","adj.rsq"),
+          omit="Constant",
+          dep.var.labels = c("Total Deaths from Alcohol and Drugs"),
+          covariate.labels = c("Total layoffs 1 year ago",
+                               "Total layoffs 2 years ago",
+                               "Total layoffs 4 years ago",
+                               "Total layoffs 5 years ago"),
+          title="LASSO-suggested regression with FE",
+          digits=6,
+          add.lines = list(c("Time FE", "No", "Yes", "Yes"),
+                           c("County FE", "Yes", "No", "Yes")),
+          column.sep.width = "-4pt",
+          label="tb:lasso-alcdrug-fe")
