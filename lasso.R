@@ -149,3 +149,51 @@ alc_lasso_mod_2 <- glmnet(all_effects, all_outcome,
                           standardize = TRUE,
                           lambda=potent.lambdas)
 head(coef(alc_lasso_mod_2, alc_lasso_mod$lambda.min), 8)
+
+##### SUICIDE LASSO #####
+suicide_lasso_df <- panel_df
+
+## grab lags
+suicide_lasso_df$lag1 <- lag(panel_df$Total_layoff, 1)
+suicide_lasso_df$lag2 <- lag(panel_df$Total_layoff, 2)
+suicide_lasso_df$lag3 <- lag(panel_df$Total_layoff, 3)
+suicide_lasso_df$lag4 <- lag(panel_df$Total_layoff, 4)
+suicide_lasso_df$lag5 <- lag(panel_df$Total_layoff, 5)
+
+## coerce to standard data.frame
+suicide_lasso_df <- data.frame(as.list(suicide_lasso_df))
+
+## drop NAs
+suicide_lasso_df <- na.omit(suicide_lasso_df, cols="Intentional_self_harm")
+
+## columns of interest
+all_vars <- c("Total_layoff", "lag1", "lag2", 
+              "lag3", "lag4", "lag5", "income_pc",
+              "State_county_FIPS", "Year",
+              "Intentional_self_harm")
+
+## regularize data
+preproc <- preProcess(suicide_lasso_df[,all_vars],
+                      method=c("center","scale"))
+suicide_lasso_df[,all_vars] <- predict(preproc, suicide_lasso_df[,all_vars])
+
+all_effects <- dummyVars(Intentional_self_harm ~ ., data = suicide_lasso_df[,all_vars])
+all_effects <- predict(all_effects, suicide_lasso_df[,all_vars])
+all_effects <- as.matrix(all_effects)
+all_outcome <- suicide_lasso_df$Intentional_self_harm
+
+
+## use cross-validation to find optimal lambda
+potent.lambdas <- 10^seq(-0.3,2, by=0.1)
+suicide_lasso_mod <- cv.glmnet(all_effects, all_outcome,
+                               alpha=1, lambda=potent.lambdas,
+                               standardize=TRUE)
+
+plot(suicide_lasso_mod, type="l")
+
+## now that CV done, calculate coefficients and output
+suicide_lasso_mod_2 <- glmnet(all_effects, all_outcome,
+                              alpha = 1,
+                              standardize = TRUE,
+                              lambda=potent.lambdas)
+head(coef(suicide_lasso_mod_2, suicide_lasso_mod$lambda.min), 8)
