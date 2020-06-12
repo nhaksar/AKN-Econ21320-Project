@@ -5,6 +5,7 @@ library("stargazer")
 #if (!require("plm")) install.packages("plm")
 library("plm")
 library("ggplot2")
+library("scales")
 
 #cleaning the data
 
@@ -205,21 +206,7 @@ stargazer(labeled.sums,
           title="Total layoffs 1999-2013 by ethnicity",
           align=TRUE, label="tb:layoff-sum")
 
-## split dataframe by year
-#annual_df <- split(main_df, unique(main_df$Year))
-# ann_stats <- c()
-# race_breakdown <- c("White_layoff","Black_layoff","Hispanic_orgin_layoff",
-#                     "American_indian_or_Alaskan_native_layoff",
-#                     "Asian_or_Pacific_islander_layoff", "Year")
-# options(scipen = 999)
-# for (year in unique(main_df$Year)){
-#   this_year <- c()
-#   for (i in 1:5){
-#     this_year <- cbind(this_year, sum(main_df[main_df$Year == year, names(main_df)[9+i]]))
-#   }
-#   this_year <- cbind(this_year, year)
-#   ann_stats <- rbind(ann_stats, this_year)
-# }
+## make beautiful plot of layoffs by race 1997-2012
 ann_stats <- c()
 race_breakdown <- c("White","Black","Hispanic origin",
                     "American Indian or Alaskan Native",
@@ -237,7 +224,9 @@ ann_stats$Layoffs <- as.numeric(as.character(ann_stats$Layoffs))
 ann_stats <- ann_stats[1:80,]
 
 p <- ggplot(data=ann_stats, aes(x=Year)) + geom_bar(aes(y=Layoffs,fill=Race), stat="identity")
-p <- p + ggtitle("Mass Layoffs 1997-2012") + ylab("Mass Layoffs") + theme(axis.text.x = element_text(angle = 90))
+p <- p + ggtitle("Mass Layoffs 1997-2012") + ylab("Mass Layoffs") 
+p <- p + theme(axis.text.x = element_text(angle = 90))
+p <- p + scale_y_continuous(label=comma)
 
 ##### OLS REGRESSIONS ON TOTAL LAYOFFS #####
 mod_nofe_nolag <- plm(formula = total_deaths ~ Total_layoff, data=panel_df)
