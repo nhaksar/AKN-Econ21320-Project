@@ -227,6 +227,7 @@ p <- ggplot(data=ann_stats, aes(x=Year)) + geom_bar(aes(y=Layoffs,fill=Race), st
 p <- p + ggtitle("Mass Layoffs 1997-2012") + ylab("Mass Layoffs") 
 p <- p + theme(axis.text.x = element_text(angle = 90))
 p <- p + scale_y_continuous(label=comma)
+p <- p + labs(caption="Source: BLS Mass Layoff Statistics")
 
 ##### OLS REGRESSIONS ON TOTAL LAYOFFS #####
 mod_nofe_nolag <- plm(formula = total_deaths ~ Total_layoff, data=panel_df)
