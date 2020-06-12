@@ -45,3 +45,11 @@ ipums_df <- read_csv("C:/Users/ahkan/Desktop/usa_00001.csv")
 read_lines("C:/Users/ahkan/Downloads/mort2000us/Mort00us.dat", n_max = 15)
 test_df <- read.delim("C:/Users/ahkan/Downloads/mort2000us/Mort00us.dat")
 #The file might be too large for this, so I'm trying to open it elsewhere and just see what happens
+
+
+
+##### Looking at when mass layoffs are occurring #####
+test1 <- as.data.frame(table(mls_df$Year))
+colnames(test1) <- c("Year", "Freq")
+test1 <- test1[c(2:19),]
+test2 <- test1[order(-test1$Freq),]

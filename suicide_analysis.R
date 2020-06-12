@@ -47,7 +47,6 @@ panel_df <- pdata.frame(main_df, index=c("County_code", "Year"))
 
 
 
-
 ##### OLS REGRESSIONS ON TOTAL LAYOFFS #####
 mod_nofe_nolag <- plm(formula = Intentional_self_harm ~ Total_layoff, data=panel_df)
 mod_nofe_1lag <- plm(formula = Intentional_self_harm ~ Total_layoff + lag(Total_layoff, 1),

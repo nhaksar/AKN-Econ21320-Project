@@ -222,8 +222,10 @@ names(ann_stats) <- c("Year", "Race", "Layoffs")
 ann_stats <- ann_stats[order(Year, Race),]
 ann_stats$Layoffs <- as.numeric(as.character(ann_stats$Layoffs))
 ann_stats <- ann_stats[1:80,]
-
-p <- ggplot(data=ann_stats, aes(x=Year)) + geom_bar(aes(y=Layoffs,fill=Race), stat="identity")
+install.packages("RColorBrewer")
+library("RColorBrewer")
+p <- ggplot(data=ann_stats, aes(x=Year)) + geom_bar(aes(y=Layoffs,fill=Race), stat="identity") + 
+          theme_bw()+scale_fill_brewer(palette="Spectral")
 p <- p + ggtitle("Mass Layoffs 1997-2012") + ylab("Mass Layoffs") 
 p <- p + theme(axis.text.x = element_text(angle = 90))
 p <- p + scale_y_continuous(label=comma)
