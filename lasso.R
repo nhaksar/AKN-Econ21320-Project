@@ -68,23 +68,23 @@ drug_lasso_df$lag5 <- lag(panel_df$Total_layoff, 5)
 drug_lasso_df <- data.frame(as.list(drug_lasso_df))
 
 ## drop NAs
-drug_lasso_df <- na.omit(drug_lasso_df, cols="new_alc_and_drugs")
+drug_lasso_df <- na.omit(drug_lasso_df, cols="D")
 
 ## columns of interest
 all_vars <- c("Total_layoff", "lag1", "lag2", 
               "lag3", "lag4", "lag5", "income_pc",
               "State_county_FIPS", "Year",
-              "new_alc_and_drugs")
+              "D")
 
 ## regularize data
 preproc <- preProcess(drug_lasso_df[,all_vars],
                       method=c("center","scale"))
 drug_lasso_df[,all_vars] <- predict(preproc, drug_lasso_df[,all_vars])
 
-all_effects <- dummyVars(new_alc_and_drugs ~ ., data = drug_lasso_df[,all_vars])
+all_effects <- dummyVars(D ~ ., data = drug_lasso_df[,all_vars])
 all_effects <- predict(all_effects, drug_lasso_df[,all_vars])
 all_effects <- as.matrix(all_effects)
-all_outcome <- drug_lasso_df$new_alc_and_drugs
+all_outcome <- drug_lasso_df$D
 
 
 ## use cross-validation to find optimal lambda
@@ -101,3 +101,51 @@ drug_lasso_mod_2 <- glmnet(all_effects, all_outcome,
                            standardize = TRUE,
                            lambda=potent.lambdas)
 head(coef(drug_lasso_mod_2, drug_lasso_mod$lambda.min), 8)
+
+##### ALCOHOL LASSO #####
+alc_lasso_df <- panel_df
+
+## grab lags
+alc_lasso_df$lag1 <- lag(panel_df$Total_layoff, 1)
+alc_lasso_df$lag2 <- lag(panel_df$Total_layoff, 2)
+alc_lasso_df$lag3 <- lag(panel_df$Total_layoff, 3)
+alc_lasso_df$lag4 <- lag(panel_df$Total_layoff, 4)
+alc_lasso_df$lag5 <- lag(panel_df$Total_layoff, 5)
+
+## coerce to standard data.frame
+alc_lasso_df <- data.frame(as.list(alc_lasso_df))
+
+## drop NAs
+alc_lasso_df <- na.omit(alc_lasso_df, cols="D")
+
+## columns of interest
+all_vars <- c("Total_layoff", "lag1", "lag2", 
+              "lag3", "lag4", "lag5", "income_pc",
+              "State_county_FIPS", "Year",
+              "A")
+
+## regularize data
+preproc <- preProcess(alc_lasso_df[,all_vars],
+                      method=c("center","scale"))
+alc_lasso_df[,all_vars] <- predict(preproc, alc_lasso_df[,all_vars])
+
+all_effects <- dummyVars(A ~ ., data = alc_lasso_df[,all_vars])
+all_effects <- predict(all_effects, alc_lasso_df[,all_vars])
+all_effects <- as.matrix(all_effects)
+all_outcome <- alc_lasso_df$A
+
+
+## use cross-validation to find optimal lambda
+potent.lambdas <- 10^seq(-0.3,2, by=0.1)
+alc_lasso_mod <- cv.glmnet(all_effects, all_outcome,
+                           alpha=1, lambda=potent.lambdas,
+                           standardize=TRUE)
+
+plot(alc_lasso_mod, type="l")
+
+## now that CV done, calculate coefficients and output
+alc_lasso_mod_2 <- glmnet(all_effects, all_outcome,
+                          alpha = 1,
+                          standardize = TRUE,
+                          lambda=potent.lambdas)
+head(coef(alc_lasso_mod_2, alc_lasso_mod$lambda.min), 8)
